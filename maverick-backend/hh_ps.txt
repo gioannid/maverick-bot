@@ -1,0 +1,7 @@
+# Hand history format for Pokerstars
+PATTERN_HANDNUMBER	= "PokerStars Hand #(\d+):"
+INDEX_HANDNUMBER	= 1
+PATTERN_HAND		= "Seat (\d): ([^(]+) (\(button\) |\(big blind\) |\(small blind\) )?(showed|mucked) \[(\w\w) (\w\w)]"
+INDEX_PLAYER		= 2
+INDEX_CARD_1		= 5
+INDEX_CARD_2		= 6

@@ -1,0 +1,14 @@
+<lineup title="Short Handed 5-Max" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="Pokibot" name="Sanja"/>
+  <seat type="empty"/>
+  <seat type="Pokibot" name="Crusoe"/>
+  <seat type="empty"/>
+  <seat type="Jagbot" name="Maxine"/>
+  <seat type="empty"/>
+  <seat type="Pokibot" name="Anders"/>
+  <seat type="empty"/>
+
+A general short-handed 5 player table.
+</lineup>

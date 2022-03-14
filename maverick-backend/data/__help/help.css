@@ -1,0 +1,96 @@
+body {
+	padding: 3px;
+	margin: 3px;	
+}
+
+h1 {
+	font-family: arial, helvetica, serif;
+	background: #eeefff;	
+	border: 3px solid #40637d;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	padding: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-family: arial, helvetica, serif;
+	background: #eeefff;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	padding: 3px;
+}
+
+h3 {
+	font-family: arial, helvetica, serif;
+	background: #eeefff;
+	padding: 3px;
+	margin-top: 12px;
+	margin-bottom: 3px;
+}
+
+
+#padded {
+	padding: 5px;
+}
+
+#section {
+	padding: 1em;
+	margin: 1em;
+}
+
+#sidebar {
+	border: 3px double #40637d;
+	background: #eeffee;
+	padding: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#exampleOLD {
+	border: 3px double #40637d;
+	background: #eeffee;
+	padding: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#example {
+	border: 3px double #40637d;
+	background: #eeffee;
+	padding: 6px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#float {
+	position: relative;
+	float: right;
+}
+
+hr {
+	margin: 1em;
+}
+
+dd {
+	text-align: left;	
+	margin-left: 25px;
+}
+
+dt {
+	font-weight: bold;
+
+	margin-left: 5px;
+}
+
+dl {
+	margin: 10px;
+	padding: 10px;
+	background: #eeeeee;
+}
+
+#defined {
+	margin: 10px;
+	padding: 10px;
+	background: #eeeeee;
+}

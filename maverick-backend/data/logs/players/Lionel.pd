@@ -1,0 +1,8 @@
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+PREFLOP_TIGHTNESS=3
+USE_LOW_LIMIT_PREFLOP=true
+RANDOM_SEED=3131
+DEBUG=false
+COMMENTS=
+AI_NAME=Jagbot
+PLAYER_NAME=Lionel

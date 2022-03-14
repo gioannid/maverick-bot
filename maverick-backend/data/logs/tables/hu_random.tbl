@@ -1,0 +1,14 @@
+<lineup title="Heads-up Random" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+
+This will sit you down with a random player, heads-up. 
+</lineup>

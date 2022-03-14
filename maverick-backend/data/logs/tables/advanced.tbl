@@ -1,0 +1,14 @@
+<lineup title="Full Ring Advanced" nolimit="false">
+  <seat type="human"/>
+  <seat type="Pokibot" name="Crusoe"/>
+  <seat type="Pokibot" name="Ogo Pogo"/>
+  <seat type="Simbot" name="Hari"/>
+  <seat type="Pokibot" name="Sanja"/>
+  <seat type="Pokibot" name="Hooke"/>
+  <seat type="Pokibot" name="Saxum"/>
+  <seat type="Pokibot" name="Erasmus"/>
+  <seat type="Pokibot" name="Anders"/>
+  <seat type="Simbot" name="Ginger"/>
+
+This table contains a line-up of the most adaptive full-ring limit players Poker Academy has to offer. It may take several hundred hands for the players to build a good model of you, but you should notice that the players become smarter over time.
+</lineup>

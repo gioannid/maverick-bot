@@ -1,0 +1,14 @@
+<lineup title="Short Handed 6-Max" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="Pokibot" name="Sanja"/>
+  <seat type="empty"/>
+  <seat type="Jagbot" name="Maggie"/>
+  <seat type="Simbot" name="Ginger"/>
+  <seat type="Pokibot" name="Crusoe"/>
+  <seat type="empty"/>
+  <seat type="Pokibot" name="Grundy"/>
+  <seat type="empty"/>
+
+A general short-handed 6 player table.
+</lineup>

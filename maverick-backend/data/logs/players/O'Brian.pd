@@ -1,0 +1,8 @@
+PREFLOP_TIGHTNESS=3
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+USE_LOW_LIMIT_PREFLOP=true
+DEBUG=false
+RANDOM_SEED=3131
+AI_NAME=Jagbot
+COMMENTS=
+PLAYER_NAME=O'Brian

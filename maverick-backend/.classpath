@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pokerserver"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/maverick-backend-commons"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/1.jar"/>
+	<classpathentry kind="lib" path="libs/2.jar" sourcepath="libs/2.src.zip"/>
+	<classpathentry kind="lib" path="libs/3.jar"/>
+	<classpathentry kind="lib" path="libs/4.jar"/>
+	<classpathentry kind="lib" path="libs/meerkat.jar"/>
+	<classpathentry kind="lib" path="libs/modelling.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

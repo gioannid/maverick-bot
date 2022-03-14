@@ -1,0 +1,85 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h2 align="center">Hand Filters</h2>
+
+Several filters are available from the <i>Filters</i> panel. A filter will let you look at only a 
+specific subset of the hands you have played. For instance, if you wanted to show only statistics
+from heads-up games, select <i>Max -&gt; 2 Players</i>. You can also filter 
+the statistics based on your position. For instance, to show only hands where you were in the big
+blind, select <i>Position -&gt; Big Blind </i>. Filters are applied to all hands on all
+tabs.
+
+<p align="center"><img src="images/statsdb-filter.png" align="left"></p>
+
+<dl>
+   <dt> Min </dt> <dd>Minimum number of players per hand.</dd>
+   <dt> Max </dt> <dd> Maximum number of players per hand.</dd>
+   <dt> Position </dt> <dd> Seat position the player is sitting at for the hand.</dd>
+   <dt> Cards </dt> <dd> Hole card for the player. </dd>
+   <dl>
+      <dt>Pairs</dt><dd> Two cards of the same rank.</dd>
+      <dt>Suited Connectors</dt><dd> Two cards of the same suit and their rank is within one of each other.</dd>
+      <dt>Offsuit Connectors</dt><dd> Two cards of the different suit and their is are within one of each other.</dd>
+      <dt>Any Ace</dt><dd> One of the two cards is an Ace</dd>
+      <dt>Groups:</dt><dd> Groups 1 to 8 refer to the groups of starting cards that David Sklansky made popular in
+his books:</dd>
+      <dt>Group 1</dt><dd>AA KK QQ JJ AKs</dd>
+      <dt>Group 2</dt><dd>TT AQs AJs KQs AKo</dd>
+      <dt>Group 3</dt><dd>99 JTs QJs KJs ATs AQo </dd>
+      <dt>Group 4</dt><dd>T9s KQo 88 QTs 98s J9s AJo KTs</dd>
+      <dt>Group 5</dt><dd>77 87s Q9s T8s KJo QJo JTo 76s 97s A9s A8s A7s A6s A5s A4s A3s A2s 65s</dd>
+      <dt>Group 6</dt><dd>66 ATo 55 86s KTo QTo 54s K9s J8s 75s</dd>
+      <dt>Group 7</dt><dd>44 J9o 64s T9o 53s 33 98o 43s 22 K8s K7s K6s K5s K4s K3s K2s T7s Q8s</dd>
+      <dt>Group 8</dt><dd>87o A9o Q9o 76o 42s 32s 96s 85s J8o J7s 65o 54o 74s K9o T8o 43o</dd>
+   </dl>
+
+   <dt> Played Hands Only </dt> <dd> A hand that was played </dd>
+
+   <dt>Hands Slider</dt><dd>Move the slider to display a limited number of hands </dd>
+</dl>
+  
+
+<h4>Units</h4> 
+<dl>
+   <dt>$/h</dt><dd> Dollars per Hand.  This unit type should be used if
+   you want to see how an actual poker bankroll would have changed 
+   over the selected sessions.  For ring games, if you select
+   this unit type, the graph will show the selected player's winnings in 
+   dollars.  For tournaments, this unit type causes the graph to map the 
+   selected player's tournament chips throughout a tournament session to 
+   predicted tournament winnings in dollars. This is done using a variant 
+   of the <a href="glossary.html#icm">Independent Chip Model</a> (ICM).  At 
+   the start of each tournament there will be a sharp drop and this corresponds
+   to the rake taken to play the tournament.  Also, while a tournament is
+   unfinished, it is plotted in gray and does not count toward the current
+   bankroll until it is is finished.</dd>
+   
+   <dt>sb/h</dt><dd>Small Bets per Hand.  A small bet is equal to a big
+   blind.  When this unit type is selected, all of a player's winnings in a
+   hand are converted into a multiple of the size of the small bet for that
+   hand and then plotted.  This type of unit is useful when you want to 
+   view your win rate across sessions of games with different sized stakes.  
+   It is important to be aware that for tournaments the size of the small bet 
+   increases as the levels in a tournament increase.  As a result, care should
+   be taken when interpreting a graph plotted using this unit type if the
+   sessions selected include both ring and tournament sessions.
+   </dd>
+   
+   <dt>T/h</dt><dd>Tournament Chips per Hand. This unit type is for when
+   you want to plot the size of your stack of tournament chips thoughout 
+   a tournament.  When this unit type is selected, the size of the big 
+   blind is plotted alongside your tournament chip graph so you 
+   can easily see the information together. Note, this option is only 
+   available to be selected when your selected sessions are purely 
+   tournaments and is best viewed a single tournament at a time.
+   </dd>   
+</dl>
+
+
+
+</body>
+</html>

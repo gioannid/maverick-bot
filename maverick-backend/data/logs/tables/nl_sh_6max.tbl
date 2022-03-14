@@ -1,0 +1,14 @@
+<lineup title="Short-Handed 6-Max" nolimit="true">
+  <seat type="human"/>
+  <seat type="Xenbot" name="Gus Xensen"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Jack Pott"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Kale"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Oliver Chips"/>
+  <seat type="Xenbot" name="Daniel Xn"/>
+  <seat type="empty"/>
+
+A general short-handed 6 player table.
+</lineup>

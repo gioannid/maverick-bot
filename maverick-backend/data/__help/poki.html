@@ -1,0 +1,93 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1 align="center">Poki</h1>
+
+Poki is well-rounded artificial intelligence system designed to play
+full-ring Texas Hold'em. Poki is the result of years of research into
+computer poker techniques. Poki models each specific player independently,
+tracking their playing styles. Poki will adjust its play over time 
+to counter your style of play. 
+
+<p>
+Poki uses what it knows about your habits to put you on probable hands.
+Once Poki has put you on a hand, and evaluated the strength of its own hand,
+a formula-based betting strategy is used to decide on a randomized action.
+ 
+<p>
+Poki keeps track of your play based on your profile.  
+If you use a new profile Poki will treat you as a new, unknown player.
+
+<h3>Configuration Options</h3>
+
+Poki is very configurable and can be turned into everything from
+a wild and aggressive raiser, to an uber-tight rock, to a loose and 
+passive calling station.
+
+<h4>Pre-flop Settings:</h4>
+There are five tightness levels to choose from (tight, moderate, loose,
+loose-passive, and small stakes advisor). See
+<a href="prefloptightness.html">Preflop Limit Tightness Settings</a> for detailed information 
+on these settings.
+
+<p>
+The pre-flop deception level lets 
+you choose how much randomization Poki will use in pre-flop actions. If you 
+set the slider towards <i>honest</i> Poki will raise with strong hands, call 
+with moderate strength hands, and fold everything else. With high deception 
+(<i>tricky</i>) Poki will have a higher chance of calling strong hands and 
+even some very weak hands, and will raise some moderate hands. 
+
+<h4>Post-flop Settings:</h4>
+For post-flop play there are four sliders. The first slider controls how 
+tight Poki will play. If you set Poki to all-the-way loose then Poki will
+never fold post-flop. Similarly, if you were to set Poki to the maximum 
+tightness it would only stay in with the absolute best hand. For solid 
+play you should set this value to around 45%.
+<p>
+The second slider controls Poki's aggressiveness. If you set Poki to be 
+passive, it will tend to check and call more than bet or raise. If you
+make Poki aggressive it will favor betting and raising.
+<p>
+The third slider controls how deceptive Poki will play. For instance,
+setting Poki to tricky will increase the chances of Poki check-raising 
+or slow playing strong hands.
+<p>
+The last slider controls how much Poki will use its opponent modeling 
+information. If Poki is set to use the math it will base its decisions more
+on the mathematical strength of its hand than the strength of its hand
+relative to a specific opponent. This sets the style to either 'play the man'
+or 'play the cards'.
+
+
+<h4>Post-flop Calling Settings:</h4>
+Both post-flop calling options will cause Poki to call more often,
+making the play much looser. This is especially useful when trying 
+to simulate loose players.
+<p>
+<i>Use Implied Odds</i> will make Poki call more with questionable drawing 
+hands, such as gut-shots or overcards. 
+<p>
+<i>Defend Large Pots</i> causes Poki to call to the showdown with only
+moderate-strength hands if the pot is large enough to warrant it.
+
+<p>
+
+<h3>References</h3>
+
+<blockquote>
+	<b>The Challenge of Poker.</b><br>
+	Darse Billings, Aaron Davidson, Jonathan Schaeffer, and Duane Szafron, <br>
+	<i>Artificial Intelligence Journal</i>, vol 134(1-2), pp 201-240, 2002.<br>
+	<tt>http://www.cs.ualberta.ca/~darse/Papers/AIJ02.html</tt>
+</blockquote>
+	
+<p>
+<a href="opponents.html">Back to Opponents</a>	
+
+</body>
+</html>

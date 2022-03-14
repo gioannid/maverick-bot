@@ -1,0 +1,18 @@
+<lineup title="Heads-up Vexbot" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="Vexbot" name="Vexbot"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+
+Vexbot is a heads-up only player. It relies entirely on the model it builds of your playing style. It will attempt to maximally exploit any and all weaknesses it finds in your playing style.
+
+Consequently, observing how it plays is like watching a mirror of your own play. If it is raising you a lot, perhaps you are folding too much or playing too many weak hands. Vexbot can be a good tool for finding flaws in your own play. It can be an extremely vexing opponent to play, especially when it has a good model of you.
+
+Please note that it does take several hundred hands to learn how you play, after which it should increase in difficulty.
+</lineup>

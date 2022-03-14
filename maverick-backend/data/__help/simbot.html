@@ -1,0 +1,58 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Simbot</h1>
+
+Simbot is a derivative of <a href="poki.html">Poki</a>. 
+Instead of using Poki's formula-based betting strategy to make decisions, 
+it runs simulations of the hand to completion, and determines the most 
+profitable action to make based on the outcomes.
+
+<h3>Configuration Options</h3>
+
+<h4>Pre-flop Settings:</h4>
+There are five tightness levels to choose from (tight, moderate, loose, 
+loose-passive, and small stakes advisor). See
+<a href="prefloptightness.html">Preflop Limit Tightness Settings</a> for detailed information 
+on these settings.
+<p> 
+The pre-flop deception level lets you choose how much randomization it will 
+use in pre-flop actions. If you set the slider towards <i>honest</i> it 
+will raise with strong hands, call with moderate strength hands, and fold 
+everything else. With high deception (<i>tricky</i>) it will have a 
+higher chance of calling strong hands and even some very weak hands, and
+will raise some moderate hands. 
+
+<h4>Post-flop Settings:</h4>
+For post-flop play there are two sliders.
+The first slider controls how much it will use its opponent modeling 
+information in assigning cards for the simulation. This sets the style 
+to either 'play the man' or 'play the cards'.
+<p>
+The second slider controls what types of actions the simulated opponents 
+will do during the trails. If set to <i>Call</i>, the simulation becomes a
+basic all-in equity simulation. If the slider is moved towards <i>Predict</i>
+then it will use its opponent models to try and predict what each opponent
+would do in each simulated situation. 
+
+<h3>References</h3>
+<blockquote>
+	<b>Improved Opponent Modeling in Poker.</b><br>
+	Aaron Davidson, Darse Billings, Jonathan Schaeffer, and Duane Szafron, <br>
+	<i>Proceedings of the 2000 International Conference on Artificial Intelligence</i> (ICAI'2000), Las Vegas, Nevada, pp 1467-1473, 2000.<br>
+	<tt>http://www.cs.ualberta.ca/~darse/Papers/ICAI00.html</tt>
+<p>
+	<b>Using Probabilistic Knowledge and Simulation to play Poker.</b><br>
+	Darse Billings, Lourdes Peña, Jonathan Schaeffer, and Duane Szafron, <br>
+	<i>Proceedings of the Sixteenth National Conference of the American Association for Artificial Intelligence</i> (AAAI-99), 1999.<br>
+	<tt>http://www.cs.ualberta.ca/~darse/Papers/AAAI99.html</tt>
+</blockquote>
+	
+<p>
+<a href="opponents.html">Back to Opponents</a>	
+
+</body>
+</html>

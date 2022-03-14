@@ -1,0 +1,16 @@
+<lineup title="Heads-up Sparbot" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="Sparbot" name="Sparbot"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+
+Sparbot can only play the heads-up game. As the name implies, it is a great opponent to spar against. It plays a solid, defensive game of poker. It should be difficult to read and to exploit.
+
+Sparbot attempts to play in a near-optimal way. It hides information by playing a proper balance of randomized mixed strategy over all types of hands. However, in doing so, it will not attempt to exploit your weaknesses. It will merely attempt to defend against all possible methods of attack.
+</lineup>

@@ -1,0 +1,89 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<p align="center"><img src="../pix/toprow-calc-off.png">
+<h1 align="center">Showdown Calculator</h1>
+<p align="center">
+	<img src="images/sdcalc-small.png" width="231" height="174">
+<p>
+The Showdown Calculator is a powerful tool for calculating the 
+chances of a hand winning, tying, or losing at the showdown. 
+Clicking on any of the red card-backs will bring up a card chooser.
+Any cards that are left unspecified (shown as a card-back rather
+than a specific card image) represent any random available card.
+
+<p id="sidebar">
+To quickly flip cards back to random cards without going to the card chooser, 
+hold down the control key and click the card.
+</p>
+<p>
+Cards can be loaded from games in progress by choosing 
+<i>Load Current Hand</i> or <i>Load Hand 
+and Opponent Hands</i> from the <i>Options</i> menu.
+<p>
+Once the scenario has been entered, there are two methods of 
+performing the calculation: <b>Enumeration</b> and <b>Simulation</b>.
+<p>
+<h3>Enumeration</h3>
+You should use Enumeration only when you have a small number of random 
+cards in your scenario and you would like an exact result. Enumeration 
+will calculate the winner of every possible card combination and display 
+exact numbers. This is practical only with a small number of random cards, 
+as the number of card combinations and thus the length of time to 
+calculate grows exponentially with each one. Enumerations are 
+typically used with 6 or fewer random cards.
+
+<p id="sidebar">
+Tip: If you choose Enumerate on a scenario with many random cards and 
+don't feel like waiting for the heat-death of the universe you can 
+always click the X button to stop the calculation.
+</p>
+<p>
+<h3>Simulation</h3>
+Simulations are a fast alternative to enumeration since they are not 
+affected by the number of random cards. Using Monte Carlo sampling, 
+the simulation quickly converges to a very good approximation of the 
+relative values. The more trials used, the more accurate the approximation 
+becomes. Simulations are typically used with 7 or more random cards.
+<p>
+When running a simulation, you can stop at any time. Once the numbers 
+appear to have stabilized, finishing the trials will have only a minor 
+effect on the accuracy.
+
+<p id="sidebar">
+Tip: You can toggle between displaying relative percentages or exact totals 
+by clicking on the results under each hand.
+</p>
+<p>
+<h3>Examples</h3>
+There are numerous questions the Showdown Calculator can be used to 
+answer. For instance, you may want to know how often Ah-Kh beats Jc-Js. 
+Simply set the number of hands to 2, set the two hands to the appropriate cards, 
+and click <b>Enumerate</b>. Within a few seconds, it will show that the pocket 
+Jacks are a 53.7% favorite to win. In this case enumeration is used since 
+the 5 board cards are the only random cards. 
+<p>
+Now perhaps you want to know what your pre-flop chances are with pocket Jacks, 
+when you are up against 5 other players. Set the number of players to 6, 
+enter Jc-Js into the first hand, and leave the rest wild. In this case we 
+use <b>Simulate</b> since there are 15 random cards. You will find that 
+Jacks will hold up about 33% of the time.
+<p>
+Now compare what happens to your Jacks when you simulate an Ace-high 
+flop such as Ad-2c-7h. Next, compare this to a flop such as Td-2c-7h 
+where your Jacks are an over pair.
+<p>
+<h3>Note</h3>
+When using the showdown calculator, keep in mind that wildcards are 
+taken from a <i>uniform distribution</i>. That is, all possible 
+combinations are equally likely. The calculator does not attempt to
+model what hands your opponents are likely to be holding.  In
+addition, it gives you the final winning percentage assuming all
+hands have stayed to the showdown.
+
+</body>
+</html>

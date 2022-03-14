@@ -1,0 +1,106 @@
+<html>
+
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>Playing a Tournament</h1>
+Once you have selected a new tournament and edited it to your liking, you can go
+to the game screen and begin playing the tournament by clicking the 
+<i>Start Game</i> button that appears at the bottom of the <i>Tournament Lobby</i>
+screen.  Alternatively, if you have selected an unfinished tournament that you 
+would like to resume, you can click the <i>Resume Unfinished</i> button that 
+appears at the bottom of the <i>Tournament Lobby</i> which will take you to the 
+game screen where you can continue playing through the resumed tournament.
+
+<p id="sidebar">Note: If you are starting or resuming a large multi-table
+tournament there will be a delay while the tournament is setup before taking you
+to the poker table where you can start playing.</p>
+
+<p>
+Once you are sitting at the poker table to play a tournament game, the 
+<a href="tournstand.html">Tournament Standings Window</a> option will either appear depending on how your 
+preferences are setup or will become enabled in your main window's <i>Lobby</i> 
+menu where it can be opened using the <i>Tournament Standings...</i> menu item or 
+the keyboard shortcut, <i>Ctrl-T</i>.
+
+<p>
+When playing a tournament, not all the options that are available when playing a
+ring game are allowed.  More specifically, during a tournament, the following will
+either not be allowed or will do nothing: freezing the button, setting the button,
+shuffling seats, setting bankrolls, or modifying or saving tables.
+
+<p>
+During tournament play, you deal hands using the <i>Deal Hand</i> button as you
+would in a ring game.  When you press the <i>Deal Hand</i> button, a tournament
+manager first checks if the level needs to be incremented and then checks if 
+tables need to be balanced in a multi-table tournament and moves players if
+necessary.  If either the level is incremented, tables have been removed, or you 
+have been moved, you will see an announcement in the center of the table notifying
+you what has happened.  The announcement is followed by a slight pause so that
+you can read the announcement and then a hand will be dealt.
+
+<p>
+While your table is playing, all the other tables in the tournament, if there are
+any, will play simultaneously in the background.  When your game finishes, and the
+games at each of the background tables finish, the game that you just played will
+be logged to the <a href="statsdb.html">Hand History Database</a> and update 
+statistics relevant to your play (including
+those in the <a href="statistics.html">Player Statistics System</a>, the 
+<a href="tournstand.html">Tournament Standings Window</a>
+and the tournament standings section in the <a href="side-overview.html">Sidebar</a>).  
+In a multi-table tournament 
+none of the background table games will be logged so they will not appear in the 
+<a href="statsdb.html">Hand History Database</a>.  After the game is logged, the 
+<i>Deal Hand</i> button 
+will appear so that you will be able to deal the next hand in the tournament or rely 
+on <i>Auto Deal</i> to deal the next hand automatically for you.
+
+<h3>Background Tables</h3>
+Since there are potentially many tables all playing at once, the computer opponents
+playing on background tables have their allowed computational capabilities selectively 
+reduced so that many opponents can all play at once and play quickly.  As the size
+of the multi-table tournaments increase, the more the computational capabilities of
+the computer opponents on background tables have to be reduced.  In a tournament
+consisting of up to three tables, all tables are played with all computer opponents
+at their full capabilities.  Once you have up to and including five active tables, 
+the computer opponents on the additional two tables are further reduced so that
+no opponent modelling is done.  Once you go past five active tables, all computer
+opponents on background tables are reduced so that they do no opponent modelling and
+also have their computational resources quite strongly reduced.  No matter what size
+of tournament you play though, all computer opponents on the table that you are
+playing on never have their computational capabilities reduced.
+
+<h3>Winning a Tournament</h3>
+When you are fortunate enough to win a tournament, you will see an overlay that appears
+over the poker table that will congratulate you and present you with some summary
+information that includes how much money you have won and how many players you have
+beaten.  This overlay has a <i>Back to Lobby</i> button that dismisses the overlay and
+takes you back to the <a href="tournlobby.html">Tournament Lobby</a>.
+
+<h3>Busting out of a Tournament</h3>
+If you are unfortunate enough to bust out of a tournament, you will see an overlay that
+appears over the poker table that will present you with summary information that includes
+how much money you have lost.  This overlay has two buttons on it.  The <i>Quit Tournament</i> 
+button will quit the tournament when pressed and take you back to the 
+<a href="tournlobby.html">Tournament Lobby</a>.
+The <i>Continue Tournament</i> button will dismiss the overlay and allow you to watch
+the tournament finish as an observer.  If you do watch the tournament through to completion
+when the tournament ends the summary overlay will appear again informing you again of your
+results and wait for you to press the <i>Back to Lobby</i> button which will dismiss the overlay
+and take you back to the <a href="tournlobby.html">Tournament Lobby</a>.
+
+<h3>Quitting a Tournament</h3>
+If at any point in time you want to quit playing your tournament to play a different game or
+just because you are done with playing for the time being, you can just select the different
+game you would like to play or close the application and your tournament will automatically
+be saved and added to your <i>Unfinished Tournaments</i> section of the tournament list on
+the left hand side of the <a href="tournlobby.html">Tournament Lobby</a> screen.  If you do quit an unfinished 
+tournament and do not want to actually ever resume the tournament, you will have to manually
+remove that particular tournament from the <i>Unfinished Tournaments</i> in the 
+<a href="tournlobby.html">Tournament Lobby</a> using the trash can icon.  
+
+</body>
+</html>

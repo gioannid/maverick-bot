@@ -1,0 +1,126 @@
+<!-- Tournament structure specification -->
+<tourn_struct>
+
+	<!-- Basic tournament details -->
+	<details name="BioTools Afternoon Tournament"
+			 game_type="Texas Holdem"
+			 betting="No Limit"
+			 icon="data/pix/beta.png"
+			 online="true"
+			 style="Sit &amp; Go"
+			 initial_prize_pool="0"
+			 start_chips="1000"
+			 min_start_chips="500"
+			 max_start_chips="2500"
+			 max_rebuys_per_player="0"
+			 min_players="2"
+			 max_players="10"
+			 max_players_per_table="10">
+	
+		<category name="No Limit">
+			<category name="Single Table">
+			</category>
+		</category>
+		
+		<buy_ins>
+			<buy_in toPrize="1" toHouse="0"/>
+		</buy_ins>
+		
+		Simulates the basic structure of the BioTools Afternoon Tournament. This tournament is designed to progress quickly so that we can get back
+		to work making Poker Academy even more wonderful. 
+		
+	</details>
+	
+	<!-- Tournament levels -->
+	<levels>
+			
+		<!-- level 1 -->
+		<level ante="0" small_blind="10" big_blind="15">
+			<play until="10" until_units="hand"/>
+		</level>
+		
+		<!-- level 2 -->
+		<level ante="0" small_blind="15" big_blind="30">
+			<play until="20" until_units="hand"/>
+		</level>
+		
+		<!-- level 3 -->
+		<level ante="0" small_blind="25" big_blind="50">
+			<play until="30" until_units="hand"/>
+		</level>
+		
+		<!-- level 4 -->
+		<level ante="0" small_blind="50" big_blind="100">
+			<play until="40" until_units="hand"/>
+		</level>
+		
+		<!-- level 5 -->
+		<level ante="0" small_blind="100" big_blind="200">
+			<play until="50" until_units="hand"/>
+		</level>
+		
+		<!-- level 6 -->
+		<level ante="0" small_blind="150" big_blind="300">
+			<play until="60" until_units="hand"/>
+		</level>
+		
+		<!-- level 7 -->
+		<level ante="0" small_blind="200" big_blind="400">
+			<play until="70" until_units="hand"/>
+		</level>		
+		
+		<!-- level 8 -->
+		<level ante="0" small_blind="250" big_blind="500">
+			<play until="80" until_units="hand"/>
+		</level>		
+		
+		<!-- level 9 -->
+		<level ante="0" small_blind="300" big_blind="600">
+			<play until="90" until_units="hand"/>
+		</level>		
+		
+		<!-- level 10 -->
+		<level ante="0" small_blind="400" big_blind="800">
+			<play until="100" until_units="hand"/>
+		</level>		
+		
+		<!-- level 11 -->
+		<level ante="0" small_blind="500" big_blind="1000">
+			<play until="110" until_units="hand"/>
+		</level>		
+		
+		<!-- level 12 -->
+		<level ante="0" small_blind="600" big_blind="1200">
+			<play until="120" until_units="hand"/>
+		</level>		
+	
+	   <!-- level 13 -->
+		<level ante="0" small_blind="800" big_blind="1600">
+			<play until="130" until_units="hand"/>
+		</level>		
+		
+		<!-- level 14 -->
+		<level ante="0" small_blind="1000" big_blind="2000">
+		</level>		
+	
+	</levels>
+		
+			
+	<!-- Global Breaks -->
+	<breaks>	</breaks>	
+	
+	
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+	
+		<!-- Specify prize payouts based on the number of entrants -->
+		<payouts_by_num_entrants min_entrants="2" max_entrants="10">
+	
+			<!-- Given number of entrants, specify payouts based on final finish placing -->
+        	<payout_by_finish min_finish="1" max_finish="1" payout_value="100" payout_units="%"/>
+    
+        </payouts_by_num_entrants>
+            
+    </tourn_payouts>
+		
+</tourn_struct>

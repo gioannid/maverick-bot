@@ -1,0 +1,90 @@
+@relation Showdown
+
+@attribute gameCount numeric
+@attribute potSize numeric
+@attribute logPotSize numeric
+@attribute stackSize numeric
+@attribute log1pStackSize numeric
+@attribute nbSeatedPlayers numeric
+@attribute nbActivePlayers numeric
+@attribute activePlayerRatio numeric
+@attribute betFrequency numeric
+@attribute foldFrequency numeric
+@attribute callFrequency numeric
+@attribute raiseFrequency numeric
+@attribute nbAllPlayerBetRaise numeric
+@attribute nbPlayerBetRaise numeric
+@attribute nbPlayerPreFlopBetRaise numeric
+@attribute nbPlayerPostFlopBetRaise numeric
+@attribute nbPlayerFlopBetRaise numeric
+@attribute nbPlayerTurnBetRaise numeric
+@attribute nbPlayerRiverBetRaise numeric
+@attribute allPlayerBetRaiseAmount numeric
+@attribute playerBetRaiseAmount numeric
+@attribute playerPreFlopBetRaiseAmount numeric
+@attribute playerPostFlopBetRaiseAmount numeric
+@attribute playerFlopBetRaiseAmount numeric
+@attribute playerTurnBetRaiseAmount numeric
+@attribute playerRiverBetRaiseAmount numeric
+@attribute allPlayerBetsAmount numeric
+@attribute playerBetsAmount numeric
+@attribute playerPreFlopBetsAmount numeric
+@attribute playerPostFlopBetsAmount numeric
+@attribute playerFlopBetsAmount numeric
+@attribute playerTuretsAmount numeric
+@attribute playerRiverBetsAmount numeric
+@attribute allPlayerRaisesAmount numeric
+@attribute playerRaisesAmount numeric
+@attribute playerPreFlopRaisesAmount numeric
+@attribute playerPostFlopRaisesAmount numeric
+@attribute playerFlopRaisesAmount numeric
+@attribute playerTurnRaisesAmount numeric
+@attribute playerRiverRaisesAmount numeric
+@attribute relNbPlayerBetRaise numeric
+@attribute relNbPlayerPreFlopBetRaise numeric
+@attribute relNbPlayerPostFlopBetRaise numeric
+@attribute relNbPlayerFlopBetRaise numeric
+@attribute relNbPlayerTurnBetRaise numeric
+@attribute relNbPlayerRiverBetRaise numeric
+@attribute relPlayerBetRaiseAmount numeric
+@attribute relPlayerPreFlopBetRaiseAmount numeric
+@attribute relPlayerPostFlopBetRaiseAmount numeric
+@attribute relPlayerFlopBetRaiseAmount numeric
+@attribute relPlayerTurnBetRaiseAmount numeric
+@attribute relPlayerRiverBetRaiseAmount numeric
+@attribute nbPlayerPreFlopBetRaiseTable numeric
+@attribute nbPlayerPostFlopBetRaiseTable numeric
+@attribute nbPlayerFlopBetRaiseTable numeric
+@attribute nbPlayerTurnBetRaiseTable numeric
+@attribute nbPlayerRiverBetRaiseTable numeric
+@attribute playerPreFlopBetRaiseAmountTable numeric
+@attribute playerPostFlopBetRaiseAmountTable numeric
+@attribute playerFlopBetRaiseAmountTable numeric
+@attribute playerTurnBetRaiseAmountTable numeric
+@attribute playerRiverBetRaiseAmountTable numeric
+@attribute lastActionWasBetRaise {false,true}
+@attribute VPIP numeric
+@attribute PFR numeric
+@attribute AF numeric
+@attribute AFq numeric
+@attribute logAFAmount numeric
+@attribute WtSD numeric
+@attribute opponentVPIP numeric
+@attribute opponentPFR numeric
+@attribute opponentAF numeric
+@attribute opponentAFq numeric
+@attribute opponentLogAFAmount numeric
+@attribute opponentWtSD numeric
+@attribute part0Prob numeric
+@attribute part1Prob numeric
+@attribute part2Prob numeric
+@attribute part3Prob numeric
+@attribute part4Prob numeric
+@attribute part5Prob numeric
+@attribute avgPartition {0,1,2,3,4,5}
+
+@data
+6,76,4.330733,4965,8.51037,2,2,1,0.56,0.34087,0.288696,0.375652,12,5,1,4,0,2,2,20,9,1,8,0,4,4,5,4,0,4,0,2,2,15,5,1,4,0,2,2,0.416667,0.333333,0.444444,0,0.5,0.5,0.45,0.333333,0.470588,0,0.5,0.5,3,9,1,4,4,3,17,1,8,8,false,0.72,0.664,2,0.430769,-0.072321,0.325714,0.72,0.664,5.6,0.819048,0.275412,0.325714,0,0,0,0,1,0,4
+11,149,5.003946,4931,8.5035,2,2,1,0.622857,0.28878,0.308293,0.405854,10,5,0,5,1,2,2,18,9,0,9,1,4,4,5,2,0,2,0,2,0,13,7,0,7,1,2,4,0.5,0,0.5,0.5,0.5,0.5,0.5,0,0.5,0.5,0.5,0.5,0,10,2,4,4,0,18,2,8,8,true,0.813333,0.709333,1.823529,0.448889,-0.167054,0.228,0.746667,0.709333,6.142857,0.847368,0.330242,0.228,0,0,0,0,0,1,5
+14,195,5.273,4947,8.506739,2,2,1,0.67,0.261132,0.351698,0.389434,9,3,1,2,0,0,2,14,5,1,4,0,0,4,5,2,0,2,0,0,2,9,3,1,2,0,0,2,0.333333,0.333333,0.333333,0,0,0.5,0.357143,0.333333,0.363636,0,0,0.5,3,6,1,1,4,3,11,1,2,8,false,0.844444,0.757778,1.565217,0.434483,-0.252702,0.175385,0.788889,0.757778,7.714286,0.881633,0.37763,0.175385,0,0,0,1,0,0,3
+16,230,5.438079,4960,8.509362,2,2,1,0.76,0.247333,0.377333,0.377333,10,5,0,5,2,2,1,15,8,0,8,2,4,2,5,5,0,5,1,2,2,10,3,0,3,1,2,0,0.5,0,0.555556,0.5,0.5,1,0.533333,0,0.571429,0.5,0.5,1,1,9,4,4,1,1,14,4,8,2,true,0.86,0.682,1.518519,0.444118,-0.206336,0.152,0.76,0.732,7.5,0.878571,0.31667,0.152,0,0,0,0,0,1,5

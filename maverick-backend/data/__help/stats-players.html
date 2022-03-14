@@ -1,0 +1,160 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Player Statistics</h1>
+<p align="center">
+<img src="images/statsdb-lite-full.png">
+
+<p>
+The Player Statistics tab allows you to select a player in
+the Hand History Database and then look at detailed information
+for that player.  The information in this tab is separated into
+the following components:
+<ul>
+	<li><a href="#players">Players</a></li>
+	<li><a href="#sessions">Sessions</a></li>
+	<li><a href="#filters">Filter Games</a></li>
+	<li><a href="#totals">Totals</a></li>
+	<li><a href="stats-bankroll.html">Bankroll Graph and Graph Options</a></li>
+	<li><a href="stats-actions.html">Actions</a></li>
+</ul>
+</p>
+
+<h3><a name="players"></a>Players</h3>
+<p><center><img src="images/statsdb-player-list.png"></center></p>
+<p>
+The Players list allows you to select a specific player in the 
+Hand History Database.  Selecting a player in the players list,
+displays detailed information about that player on the Players tab.
+</p>
+
+<p>
+Any player that has ever participated in a hand recorded in the
+Hand History Database appears in the players list.  This includes
+your own profiles, opponents you have faced while playing
+Poker Academy Online, and computer opponents you have played in
+Poker Academy ring games and tournaments.
+</p>
+
+<p><div id=sidebar>
+Tip: To make it easier for you to find your own profiles (i.e. heroes), 
+you can check the <i>Show Heroes Only</i> checkbox below the players 
+list which causes the players list to be filtered to only display hero
+profiles.
+</div></p>
+
+<h3><a name="sessions"></a>Sessions</h3>
+<p><center><img src="images/statsdb-session-list.png"></center></p>
+<p>
+The Sessions list displays a list of sessions that the selected player 
+in the player list has played.  If no filters are used, then all sessions
+played by the selected player are shown.  Otherwise, only sessions matching
+the filter criteria are shown.
+</p>
+
+<p>
+Each session entry in the session list provides some summary information 
+about the session:
+<ul>
+	<li>the starting <b>Date</b> of the session</li>
+	<li>the <b>Site</b> where the session was played - this will be either 
+	    <i>PA - Poker Academy 2.0</i> for ring games and tournaments
+        played on your own computer, or 
+        <i>PA Online - Poker Academy Online</i> for ring games and 
+        tournaments played on the free Poker Academy internet servers</li>
+    <li>the name of the <b>Table</b> played at during the session</li>
+    <li>the size of the <a href="glossary.html#stakes"><b>Stakes</b></a> during the session</li>
+    <li>the number of <b>Hands</b> in the session where the selected player was dealt cards</li>
+    <li>the <b>Net $ Won</b> by the selected player during the session</li>
+</ul>
+</p>
+
+<p><div id="sidebar">
+Tip: The columns in the session list can be sorted by clicking on the 
+column title.
+</div>
+</p>
+
+
+<p><div id="sidebar">
+Tip: As a short-cut, double-clicking a session's row will bring up a 
+<a href="history.html">Hand History Browser</a> for all hands in 
+that session. 
+</div>
+</p>
+
+<p>
+In the sessions panel, there are toolbar buttons that
+perform specific operations on the selected session entries.
+If no session entry is selected, the buttons will apply to all rows
+in the table.  The buttons and their operations are as follows:
+<table id="defined">
+<tr>
+	<td align="center" valign="top">
+	<img src="images/hist-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	The Hand History button will bring up a 
+	<a href="history.html">Hand History Browser</a>  
+	showing only the hands in the selected sessions.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/export-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Export transcripts of the hands in the selected sessions to a text file.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/del-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Permanently deletes all of the hands in the selected sessions 
+	from the database.
+	</td>
+</tr>
+</table>
+</p>
+
+<h3><a name="filters"></a>Filter Games</h3>
+<p><center><img src="images/statsdb-session-filters.png"></center></p>
+<p>
+The Filter Games panel allows you to filter which sessions appear in
+the session list.  For each checkbox, if it is selected, then sessions
+of that type are allowed to be displayed in the session list.  If it
+is not selected, then sessions of that type are not displayed in the
+session list.  The four checkboxes are:
+<ul>
+	<li>Ring - filters ring game sessions</li>
+	<li>Tourney - filters tournament sessions</li>
+	<li>Limit - filters fixed limit sessions</li>
+	<li>No Limit - filters no limit sessions</li>
+</ul>
+</p>
+
+<p><div id="sidebar">
+Tip: If you deselect both <i>Ring</i> and <i>Tourney</i>, or both
+<i>Limit</i> and <i>No Limit</i> at the same time, your entire
+session list will be filtered to be empty.
+</div>
+</p>
+
+
+<h3><a name="totals"></a>Totals</h3>
+<p align="center"><img src="images/statsdb-totals-lite.png"></p>
+<p>
+The Totals panel provides summary information for your selected
+sessions including the total number of hands played by the
+selected player in the sessions, and the amount of money that
+player won in the selected sessions.
+</p>
+
+
+</body>
+</html>

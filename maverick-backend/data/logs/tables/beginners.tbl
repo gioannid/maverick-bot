@@ -1,0 +1,14 @@
+<lineup title="Full Ring Beginners" nolimit="false">
+  <seat type="human"/>
+  <seat type="Jagbot" name="Waterhouse"/>
+  <seat type="Jagbot" name="Barney"/>
+  <seat type="Jagbot" name="Jagger"/>
+  <seat type="Jagbot" name="Freddy"/>
+  <seat type="Pokibot" name="Kenny"/>
+  <seat type="Jagbot" name="Malory"/>
+  <seat type="Jagbot" name="Soli"/>
+  <seat type="Jagbot" name="Orion"/>
+  <seat type="Jagbot" name="O'Brian"/>
+
+The beginners table consists of simple-minded 'action' players. None of these players will adapt or learn, so they are a great for a beginner player to start their training with.
+</lineup>

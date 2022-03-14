@@ -1,0 +1,35 @@
+#
+# Colors are in rrggbb format where each component is a hex integer (like web colors)
+#
+
+# main colors
+
+BGCOL=ECE9D8
+FGCOL=804000
+
+# menubar colors
+
+MB_BGCOL=ECE9D8
+MB_FGCOL=804000
+MB_DISCOL=999999
+
+# scrollbar colors
+
+SB_BG=ECE9D8
+SB_DARK_SHADOW=ECE9D8
+
+SB_FG=959585
+SB_ARROW=959585
+SB_SHADOW=959585
+SB_HILIGHT=959585
+
+SB_THUMB=905010
+SB_THUMB_SHADOW=ddddcd
+SB_THUMB_HILIGHT=757565
+
+# transcript colors
+ADMIN_TEXT=3333ff
+
+# whether or not to colorize popup menus (mac only)
+
+doMenus=false

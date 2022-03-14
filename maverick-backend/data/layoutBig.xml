@@ -1,0 +1,92 @@
+<seats>
+
+	<playerpanel id="0">
+		<offset x="0" y="20"/>
+		<box    x="361" y="546"/>
+		<cards  x="375" y="416"/>
+		<chips  x="373" y="395"/>
+		<button x="445" y="456"/>
+	</playerpanel>
+
+	<playerpanel id="1">
+		<offset x="-10" y="20"/>
+		<box    x="184" y="541"/>
+		<cards  x="220" y="411"/>
+		<chips  x="223" y="390"/>
+		<button x="276" y="457"/>
+		<forceCompact/>
+	</playerpanel>
+	
+	<playerpanel id="2">
+		<offset x="-13" y="20"/>
+		<box    x="21" y="490"/>
+		<cards  x="126" y="352"/>
+		<chips  x="138" y="327"/>
+		<button x="156" y="420"/>
+		<forceCompact/>
+	</playerpanel>
+	
+	<playerpanel id="3">
+		<offset x="-20" y="-20"/>
+		<box    x="23" y="120"/>
+		<cards  x="163" y="205"/>
+		<chips  x="160" y="281"/>
+		<button x="135" y="232"/>
+		<forceCompact/>
+	</playerpanel>
+	
+	<playerpanel id="4">
+		<offset x="-10" y="-20"/>
+		<box    x="184" y="57"/>
+		<cards  x="248" y="160"/>
+		<chips  x="251" y="232"/>
+		<button x="221" y="167"/>
+		<forceCompact/>
+	</playerpanel>
+	
+	<playerpanel id="5">
+		<offset x="0" y="-20"/>
+		<box    x="361" y="52"/>
+		<cards  x="386" y="156"/>
+		<chips  x="381" y="232"/>
+		<button x="362" y="161"/>
+		<forceCompact/>
+	</playerpanel>
+
+	<playerpanel id="6">
+		<offset x="10" y="-20"/>
+		<box    x="534" y="57"/>
+		<cards  x="518" y="157"/>
+		<chips  x="508" y="232"/>
+		<button x="494" y="161"/>
+		<forceCompact/>
+	</playerpanel>
+
+	<playerpanel id="7">
+		<offset x="20" y="-20"/>
+		<box    x="700" y="120"/>
+		<cards  x="618" y="205"/>
+		<chips  x="610" y="283"/>
+		<button x="612" y="183"/>
+		<forceCompact/>
+	</playerpanel>
+
+	<playerpanel id="8">
+		<offset x="20" y="20"/>
+		<box    x="700" y="490"/>
+		<cards  x="624" y="353"/>
+		<chips  x="611" y="330"/>
+		<button x="685" y="370"/>
+		<forceCompact/>
+	</playerpanel>
+	
+	<playerpanel id="9">
+		<offset x="10" y="20"/>
+		<box    x="534" y="541"/>
+		<cards  x="533" y="411"/>
+		<chips  x="517" y="390"/>
+		<button x="588" y="451"/>
+		<forceCompact/>
+	</playerpanel>		
+			
+</seats>

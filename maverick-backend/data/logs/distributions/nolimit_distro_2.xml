@@ -1,0 +1,5 @@
+<player_distribution name="No Limit Standard" no_limit="true" >
+<distribution engine="Xenbot" bot_name="(random)" value="80" />
+<distribution engine="Oddbot" bot_name="(random)" value="15" />
+<distribution engine="Jambot" bot_name="(random)" value="5" /> 
+</player_distribution>

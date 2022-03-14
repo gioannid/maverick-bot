@@ -1,0 +1,6 @@
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+PREFLOP_TIGHTNESS=0
+RANDOM_SEED=1111
+COMMENTS=
+PLAYER_NAME=Maggie
+AI_NAME=Jagbot

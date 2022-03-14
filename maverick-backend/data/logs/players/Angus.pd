@@ -1,0 +1,15 @@
+NO_LIMIT=true
+IMPLIED_ODDS_FACTOR=0.4
+AI_NAME=Xenbot
+SHOWDOWN_ODDS_FACTOR=0.6
+RANDOM_SEED=3131
+AGGRESSION=0.5
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+PLAYER_NAME=Angus
+DEBUG=false
+PREFLOP=-1,52s,62s,72s,82s,92s,T2s,J2s,Q2s,32o,63s,73s,83s,93s,T3s,J3s,Q3s,42o,43o,52o,53o,54o,62o,63o,64o,65o,72o,73o,74o,75o,76o,82o,83o,84o,85o,86o,87o,92o,93o,94o,95o,96o,97o,98o,T2o,T3o,T4o,T5o,T6o,T7o,T8o,J2o,J3o,J4o,J5o,J6o,J7o,J8o,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,K2o,K3o,K4o,K5o,K6o,K7o,K8o,A2o,A3o,A4o,A5o,A6o,A7o,No Group|-154,JJ,QQ,KK,AKs,AA,Group One|-13312,TT,AJs,AQs,AKo,Group Two|-52480,99,ATs,KQs,AQo,Group Three|-26164,88,KTs,QJs,KJs,Group Four|-3407617,77,A8s,A9s,JTs,QTs,KQo,AJo,Group Five|-16750849,22,33,44,55,66,Group Six|-6710785,A2s,A3s,A4s,65s,A5s,76s,A6s,87s,A7s,98s,K8s,T9s,J9s,Q9s,K9s,JTo,QTo,QJo,KTo,KJo,ATo,Group Six-A|-16737844,32s,43s,54s,75s,86s,97s,K7s,T8s,J8s,Q8s,Group Seven|-16724941,42s,K2s,53s,K3s,64s,74s,K4s,85s,K5s,96s,K6s,T7s,J7s,Q7s,K9o,A8o,A9o,Group Eight|-10066330,84s,94s,T4s,J4s,Q4s,95s,T5s,J5s,Q5s,T6s,J6s,Q6s,T9o,J9o,Q9o,Bluffs|
+COMMENTS=Tight{32}Positive{32}EV{32}Strategy{32}from{32}Pokerroom.com{32}EV{32}page{10}
+
+
+

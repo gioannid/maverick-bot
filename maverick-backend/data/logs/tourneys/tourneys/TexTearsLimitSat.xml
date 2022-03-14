@@ -1,0 +1,139 @@
+<!-- Tournament structure specification -->
+<tourn_struct>
+
+	<!-- Basic tournament details -->
+	<!-- Could start with 600 to 2500 chips -->
+	<details name="Tex's Tears - Satellite"
+			 game_type="Texas Holdem"
+			 betting="Limit"
+			 icon="data/pix/texlogo.png"
+			 style="Sit &amp; Go"
+ 			 online="true"
+			 initial_prize_pool="0"
+			 start_chips="600"
+			 min_start_chips="600"
+			 max_start_chips="2500"
+			 max_rebuys_per_player="0"
+			 min_players="2"
+			 max_players="10"
+			 max_players_per_table="10">			 
+
+		<category name="Limit">
+			<category name="Single Table">
+			</category>
+		</category>
+
+	
+		<buy_ins>
+			<buy_in toPrize="5" toHouse="1"/>
+			<buy_in toPrize="6" toHouse="1"/>
+			<buy_in toPrize="7" toHouse="1"/>
+			<buy_in toPrize="9" toHouse="1"/>
+			<buy_in toPrize="10" toHouse="1"/>
+			<buy_in toPrize="11" toHouse="1"/>
+			<buy_in toPrize="18" toHouse="2"/>
+			<buy_in toPrize="20" toHouse="2"/>
+			<buy_in toPrize="24" toHouse="2"/>
+			<buy_in toPrize="26" toHouse="2"/>
+			<buy_in toPrize="30" toHouse="3"/>
+			<buy_in toPrize="36" toHouse="3"/>
+			<buy_in toPrize="40" toHouse="4"/>
+			<buy_in toPrize="50" toHouse="5"/>
+		</buy_ins>
+		
+		Simulates the basic structure of a Tex's Tears Limit Single Table Satellite Tournament. 
+		
+	</details>
+	
+	<!-- Tournament levels -->
+	<levels>
+			
+		<!-- level 1 -->
+		<level ante="0" small_blind="25" big_blind="25">
+			<play until="10" until_units="hand"/>
+		</level>
+		
+		<!-- level 2 -->
+		<level ante="0" small_blind="25" big_blind="50">
+			<play until="20" until_units="hand"/>
+		</level>
+		
+		<!-- level 3 -->
+		<level ante="0" small_blind="50" big_blind="100">
+			<play until="30" until_units="hand"/>
+		</level>
+		
+		<!-- level 4 -->
+		<level ante="0" small_blind="100" big_blind="200">
+			<play until="40" until_units="hand"/>
+		</level>
+		
+		<!-- level 5 -->
+		<level ante="0" small_blind="200" big_blind="400">
+			<play until="50" until_units="hand"/>
+		</level>
+		
+		<!-- level 6 -->
+		<level ante="0" small_blind="300" big_blind="600">
+			<play until="60" until_units="hand"/>
+		</level>
+		
+		<!-- level 7 -->
+		<level ante="0" small_blind="400" big_blind="800">
+			<play until="70" until_units="hand"/>
+		</level>		
+		
+		<!-- level 8 -->
+		<level ante="0" small_blind="500" big_blind="1000">
+			<play until="80" until_units="hand"/>
+		</level>		
+		
+		<!-- level 9 -->
+		<level ante="0" small_blind="500" big_blind="1500">
+			<play until="90" until_units="hand"/>
+		</level>		
+
+		<!-- level 10 -->
+		<level ante="0" small_blind="1000" big_blind="2000">
+			<play until="100" until_units="hand"/>
+		</level>		
+
+		<!-- level 11 -->
+		<level ante="0" small_blind="1500" big_blind="3000">
+			<play until="110" until_units="hand"/>
+		</level>			
+
+		<!-- level 12 -->
+		<level ante="0" small_blind="2000" big_blind="4000">
+			<play until="120" until_units="hand"/>
+		</level>			
+
+		<!-- level 13 -->
+		<level ante="0" small_blind="3000" big_blind="6000">
+			<play until="130" until_units="hand"/>
+		</level>		
+		
+		<!-- level 14 -->
+		<level ante="0" small_blind="4000" big_blind="8000">
+		</level>		
+		
+	</levels>
+			
+	<!-- Global Breaks -->
+	<!-- NO BREAKS -->
+	<breaks>	</breaks>	
+		
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+		<!-- Specify prize payouts based on the number of entrants -->
+		<!-- Given number of entrants, specify payouts based on final finish placing -->
+
+		<!-- It's a Satellite so we only pay the top spot. -->
+		<!-- 2 to 10 Entries -->
+		<payouts_by_num_entrants min_entrants="2" max_entrants="10">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="100" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+	</tourn_payouts>
+		
+</tourn_struct>

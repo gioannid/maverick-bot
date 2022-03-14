@@ -1,0 +1,8 @@
+PLAYER_CLASS=com.biotools.poker.opponent.NLOpponent
+PREFLOP_TIGHTNESS=0
+RANDOM_SEED=3131
+DEBUG=false
+NO_LIMIT=true
+AI_NAME=Oddbot
+COMMENTS=Nervous{32}Ned{32}is{32}an{32}erratic{32}No-Limit{32}player.
+PLAYER_NAME=Nervous Ned

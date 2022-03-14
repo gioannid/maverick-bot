@@ -1,0 +1,192 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p align="center"><img src="../pix/toprow-stats-off.png"></p>
+<h1 align="center">Hand History Database</h1>
+<p align="center">
+<img src="images/statsdb-small.png" width="267" height="184">
+<p>
+All hands played in Poker Academy are stored in a Hand History Database. 
+The main Player Statistics window provides access to all of the hand 
+history  and player analysis tools. This module lets you view 
+<a href="history.html">hand histories</a>, <a href="stats-import.html">import hands</a>, track your session 
+performance, view summarized reports 
+on all of the players you've faced, and dive into 
+<a href="statistics.html">specific player statistics</a>
+such as bankroll graphs, action frequencies, and more.
+<p>
+The Player Statistics module contains three types of windows. The 
+Hand History Database contains summary information on all 
+of the players and sessions. <a href="history.html">Hand History Browsers</a> 
+display the actual hands from a session. 
+<a href="statistics.html">Player Stats Windows</a> can be loaded for each player 
+you have played a hand with. Individual player stats windows contain information 
+specific to that player.
+
+<h3>Toolbar Buttons</h3>
+Several common toolbar buttons are used throughout the statistics package. 
+They typically apply an action to the currently selected row in a table. 
+If nothing is selected, they apply to all rows in the table.  
+<table id="defined">
+<tr>
+	<td align="center" valign="top">
+		<img src="images/stats-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+		The Player Stats button will bring up a new 
+		<a href="statistics.html">Player Statistics Windows</a> 
+		containing detailed statistics on the selected player. 
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/hist-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	The Hand History button 
+	will bring up a <a href="history.html">Hand History Browser</a>  
+	showing only the selected hands.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/play-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	The Playback button loads the selected hands into the game window for 
+	<a href="handplayback.html">play back</a> and review.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/del-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Permanently deletes all of the selected hands or sessions from
+	the database.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/export-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Export transcripts of the selected hands or sessions to a text file.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/import-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Import Hands Histories from Online Poker Sites from a text file or directory.
+	</td>
+</tr>
+
+<tr>
+	<td align="center" valign="top">
+	<img src="images/help-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	Opens a specific help page in this help browser.
+	</td>
+</tr>
+</table>
+
+
+<h3>Summary Tab</h3>
+The Summary tab provides a quick at-a-glance summary of the entire 
+database contents. The total number of hands, sessions, and players 
+are given on the upper left. 
+<p>
+Totals for all of the different Sites found in the database 
+are displayed in the table at the top. Currently only two sites 
+are supported. <i>Poker Academy Pro</i> is the site under which 
+all local games are played. <i>Poker Academy Online</i> is used 
+for all hands played on our online servers. In the future, we will 
+support importing of hand histories from other poker sites.
+
+All players in the database are listed on the Players summary table. 
+Heroes	(your personal profiles) are shown in bold. A <i>Show Heroes 
+Only</i> check box allows you to filter out all players that are 
+not Heroes. Likewise, you can also filter out all players that have 
+not played a significant number of hands. For each player, it lists:
+<dl>
+ 	<dt> Player </dt> <dd>The player's name</dd>
+	<dt>  Site </dt> <dd> The site the player is from</dd>
+	<dt> Dollars Won </dt> <dd> The net dollars won or lost over all ring game hands, and tournament earnings. Essentially, this is the player's bankroll.</dd>
+	<dt> Rake Paid </dt> <dd> The amount raked from pots this player has won, or rake paid in tournament buy-in fees.</dd>
+	<dt>  Hands </dt> <dd> The number of hands played.</dd>
+	<dt> Ring Games </dt> <dd> The number of ring game sessions played.</dd>
+	<dt> Tournaments </dt> <dd> The number of Tournaments played.</dd>
+	<dt> Player Type </dt> <dd> The class of player (Hero, Human, or Bot)</dd>
+</dl>
+
+Selecting a player will enable two buttons on the right:
+<table id="defined">
+<tr>
+	<td align="center" valign="top">
+		<img src="images/stats-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+		The Player Stats button will bring up a new window containing 
+		detailed statistics on that player. (See the
+		section on <a href="statistics.html">
+		Player Statistics Windows</a> for more information).
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+	<img src="images/hist-icon.png" width="43" height="43">
+	</td>
+	<td align="left" valign="top">
+	 The Hand History button 
+	will bring up a Hand History window showing only the hands where 
+	that player is listed. 
+	</td>
+</tr>
+</table>
+<div id="sidebar">
+Note: As a short-cut, double-clicking a player's 
+row will bring up a Player Stats window. 
+</div>
+<br>
+
+<h3>History Tab</h3>
+The History tab displays a list of all hands ever played. See the section 
+on the <a href="history.html">Hand Histories Browser</a> 
+for more information.
+
+<h3>Session Tabs</h3>
+<p align="center">
+<img src="images/statsdb-ses-small.png" width="267" height="184">
+<p>
+There are four tabs for each of the four game types (Limit Ring, 
+No-Limit Ring, Limit Tournament, No-Limit Tournament). Each tab displays
+a list of the appropriate sessions at the top. The bottom half of the view
+contains a list of all players from the selected sessions. Sessions can be
+selected (control-click to select multiple sessions, or 
+shift-click to select a range of continuous sessions). Clicking on any of
+the column titles will sort the table by that column. Clicking the same
+column title again will reverse the sorting order.
+
+
+<h3>Menu Options</h3>
+<dl>
+   <dt>  Color Preferences...</dt><dd>
+	   Choose your own custom colors shades to represent winning, 
+	   losing, and breaking even. The defaults are pastel green for 
+	   winning, pastel red for losing, and white for breaking even. </dd>	  
+   <dt> Export Hand Histories...</dt><dd>
+	   Exports all of the hands in the database as text formatted 
+	   hand transcripts.
+	   </dd> 
+</dl>
+
+		 
+
+</body>
+</html>

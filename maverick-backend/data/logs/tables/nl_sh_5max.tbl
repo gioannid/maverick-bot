@@ -1,0 +1,14 @@
+<lineup title="Short-Handed 5-Max" nolimit="true">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Oliver Chips"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Daniel Xn"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Gus Xensen"/>
+  <seat type="empty"/>
+  <seat type="Xenbot" name="Jack Pott"/>
+  <seat type="empty"/>
+
+A general short-handed 5 player table.
+</lineup>

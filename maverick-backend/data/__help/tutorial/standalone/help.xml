@@ -1,0 +1,25 @@
+<help title="Poker Academy Tutorial">
+
+	<section title="Rules">
+		<page title="Introduction" file="intro.html"/>
+		<page title="The Deck" file="deck.html"/>
+		<page title="Objective" file="objective.html"/>
+		<page title="Poker Hands" file="hands.html"/>
+		<page title="Basic Game Play" file="gameplay.html"/>
+		<page title="Betting" file="betting.html"/>
+	</section>
+
+	<section title="Basic Strategy">
+		<page title="Introduction" file="introstrat.html"/>
+		<page title="Roles of Bet/Call/Fold" file="actions.html"/>
+		<page title="Starting Hands and Position" file="position.html"/>
+		<page title="Hand Strength &amp; Determining the Nuts" file="nuts.html"/>
+		<page title="Hand Potential: Draws" file="draws.html"/>
+		<page title="Deceptive Play" file="deception.html"/>
+		<page title="Pot Odds and Implied Odds" file="odds.html"/>
+	</section>
+
+	<section title="Finished">
+		<page title="Finished" file="finished.html"/>
+	</section>
+</help>

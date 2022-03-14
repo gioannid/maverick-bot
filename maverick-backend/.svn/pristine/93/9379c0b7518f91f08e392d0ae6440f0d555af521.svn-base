@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Cp1253" standalone="no"?>
+<jardesc>
+    <jar path="maverick-backend/bin/maverick.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/maverick-backend/jar-export.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=maverick-backend/src&lt;poker.maverick{BotServer.java[BotServer" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/maverick-backend/.classpath"/>
+        <file path="/maverick-backend/.project"/>
+        <javaElement handleIdentifier="=maverick-backend/src"/>
+        <file path="/maverick-backend/script.txt"/>
+    </selectedElements>
+</jardesc>

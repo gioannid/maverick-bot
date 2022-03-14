@@ -1,0 +1,11 @@
+NO_LIMIT=true
+AI_NAME=Xenbot
+RANDOM_SEED=3131
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+PLAYER_NAME=Al Inne
+DEBUG=false
+PREFLOP=-1,42s,62s,72s,82s,92s,T2s,J2s,Q2s,K2s,43s,53s,63s,73s,83s,93s,T3s,J3s,Q3s,K3s,42o,43o,54s,64s,74s,84s,94s,T4s,J4s,Q4s,K4s,52o,53o,54o,85s,95s,T5s,J5s,Q5s,K5s,62o,63o,64o,65o,96s,T6s,J6s,Q6s,K6s,72o,73o,74o,75o,76o,T7s,J7s,Q7s,K7s,82o,83o,84o,85o,86o,87o,J8s,Q8s,92o,93o,94o,95o,96o,97o,98o,T2o,T3o,T5o,T6o,T7o,T8o,T9o,J2o,J3o,J4o,J5o,J6o,J7o,J8o,J9o,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,Q9o,K2o,K3o,K4o,K5o,K6o,K7o,K8o,No Group|-3394816,JJ,QQ,KK,AKs,AA,Group One|-52378,99,TT,AJs,KQs,AQs,AKo,Group Two|-3407719,77,88,JTs,ATs,QJs,KJs,AJo,AQo,Group Three|-3407668,55,66,QJo,KJo,KQo,ATo,Group Four|-6750004,22,33,44,T9s,Group Five|-10092391,A2s,A5s,76s,87s,98s,A7o,A8o,A9o,Group Six|-10092289,A7s,K8s,A8s,Q9s,K9s,A9s,KTs,JTo,K9o,KTo,A5o,A6o,Group Seven|-10066177,A3s,A4s,65s,75s,86s,A6s,97s,T8s,J9s,QTs,QTo,A3o,A4o,Group Eight|-3355648,32s,52s,32o,T4o,A2o,Bluffs|
+COMMENTS=Xenbot{32}plays{32}according{32}to{32}the{32}guidelines{32}for{32}solid{32}tournament{32}No-Limit{32}set{32}forth{32}in{32}Darse{32}Billings{39}{32}{34}A{32}Primer{32}for{32}Playing{32}No-Limit{32}Hold{39}em{32}Tournaments{34}.
+
+

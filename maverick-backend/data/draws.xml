@@ -1,0 +1,6424 @@
+<draws>
+	<drawGroup holeCards="AA">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="2"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="986"
+			straight="508"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="125222"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="122"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41562"
+			straight="25816"
+			threeOfAKind="249458"
+			twoPair="840456"
+			pair="762300"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AKs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="1"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6717"
+			straight="2844"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="78003"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="78"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138296"
+			straight="65508"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="916776"
+			highCard="386130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AKo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="2"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="986"
+			straight="2956"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81534"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="122"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41562"
+			straight="69954"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="965568"
+			highCard="417780"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AQs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="2"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6716"
+			straight="3087"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77760"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="122"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138252"
+			straight="72939"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="913920"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AQo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="3210"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81280"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="166"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="77912"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="962560"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AJs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6715"
+			straight="3330"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77517"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="166"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138208"
+			straight="80370"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="911064"
+			highCard="376980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="AJo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="3464"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81026"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="210"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="85870"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="959552"
+			highCard="407880"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="ATs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6714"
+			straight="3573"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77274"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="210"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138164"
+			straight="87801"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="908208"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="ATo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="3718"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80772"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="93828"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="956544"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A9s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139155"
+			straight="52821"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="387045"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A9o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="56658"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="418770"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A8s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A8o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A7s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A7o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A6s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139155"
+			straight="52821"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="387045"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A6o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="56658"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="418770"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A5s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="50"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6714"
+			straight="3573"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77274"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1245"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138164"
+			straight="87801"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="908208"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A5o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="3718"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80772"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="93828"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="956544"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A4s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="49"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6715"
+			straight="3330"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77517"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1201"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138208"
+			straight="80370"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="911064"
+			highCard="376980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A4o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="3464"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81026"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="85870"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="959552"
+			highCard="407880"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A3s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="48"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6716"
+			straight="3087"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77760"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1157"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138252"
+			straight="72939"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="913920"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A3o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="3210"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81280"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="211"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="77912"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="962560"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A2s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="47"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6717"
+			straight="2844"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="78003"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1113"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138296"
+			straight="65508"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="916776"
+			highCard="386130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="A2o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="986"
+			straight="2956"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81534"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="167"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41562"
+			straight="69954"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="965568"
+			highCard="417780"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KK">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="2"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="986"
+			straight="508"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="125222"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="122"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41562"
+			straight="25816"
+			threeOfAKind="249458"
+			twoPair="840456"
+			pair="762300"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KQs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="46"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6672"
+			straight="4959"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76545"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="1068"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137306"
+			straight="99573"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="899640"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KQo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="5150"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="80010"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="166"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="106134"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="947520"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KJs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="47"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6671"
+			straight="5202"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76302"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="1112"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137262"
+			straight="107004"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="896784"
+			highCard="367830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KJo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="5404"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79756"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="210"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="114092"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="944512"
+			highCard="397980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KTs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="48"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6670"
+			straight="5445"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76059"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="1156"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137218"
+			straight="114435"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="893928"
+			highCard="363255"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="KTo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="5658"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79502"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="122050"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="941504"
+			highCard="393030"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K9s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="49"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6715"
+			straight="3330"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77517"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1200"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138209"
+			straight="79455"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="911064"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K9o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="3464"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81026"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="84880"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="959552"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K8s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139155"
+			straight="52821"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="387045"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K8o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="56658"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="418770"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K7s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K7o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K6s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K6o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K5s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139110"
+			straight="61167"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K5o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="65606"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K4s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139154"
+			straight="53736"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="386130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K4o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="57648"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="417780"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K3s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6760"
+			straight="1215"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78975"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="211"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139198"
+			straight="46305"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="928200"
+			highCard="390705"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K3o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="1270"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82550"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="211"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="49690"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="977600"
+			highCard="422730"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K2s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6761"
+			straight="972"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="79218"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="167"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139242"
+			straight="38874"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="931056"
+			highCard="395280"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="K2o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="3"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="986"
+			straight="1016"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82804"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="167"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41562"
+			straight="41732"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="980608"
+			highCard="427680"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="QQ">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="4"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="984"
+			straight="762"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124968"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="210"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41474"
+			straight="33774"
+			threeOfAKind="248952"
+			twoPair="838944"
+			pair="756360"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="QJs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="92"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6626"
+			straight="7317"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74844"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="2102"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136272"
+			straight="141069"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="879648"
+			highCard="354105"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="QJo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="7598"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="78232"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="254"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="150272"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="926464"
+			highCard="383130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="QTs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="93"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6625"
+			straight="7560"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74601"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="2146"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136228"
+			straight="148500"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="876792"
+			highCard="349530"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="QTo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="7852"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77978"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41386"
+			straight="158230"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="923456"
+			highCard="378180"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q9s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="94"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6670"
+			straight="5445"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76059"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="2190"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137219"
+			straight="113520"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="893928"
+			highCard="364170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q9o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="5658"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79502"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="121060"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="941504"
+			highCard="394020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q8s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="50"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6714"
+			straight="3573"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77274"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1244"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138165"
+			straight="86886"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="908208"
+			highCard="373320"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q8o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="3718"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80772"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="92838"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="956544"
+			highCard="403920"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q7s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="298"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q7o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q6s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139067"
+			straight="67683"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q6o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="72574"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q5s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139066"
+			straight="68598"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="376980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q5o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41386"
+			straight="73564"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="407880"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q4s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139110"
+			straight="61167"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q4o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="65606"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q3s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139154"
+			straight="53736"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="386130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q3o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="57648"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="417780"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q2s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6760"
+			straight="1215"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78975"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="211"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139198"
+			straight="46305"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="928200"
+			highCard="390705"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="Q2o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="4"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="1270"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82550"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="211"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="49690"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="977600"
+			highCard="422730"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="JJ">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="6"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="982"
+			straight="1016"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124714"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="298"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41386"
+			straight="41732"
+			threeOfAKind="248446"
+			twoPair="837432"
+			pair="750420"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="JTs">
+		<flopDraws 
+			royalFlush="1"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="47"
+			straightFlush="138"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="1084"
+			straightFlush="3136"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135238"
+			straight="182565"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="335805"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="JTo">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41342"
+			straight="194410"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="363330"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J9s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="139"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6625"
+			straight="7560"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74601"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="3180"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136229"
+			straight="147585"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="876792"
+			highCard="350445"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J9o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="7852"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77978"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="386"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="157240"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="923456"
+			highCard="379170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J8s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="95"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6669"
+			straight="5688"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="75816"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="2234"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137175"
+			straight="120951"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="891072"
+			highCard="359595"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J8o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="5912"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79248"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="386"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="129018"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="938496"
+			highCard="389070"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J7s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="51"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6713"
+			straight="3816"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77031"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1288"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138121"
+			straight="94317"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="905352"
+			highCard="368745"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J7o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="3972"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80518"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="386"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="100796"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="953536"
+			highCard="398970"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J6s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="342"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139067"
+			straight="67683"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J6o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="386"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="72574"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J5s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6756"
+			straight="2187"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78003"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139022"
+			straight="76029"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="916776"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J5o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="2286"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81534"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41342"
+			straight="81522"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="965568"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J4s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139066"
+			straight="68598"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="376980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J4o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41386"
+			straight="73564"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="407880"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J3s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139110"
+			straight="61167"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J3o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="65606"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J2s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139154"
+			straight="53736"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="386130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="J2o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="255"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="57648"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="417780"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="TT">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="2"
+			straightFlush="8"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="94"
+			straightFlush="386"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41298"
+			straight="49690"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="744480"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T9s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="184"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="4170"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135239"
+			straight="181650"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="336720"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T9o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="430"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="193420"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="364320"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T8s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="140"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6624"
+			straight="7803"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74358"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="3224"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136185"
+			straight="155016"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="873936"
+			highCard="345870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T8o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="8106"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77724"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="430"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="165198"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="920448"
+			highCard="374220"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T7s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="96"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6668"
+			straight="5931"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="75573"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="2278"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137131"
+			straight="128382"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="888216"
+			highCard="355020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T7o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="6166"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="78994"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="430"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="136976"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="935488"
+			highCard="384120"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T6s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="52"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6712"
+			straight="4059"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="76788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="1332"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138077"
+			straight="101748"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="902496"
+			highCard="364170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T6o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="4226"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80264"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="430"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="108754"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="950528"
+			highCard="394020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T5s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6756"
+			straight="2187"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78003"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139022"
+			straight="76029"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="916776"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T5o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="2286"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81534"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="431"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41298"
+			straight="81522"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="965568"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T4s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6756"
+			straight="2187"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78003"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139022"
+			straight="76029"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="916776"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T4o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="2286"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81534"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41342"
+			straight="81522"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="965568"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T3s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139066"
+			straight="68598"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="376980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T3o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41386"
+			straight="73564"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="407880"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T2s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139110"
+			straight="61167"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="381555"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="T2o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="1"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="49"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="65606"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="412830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="99">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41300"
+			straight="48700"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="745470"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="98s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="185"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="4214"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135240"
+			straight="180735"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="337635"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="98o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="192430"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="365310"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="97s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="141"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6624"
+			straight="7803"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74358"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3268"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136186"
+			straight="154101"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="873936"
+			highCard="346785"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="97o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="8106"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77724"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="164208"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="920448"
+			highCard="375210"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="96s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="97"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6668"
+			straight="5931"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="75573"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2322"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137132"
+			straight="127467"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="888216"
+			highCard="355935"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="96o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="6166"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="78994"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="135986"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="935488"
+			highCard="385110"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="95s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="53"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6712"
+			straight="4059"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="76788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="1377"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138077"
+			straight="101748"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="902496"
+			highCard="364170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="95o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="4226"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80264"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="475"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="108754"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="950528"
+			highCard="394020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="94s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139067"
+			straight="67683"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="94o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="431"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="72574"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="93s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6757"
+			straight="1944"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78246"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139067"
+			straight="67683"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="919632"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="93o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="2032"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="81788"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="72574"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="968576"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="92s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="92o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="88">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41300"
+			straight="48700"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="745470"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="87s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="185"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="4214"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135240"
+			straight="180735"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="337635"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="87o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="192430"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="365310"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="86s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="141"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6624"
+			straight="7803"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74358"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3268"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136186"
+			straight="154101"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="873936"
+			highCard="346785"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="86o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="8106"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77724"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="164208"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="920448"
+			highCard="375210"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="85s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="97"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6668"
+			straight="5931"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="75573"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2323"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137131"
+			straight="128382"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="888216"
+			highCard="355020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="85o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="6166"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="78994"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="475"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="136976"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="935488"
+			highCard="384120"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="84s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="52"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6713"
+			straight="3816"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77031"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="1333"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138121"
+			straight="94317"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="905352"
+			highCard="368745"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="84o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="3972"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80518"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="431"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="100796"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="953536"
+			highCard="398970"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="83s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="83o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="82s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6758"
+			straight="1701"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78489"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139111"
+			straight="60252"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="922488"
+			highCard="382470"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="82o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1778"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82042"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="64616"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="971584"
+			highCard="413820"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="77">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41300"
+			straight="48700"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="745470"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="76s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="185"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="4214"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135240"
+			straight="180735"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="337635"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="76o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41300"
+			straight="192430"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="365310"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="75s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="141"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6624"
+			straight="7803"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74358"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3269"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136185"
+			straight="155016"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="873936"
+			highCard="345870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="75o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="8106"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77724"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="475"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="165198"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="920448"
+			highCard="374220"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="74s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="96"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6669"
+			straight="5688"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="75816"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2279"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137175"
+			straight="120951"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="891072"
+			highCard="359595"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="74o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="5912"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79248"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="431"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="129018"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="938496"
+			highCard="389070"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="73s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="51"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6714"
+			straight="3573"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77274"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="1289"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138165"
+			straight="86886"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="908208"
+			highCard="373320"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="73o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="3718"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="80772"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="92838"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="956544"
+			highCard="403920"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="72s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="165"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10395"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6759"
+			straight="1458"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108405"
+			highCard="78732"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="299"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="139155"
+			straight="52821"
+			threeOfAKind="92565"
+			twoPair="471735"
+			pair="925344"
+			highCard="387045"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="72o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="0"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10560"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="1524"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="110550"
+			highCard="82296"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="56658"
+			threeOfAKind="94380"
+			twoPair="482790"
+			pair="974592"
+			highCard="418770"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="66">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="474"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41300"
+			straight="48700"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="745470"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="65s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="185"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="4215"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135239"
+			straight="181650"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="336720"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="65o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="980"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="475"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41299"
+			straight="193420"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="364320"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="64s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="140"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6625"
+			straight="7560"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74601"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3225"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136229"
+			straight="147585"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="876792"
+			highCard="350445"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="64o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="7852"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77978"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="431"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41343"
+			straight="157240"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="923456"
+			highCard="379170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="63s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="95"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6670"
+			straight="5445"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76059"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2235"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137219"
+			straight="113520"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="893928"
+			highCard="364170"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="63o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="5658"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79502"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="387"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41387"
+			straight="121060"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="941504"
+			highCard="394020"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="62s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="1"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="164"
+			straight="63"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10332"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="50"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6715"
+			straight="3330"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107748"
+			highCard="77517"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="1245"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="138209"
+			straight="79455"
+			threeOfAKind="92004"
+			twoPair="469092"
+			pair="911064"
+			highCard="377895"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="62o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="64"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10496"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="3464"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109880"
+			highCard="81026"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="343"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41431"
+			straight="84880"
+			threeOfAKind="93808"
+			twoPair="480080"
+			pair="959552"
+			highCard="408870"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="55">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="10"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="980"
+			straight="1270"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124460"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="476"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41298"
+			straight="49690"
+			threeOfAKind="247940"
+			twoPair="835920"
+			pair="744480"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="54s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="161"
+			straight="252"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10143"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="185"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6580"
+			straight="9675"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="105777"
+			highCard="73143"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="4216"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="135238"
+			straight="182565"
+			threeOfAKind="90321"
+			twoPair="461163"
+			pair="859656"
+			highCard="335805"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="54o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="256"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10304"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="9"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="981"
+			straight="10046"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107870"
+			highCard="76454"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="432"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41342"
+			straight="194410"
+			threeOfAKind="92092"
+			twoPair="471950"
+			pair="905408"
+			highCard="363330"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="53s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="140"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6625"
+			straight="7560"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74601"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3226"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136228"
+			straight="148500"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="876792"
+			highCard="349530"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="53o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="982"
+			straight="7852"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="77978"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="388"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41386"
+			straight="158230"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="923456"
+			highCard="378180"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="52s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="95"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6670"
+			straight="5445"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76059"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2236"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137218"
+			straight="114435"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="893928"
+			highCard="363255"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="52o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="5658"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79502"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="344"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="122050"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="941504"
+			highCard="393030"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="44">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="8"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="982"
+			straight="1016"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124714"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="388"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41386"
+			straight="41732"
+			threeOfAKind="248446"
+			twoPair="837432"
+			pair="750420"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="43s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="3"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="162"
+			straight="189"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10206"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="139"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6626"
+			straight="7317"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="106434"
+			highCard="74844"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="3182"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="136272"
+			straight="141069"
+			threeOfAKind="90882"
+			twoPair="463806"
+			pair="879648"
+			highCard="354105"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="43o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="192"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10368"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="7"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="983"
+			straight="7598"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="108540"
+			highCard="78232"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="344"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41430"
+			straight="150272"
+			threeOfAKind="92664"
+			twoPair="474660"
+			pair="926464"
+			highCard="383130"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="42s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="94"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6671"
+			straight="5202"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76302"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2192"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137262"
+			straight="107004"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="896784"
+			highCard="367830"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="42o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="6"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="984"
+			straight="5404"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="79756"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="300"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41474"
+			straight="114092"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="944512"
+			highCard="397980"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="33">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="6"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="984"
+			straight="762"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="124968"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="300"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41474"
+			straight="33774"
+			threeOfAKind="248952"
+			twoPair="838944"
+			pair="756360"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="32s">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="2"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="163"
+			straight="126"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10269"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="93"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="6672"
+			straight="4959"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="107091"
+			highCard="76545"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="2148"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="137306"
+			straight="99573"
+			threeOfAKind="91443"
+			twoPair="466449"
+			pair="899640"
+			highCard="372405"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="32o">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="2"
+			fullHouse="18"
+			flush="0"
+			straight="128"
+			threeOfAKind="308"
+			twoPair="792"
+			pair="7920"
+			highCard="10432"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="5"
+			fourOfAKind="105"
+			fullHouse="1461"
+			flush="985"
+			straight="5150"
+			threeOfAKind="7040"
+			twoPair="26334"
+			pair="109210"
+			highCard="80010"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="256"
+			fourOfAKind="2668"
+			fullHouse="47124"
+			flush="41518"
+			straight="106134"
+			threeOfAKind="93236"
+			twoPair="477370"
+			pair="947520"
+			highCard="402930"
+			total="2118760" />
+	</drawGroup>
+	<drawGroup holeCards="22">
+		<flopDraws 
+			royalFlush="0"
+			straightFlush="0"
+			fourOfAKind="48"
+			fullHouse="192"
+			flush="0"
+			straight="0"
+			threeOfAKind="2112"
+			twoPair="3168"
+			pair="14080"
+			highCard="0"
+			total="19600" />
+		<turnDraws 
+			royalFlush="0"
+			straightFlush="4"
+			fourOfAKind="1140"
+			fullHouse="8544"
+			flush="986"
+			straight="508"
+			threeOfAKind="28160"
+			twoPair="65736"
+			pair="125222"
+			highCard="0"
+			total="230300" />
+		<riverDraws 
+			royalFlush="4"
+			straightFlush="212"
+			fourOfAKind="17848"
+			fullHouse="181104"
+			flush="41562"
+			straight="25816"
+			threeOfAKind="249458"
+			twoPair="840456"
+			pair="762300"
+			highCard="0"
+			total="2118760" />
+	</drawGroup>
+</draws>

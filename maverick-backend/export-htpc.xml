@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project maverick-backend with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="F:/poker/maverick/maverick.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="johnidis.maverick.BotServer"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ nolimitrandomclient.jar randomclient.jar activation.jar mailapi.jar smtp.jar meerkat.jar modelling.jar 1.jar 2.jar 3.jar 4.jar commons-io-1.4-sources.jar protobuf-java-2.3.0.jar annotations-1.0.jar junit.jar org.hamcrest.core_1.1.0.v20090501071000.jar commons-io-1.4.jar jfreechart-1.0.13.jar jcommon-1.0.16.jar google-collections-0.9.jar log4j-1.2.14.jar commons-math-1.2.jar weka-3.6.0.jar x86-3.3.0-v3346.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="F:/poker/Projects/maverick-backend/bin"/>
+            <fileset dir="F:/poker/Projects/akirealbot/bin"/>
+            <fileset dir="F:/poker/Projects/pokerserver/pokerserver2.3.2/src"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\bots" includes="nolimitrandomclient.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\bots" includes="randomclient.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="activation.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="mailapi.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="smtp.jar"/>
+            <fileset dir="F:/poker/Projects/maverick-backend-commons/bin"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="meerkat.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="modelling.jar"/>
+            <fileset dir="F:/poker/Projects/encog-core-3.2.0/target/classes"/>
+            <fileset dir="F:/poker/Projects/jaDTi-0.6.1/bin"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="1.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="2.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="3.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="4.jar"/>
+            <fileset dir="F:/poker/Projects/opentestbed/junitclasses"/>
+            <fileset dir="F:/poker/Projects/opentestbed/bin"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="commons-io-1.4-sources.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="protobuf-java-2.3.0.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="annotations-1.0.jar"/>
+            <zipfileset dir="C:\eclipse\plugins\org.junit_4.8.1.v4_8_1_v20100427-1100" includes="junit.jar"/>
+            <zipfileset dir="C:\eclipse\plugins" includes="org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="commons-io-1.4.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="jfreechart-1.0.13.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="jcommon-1.0.16.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="google-collections-0.9.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="log4j-1.2.14.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="commons-math-1.2.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="weka-3.6.0.jar"/>
+            <zipfileset dir="F:\poker\Projects\opentestbed\lib" includes="x86-3.3.0-v3346.jar"/>
+        </jar>
+    </target>
+</project>

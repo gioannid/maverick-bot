@@ -1,0 +1,6 @@
+PREFLOP_TIGHTNESS=0
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+DEBUG=false
+RANDOM_SEED=3131
+PLAYER_NAME=KrabKing
+AI_NAME=Jagbot

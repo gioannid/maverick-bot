@@ -1,0 +1,143 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1 align="center">Actions</h1>
+
+<p align="center"><img src="images/statsdb-actions.png"></p>
+<p>
+The Actions tab graphically shows information about the selected player's
+actions over the selected sessions.  The upper portion of the tab breaks
+down the player's action frequencies by each Texas Hold'em round:
+Pre-Flop, Flop, Turn and River.  The lower portion of the tab shows four
+other key statistics for the selected player on graphical scales: 
+Pre-Flop Played %, Went to Showdown and Won %, Pre-Flop Aggression, and 
+Post-Flop Aggression.
+</p>
+
+<h3>Action Frequencies By Stage</h3>
+<p><img src="images/statsdb-actions-circle.png"></p>
+
+<p>
+The Action Frequencies By Stage portion of the Actions tab graphically
+shows how often a player takes each type of action in each stage of the
+game.  This information is shown using four pie charts with associated 
+percentages for each stage in Texas Hold'em: Pre-Flop, Flop, Turn, and River.
+</p>
+
+<p>
+Each pie chart is color-coded to show frequencies for each of the four
+action frequencies tracked.  Fold is shown in red, Call in dark blue,
+Check in light blue, and Bet in green.  The relative size of each 
+colored section in the pie represents the percentage of time the selected 
+player has taken that action in the selected sessions.  These percentages
+are also listed explicitly beside each pie chart. 
+</p>
+
+<p>
+If a pie chart is an empty circle, then that means that the selected 
+player has never made an action on that stage in the selected sessions.
+When this happens, the percentages shown with each action are shown
+as being "n/a" (i.e. not available).
+</p>
+
+<p>
+In the bottom left corner of each stage's frequency information is a
+number that is used to indicate how often a player reaches that particular
+stage in the game.  In the Pre-Flop panel, the number represents the 
+number of hands dealt.  In the three other Post-Flop panels 
+(flop, turn, and river), the number in the corner represents the percentage of
+time that player went to that stage.  It is important to note that during
+all-ins a player can reach a stage but not actually get to make an action 
+there.
+</p>
+
+<p>
+The frequency information presented here is useful when trying to 
+identify patterns in a player's betting habits.  For example, this 
+information is useful if you want to see if a player is calling too 
+much on the flop only to fold on the turn.
+</p>
+
+<h3>Key Stats with Graphical Scales</h3>
+<p><img src="images/statsdb-actions-bar.png"></p>
+
+<p>
+The lower portion of the Actions tab graphically presents some key
+statistics for the selected player as observed in the selected sessions.
+For each key statistic, there is a graphical scale that represents a
+valid range for the value of that statistic.  The selected player's 
+value for that statistic is shown as value inside the scale.
+</p>
+
+<p>
+To make it easier to interpret the graphical scale, they are colored
+in a specific manner to draw your attention to different areas.  Each
+extreme end of the scale is colored a specific color and a gradient is
+used blur the two colors together as they approach one another.  Somewhere
+within the scale, there will be a white highlighted region that is
+distinctly bright at some point and fades out to the extreme colors.
+This white highlighted region is meant to indicate a suggested range 
+where the player's actual value should be situated.
+</p>
+
+<p>
+It is important to note that the accuracy of these stats, as with all 
+stats, will have more significance as more hands are played.  Also note, 
+analyzing these stats across different game types (number of players, 
+types of players, betting type (e.g. limit or no limit), and game type
+(e.g. ring or tournament)) may produce poor statistical significance.
+</p>
+
+<p>
+These graphical scales are useful to use when you want to compare different
+players to try and identify which characteristics are important for making
+players winners or losers.
+</p>
+
+<p>
+The key statistics shown are as follows:
+</p>
+
+<dl>
+  <dt>Pre-Flop Played %</dt>
+  <dd>The percentage of hands where the selected player voluntarily contributed 
+  chips to the pot (i.e. chips put into the pot not including blinds or antes).  
+  That is, this is the number of hands the player called or raised before the 
+  flop out of the total number of hands dealt. This statistic is extremely useful
+  to determine how loose (plays many hands) or tight (plays few hands) a player is.
+  For newer players, it is good to play tighter, while you learn and watch others play.
+  At a full table (10 players), it is also better to play tighter.  When there are less
+  players at the table you need to play more hands.  Note, it is possible for a 
+  player to see the flop without voluntarily putting any money in the pot.  For example,
+  this can happen if they post the big blind and the pot is not raised.  Also note, the
+  suggested range (in white) is for a tight - average player in a 10 handed limit game.
+  </dd>
+
+  <dt>Pre-Flop Aggression</dt>
+  <dd>Aggression shows a player's betting tendencies.  Aggression is calculated by: <br>
+      <i>&nbsp;&nbsp;&nbsp;&nbsp;(number of raises + number of bets) / number of calls </i><br>
+      The more a player bets the more aggressive they are. The more a player calls the 
+      more passive they are.</dd>
+  
+  <dt>Went to the Showdown and Won %</dt>
+  <dd>The number of hands won at during showdowns out of the number of hands taken to showdowns.  
+      If this value is 100%, the selected player has won every single showdown they have seen in 
+      the selected sessions.
+      If this value is 0%, the selected player has lost every single showdown they have seen in 
+      the selected sessions.
+  </dd>
+      
+  <dt>Post-Flop Aggression</dt>
+  <dd>Post-Flop Aggression is calculated according to the same formula shown above in the description
+      of the pre-flop aggression statistic.  Post-flop aggression, however, considers player
+  	  actions on all three post-flop stages together to determine the value of this statistic 
+  	  (i.e. flop, turn, and river). Pre-Flop and Post-Flop aggression are separated into
+  	  separate stats because players tend to play differently pre-flop and post-flop.
+  </dd>
+</dl>
+
+</p>
+</body>
+</html>

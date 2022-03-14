@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Tournament structure specification -->
+<tourn_struct>
+	<isring val="t"/>
+	
+	<!-- Basic game details -->
+	<details name="Ring L"
+			 game_type="Texas Holdem"
+			 betting="Limit"
+			 icon="data/pix/beta.png"
+			 online="true"
+			 initial_prize_pool="0"
+			 start_chips="-1"
+			 max_rebuys_per_player="10"
+			 min_players="2"
+			 max_players="10"
+			 max_players_per_table="10">
+		<buy_ins><buy_in toPrize="1" toHouse="0"/></buy_ins>
+	</details>
+	
+	<levels><level ante="0" small_blind="10" big_blind="20"></level></levels>
+	
+	<breaks></breaks>	
+	
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+	
+		<!-- Specify prize payouts based on the number of entrants -->
+		<payouts_by_num_entrants min_entrants="2" max_entrants="10">
+	
+			<!-- Given number of entrants, specify payouts based on final finish placing -->
+        	<payout_by_finish min_finish="1" max_finish="1" payout_value="100" payout_units="%"/>
+    
+      </payouts_by_num_entrants>
+    
+    </tourn_payouts>
+		
+</tourn_struct>

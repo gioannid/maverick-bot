@@ -1,0 +1,7 @@
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+PREFLOP_TIGHTNESS=1
+RANDOM_SEED=3131
+DEBUG=false
+COMMENTS=
+PLAYER_NAME=Soli
+AI_NAME=Jagbot

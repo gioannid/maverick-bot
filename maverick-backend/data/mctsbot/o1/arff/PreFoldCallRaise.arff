@@ -1,0 +1,50 @@
+@relation PreFoldCallRaise
+
+@attribute roundCompletion numeric
+@attribute playersActed numeric
+@attribute playersToAct numeric
+@attribute gameCount numeric
+@attribute somebodyActedThisRound {false,true}
+@attribute nbActionsThisRound numeric
+@attribute potSize numeric
+@attribute stackSize numeric
+@attribute deficit numeric
+@attribute potOdds numeric
+@attribute maxbet numeric
+@attribute nbSeatedPlayers numeric
+@attribute nbActivePlayers numeric
+@attribute activePlayerRatio numeric
+@attribute foldFrequency numeric
+@attribute callFrequency numeric
+@attribute raiseFrequency numeric
+@attribute foldFrequencyRound numeric
+@attribute callFrequencyRound numeric
+@attribute raiseFrequencyRound numeric
+@attribute isComitted {false,true}
+@attribute nbAllPlayerRaises numeric
+@attribute nbPlayerRaises numeric
+@attribute gameRaisePercentage numeric
+@attribute gameRaiseAmount numeric
+@attribute gameRaiseAmountRatio numeric
+@attribute lastActionWasRaise {false,true}
+@attribute VPIP numeric
+@attribute PFR numeric
+@attribute AF numeric
+@attribute AFq numeric
+@attribute AFAmount numeric
+@attribute WtSD numeric
+@attribute opponentVPIP numeric
+@attribute opponentPFR numeric
+@attribute opponentAF numeric
+@attribute opponentAFq numeric
+@attribute opponentLogAFAmount numeric
+@attribute opponentWtSD numeric
+@attribute foldProb numeric
+@attribute callProb numeric
+@attribute raiseProb numeric
+@attribute action {fold,call,raise}
+
+@data
+0,0,2,1,false,0,1.5,4999.5,-0.693147,0.25,0,2,2,1,0.71,0.16,0.16,0.71,0.14,0.15,true,0,0,0,0,0,false,0.24,0.128,2.4,0.24,0.182322,0.57,0.24,0.128,2.4,0.24,0.182322,0.57,0,0,1,raise
+0,0,1,1,true,2,5,4998,0,0.166667,1.098612,2,2,1,0.568,0.128,0.328,0.568,0.112,0.32,true,2,1,0.5,0.693147,0.5,true,0.44,0.328,2.6,0.366667,0.241162,0.57,0.44,0.328,2.6,0.366667,0.154151,0.57,0,1,0,call
+0,0,1,2,true,1,11,4995,0,0.083333,0.693147,2,2,1,0.48,0.33,0.205,0.473333,0.26,0.266667,true,1,0,0,0,0,false,0.366667,0.273333,1.857143,0.244444,-0.068993,0.456,0.533333,0.44,3,0.525,0.325422,0.456,0,0,1,raise

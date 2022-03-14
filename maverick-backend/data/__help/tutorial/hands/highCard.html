@@ -1,0 +1,166 @@
+<html>
+<head>
+	<link href="../../help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Pair</h1>
+<p>
+The lowest hand type that can be made is a <i>High Card</i>.  A 
+High Card hand contains five cards that all have different ranks 
+and cannot all be suited or in a sequence.
+</p> 
+
+<p>
+To rank hands of this type, the cards in each hand are compared 
+starting at the highest ranked card in each hand.  If one hand's 
+compared card is larger than another hand's, it is ranked higher.  
+If the compared cards are equal, then the comparison moves to the 
+next highest ranked card in each hand and is repeated.
+</p>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #1:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/4c.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">
+</div>
+<hr width="75%">
+<br>
+
+ <div align="center">
+   Player 1 has an Ace-high with Queen, Jack, Eight, Seven kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2 has a King-high with Queen, Jack, Eight, Seven kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">
+</div>
+<br>
+Since player 1's highest ranked card, the Ace, is higher than 
+player 2's highest ranked card, the King, player 1 has the 
+better hand.
+</div>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #2:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/5c.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/4c.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">
+</div>
+<hr width="75%">
+<br>
+
+
+ <div align="center">
+   Player 1 has an Ace-high with King, Queen, Jack, Eight kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2 has an Ace-high with King, Queen, Jack, Six kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">
+</div>
+<br>
+Player 1 and player 2 both share the same high card and both of 
+their first three kickers are equally ranked.  The fifth and 
+final card of each player's hand has different ranks, and since 
+player 1's Eight is ranked higher than player 2's Six, player 
+1 has the better hand.
+</div>
+
+
+<!-------------------------------------------------------------------------->
+<h3>Example #3:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/5c.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/4c.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">
+</div>
+<hr width="75%">
+<br>
+
+ <div align="center">
+   Player 1 has an Ace-high with King, Queen, Jack, Nine kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2 has an Ace-high with King, Queen, Jack, Nine kickers:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">
+</div>
+<br>
+Player 1 and player 2 are both playing the board, and as a 
+result, have the same ranked hands.
+</div>
+
+<h3>Navigation</h3>
+<ul>
+<li><a href="straightflush.html">Straight Flush</a>
+<li><a href="fourOfAKind.html">Four of a Kind</a>
+<li><a href="fullHouse.html">Full House</a>
+<li><a href="flush.html">Flush</a>
+<li><a href="straight.html">Straight</a>
+<li><a href="threeOfAKind.html">Three of a Kind</a>
+<li><a href="twoPair.html">Two Pair</a>
+<li><a href="pair.html">Pair</a>
+<li>High Card
+</ul>
+
+
+</body>
+</html>

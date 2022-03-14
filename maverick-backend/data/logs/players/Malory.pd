@@ -1,0 +1,9 @@
+AI_NAME=Jagbot
+USE_SSH_PREFLOP=true
+RANDOM_SEED=3131
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+USE_LOW_LIMIT_PREFLOP=false
+PREFLOP_TIGHTNESS=4
+PLAYER_NAME=Malory
+DEBUG=false
+COMMENTS=

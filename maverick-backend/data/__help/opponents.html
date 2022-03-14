@@ -1,0 +1,126 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Opponents</h1>
+<p>
+An opponent is a virtual poker player. They have a name, an engine (the 
+particular Artificial Intelligence they use), various personal settings for 
+their playing style, and a memory of hands they have played in 
+the past. If you play the same opponent more than once, under the same profile
+name, the opponent will recall how you played and may use that information
+to adjust its playing style against you. Each opponent also has its own set of
+statistics, which can be viewed in the <a href="statistics.html">Player
+Statistics</a> window.
+</p>
+
+<h3>Opponent Manager</h3>
+
+<p>
+To manage your opponents, Poker Academy provides an <i>Opponent Manager</i>
+which you can use to create, delete, import, export, and customize
+your computer opponents.
+</p>
+
+<p>
+The Opponent Manager can be accessed with the <i>Opponent Manager</i>
+menu item under Poker Academy's <i>Window</i> menu (or alternatively,
+using the menu shortcut <i>Ctrl+O</i>). 
+</p>
+
+<p>
+The Opponent Manager window is broken up into two parts, 
+the <i>Choose Opponent</i> section on the left, and the 
+<i>Opponent Settings</i> panel on the right.  
+</p>
+
+<p>
+<b>Choose Opponents</b> - Displays a list of engines and bot profiles for 
+all opponents in Poker Academy.  The list is displayed in a tree sorted 
+by betting type and engine name.  The control buttons on the left allow 
+you to create, delete, import, and export opponent profiles.  Alternatively,
+for each selected opponent, right-clicking also brings up a popup menu with
+similar controls to duplicate, delete, or export the selected individual 
+opponent or engine.
+
+
+<table id="defined">
+<tr>
+	<td align="center" valign="tops">
+		<img src="images/plus.png" >
+	</td>
+	<td align="left" valign="top">
+		 Creates a new opponent profile based on the current engine, or
+		 bot you have selected.  Selecting an engine will create a bot 
+		 with the default profile for that engine.  Selecting an opponent 
+		 will create a duplicate profile of the existing bot.  
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="tops">
+		<img src="images/rg-but-trash.png" >
+	</td>
+	<td align="left" valign="top">
+		 Deletes the currently selected opponent profile from disk.
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="tops">
+		<img src="images/rg-but-import.png">
+	</td>
+	<td align="left" valign="top">
+		 Opens up a file chooser that will allow you to import other 
+		 opponent profiles (.pd files) into Poker Academy.  Opponent 
+		 profiles must use an existing engine from Poker Academy.  
+		 May not be compatible with older versions of Poker Academy (1.5).
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="tops">
+		<img src="images/rg-but-export.png">
+	</td>
+	<td align="left" valign="top">
+		 Opens up a file chooser that will allow you to save the 
+		 current opponent profile to disk.  You can share opponent 
+		 profiles with friends or other Poker Academy members using 
+		 our forums (www.poker-academy.com/forums)
+	</td>
+</tr>
+</table>  
+
+<p>
+<b>Opponent Settings</b> - Selecting an opponent from the tree on
+the left hand side of the <i>Opponent Manager</i> displays the
+specific and configurable settings available for that opponent on 
+the right hand side of the manager.  Using this panel, you can make 
+changes to your bot profile and adjust specific settings based on the 
+bot engine.  The settings for each of the engines are discussed 
+specifically below.  Every bot must have a unique name, which can be 
+edited at the top of the Settings panel.  When you make a change to 
+the opponents settings, the save button will become enabled on the 
+top right side of the panel to allow you to save the profile to disk.  
+Beside the save button is a 'reset to default' button that will return 
+your bot to its original profile.  
+
+<h3>Artificial Intelligence Engines</h3>
+<h4>Limit Engines:</h3>
+<ul>
+	<li><a href="jagbot.html">Jagbot</a>
+	<li><a href="poki.html">Pokibot</a> 
+	<li><a href="simbot.html">Simbot</a>
+	<li><a href="sparbot.html">Sparbot</a>
+	<li><a href="vexbot.html">Vexbot</a>
+</ul>
+<h4>No-Limit Engines:</h3>
+<ul>
+	<li><a href="averybot.html">Averybot</a>
+	<li><a href="jambot.html">Jambot</a>
+	<li><a href="oddbot.html">Oddbot</a>
+	<li><a href="xenbot.html">Xenbot</a>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<html>
+
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1 align="center">Tournament Standings Window</h1>
+The <i>tournament standings window</i> is an auxiliary window that 
+can be opened when you are playing a tournament. This window provides
+useful information about the tournament that is updated in real-time
+as you play to help keep you informed on the current state of the 
+tournament. 
+
+<p>
+Once a tournament is started, this window can be opened manually by 
+selecting the <i>Tournament Standings...</i> menu item under the 
+<i>Lobby</i> menu in the main application window (or, by using the 
+Ctrl-T key shortcut). Depending on your preferences, this window can 
+also be set to open automatically once a tournament starts by 
+selecting the <i>Show window at tournament start</i> checkbox located 
+on the <i>Options</i> tab of the <i>Tournament Standings Window</i>
+itself. By default, this option is selected so it will automatically 
+appear at the start of each tournament you play.
+
+<p>
+The <i>tournament standings dialog</i> has its information separated
+out into six different tabs: <i>Summary</i>, <i>Standings</i>, 
+<i>Stacks</i>, <i>Levels</i>, <i>Payouts</i>, <i>Options</i>.
+
+<h3>Summary Tab</h3>
+The <i>Summary</i> tab contains some very useful summary information
+about both the tournament itself and how you are currently doing. At
+the top is the title of the tournament you are playing.  This title
+is the same title that appears in the lists of tournaments that you
+use to choose a tournament to start in the <a href="tournlobby.html">Tournament Lobby</a>.
+
+<p>
+Following the title are the following entries:
+<ul>
+
+<dl><dt>Buy In:</dt><dd>your buy in for the tournament.
+	          Format for the buy in is the total amount of the buy in
+	          followed by its breakdown of prize pool and house fee
+	          amounts respectively.  So, a buy in entry that says
+	          $6 ($5 + $1) means that it cost you $6 to enter the
+	          tournament of which $5 goes to the prize pool that can
+	          be won and $1 goes to the house as some sort of fee
+	          that is not allowed to be won.</dd>
+<dt>Prize Pool:</dt><dd> Total number of dollars available to be won 
+	                   in tournament.</dd>
+<dt>Positions Paid:</dt><dd> Number of finishing spots where a player 
+	                       wins money.</dd>
+<dt>Ranking:</dt><dd>Your current ranking in the tournament out of the 
+	                total number of entrants.</dd>
+<dt>Players Left:</dt><dd> Number of players not busted out of the total 
+	                     number of entrants.</dd>
+<dt>Next Position Pays:</dt><dd> The prize given to the next player to bust.</dd>
+<dt>Chips in Play:</dt><dd> The total number of chips in the tournament.</dd>
+</dl>
+
+<p>
+The next section tells you the size of the largest, average, and
+smallest chip stacks left in the tournament.
+
+<p>
+The next section gives you information specific to your chip stack
+including the size of your chip stack, its percentage of the total
+chips still in play, its ratio in regards to the size of the average
+stack, and its ratio in regards to the size of the current big blind
+size.
+
+<p>
+The next section lets you know the current level of the tournament
+and the size of the ante if there is one as well as the 
+corresponding blinds for the level.
+
+<p>
+The final section contains a quick summary paragraph of additional
+tournament information including things like the number of chips each
+player started with and how fast the levels increase.
+
+
+<h3>Standings Tab</h3>
+The <i>Standings</i> tab contains a standings table where every 
+row shows some summary information for every player that entered
+the tournament. There are four columns in the table: <i>Place</i>, 
+<i>Name</i>, <i>Chips</i>, <i>Result</i>. Rows are sorted in 
+ascending order by each player's place in the tournament.  The
+standings table is color coded to visually separate areas of the
+table.  Green rows indicate players that have not yet busted out
+of the tournament while red rows indicate players that have
+busted.  Each color can appear in either a lighter or darker shade
+as well, and the lighter shade is used to indicate places that
+are in the money (either tentatively, if that player is not yet
+busted, or guaranteed, if that player has busted) and the darker shade
+is used to indicate places that did not make the money.  In addition,
+your entry in the table will appear in bold text to make it easier
+to find. 
+
+<p>
+The <i>Place</i> column contains each player's current ranking in
+the tournament. A player's place is primarily determined by their
+chip count. The higher the player's chip count, the higher their
+place in the tournament standings. For player's that are not busted
+this place is their tentative ranking amongst all entrants in the
+tournament. As players bust, their tentative ranking turns into
+a finishing place since they are no longer active in the tournament.
+For players that bust, the hand on which they busted out on is used 
+to determine their finishing place. If more than one player busts 
+out on the same hand, their chip counts at the start of the hand are 
+used to break ties for finishing places. If more than one player 
+should bust on the same hand and have the same number of chips at
+the start of that hand, then those players finish tied for the
+same place. The <i>Name</i> column contains each player's name. The 
+<i>Chips</i> column contains each player's chip count. The <i>Result</i> 
+column contains the amount of profit or loss the player made
+by entering the tournament and finishing in their particular finish
+place. The <i>Result</i> column will only have filled in entries
+for players that have actually busted out of the tournament.  
+
+<h3>Stacks Tab</h3>
+The <i>Stacks</i> tab contains a graphical plot of the chip counts
+for all active players. The chip counts are presented from left to
+right in ascending order. The heights of the chip counts are 
+graphed proportional to the current chip leader. The stack 
+corresponding to your chip count (or all chip counts tied with you)
+will appear in a lighter color than all other chip stacks.  If you
+want more information about a stack, you can hover over a bar and a
+popup will appear letting you know the player's name and exact chip 
+count represented by the bar. In addition, if the application
+determines that the scale of the graph can allow additional information
+to be presented, the graphical plot may contain a black horizontal line
+to indicate how large the big blind is in proportion to the stacks (and
+possibly additional horizontal white lines representing subsequent 
+multiples of the big blind), as well as another black horizontal line 
+representing what would be the height of the currently average stack.
+
+<h3>Levels Tab</h3>
+The <i>Levels</i> tab contains a table of all the levels that make
+up the tournament. Each row in the table corresponds to a level in
+the tournament and as a tournament progresses the current level
+proceeds from the top of the table down towards the bottom of the
+table. The current level's text is written in bold. The <i>Level</i>
+column contains the level number. The <i>Blinds</i> column shows the
+amount of the small blind and the big blind for that level. The 
+<i>Ante</i> column shows the amount of the ante for the level.
+
+<h3>Payouts Tab</h3>
+The <i>Payouts</i> tab shows you the net prize for each non-zero
+paying finishing spot in the tournament. Each row represents a payout
+amount for a particular range of finishing spots. The <i>Place</i>
+column shows the range of finishing spots corresponding to the
+payouts in that row. The table is sorted in ascending order of
+finishing places. The <i>Payout</i> column shows what percentage
+of the total prize pool each player would win. The <i>Prize</i>
+column shows the actual gross winnings each player would win.
+
+<h3>Options Tab</h3>
+The <i>Options</i> tab contains two options that allow you to
+control how you want the <i>Tournament Standings Dialog</i> to
+automatically open. If the <i>Show window at tournament start</i>
+option is selected then the window will automatically open when
+you start a tournament.  If the <i>Show window after each bust</i>
+option is selected then the window will automatically open each
+time some player in the tournament busts. The initial defaults
+when you first get the program are set so that the window
+automatically appears upon tournament start, but will not appear
+each time a player busts.
+
+</body>
+</html>

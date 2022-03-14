@@ -1,0 +1,12 @@
+NO_LIMIT=true
+IMPLIED_ODDS_FACTOR=0.1
+AI_NAME=Xenbot
+SHOWDOWN_ODDS_FACTOR=0.5
+RANDOM_SEED=3131
+AGGRESSION=1.0
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+PLAYER_NAME=Xegreanu
+DEBUG=false
+PREFLOP=-1,42o,52o,53o,62o,63o,64o,72o,73o,74o,75o,82o,83o,84o,85o,86o,92o,93o,94o,95o,96o,T2o,T3o,T4o,T5o,T6o,J2o,J3o,J4o,J5o,Q2o,Q3o,No Group|-3394816,JJ,QQ,AQs,KK,AKs,AKo,AA,Group One|-3407770,88,99,T9s,TT,JTs,QJs,AJs,KQs,Group Two|-3407719,32s,43s,44,54s,55,65s,66,76s,77,87s,98s,A8s,A9s,QTs,KTs,ATs,KJs,QJo,KQo,ATo,AJo,AQo,Group Three|-6684928,22,33,A4s,A5s,A6s,97s,A7s,T8s,K8s,98o,J9s,Q9s,K9s,T9o,JTo,QTo,K9o,KTo,KJo,A7o,A8o,A9o,Group Four|-16738048,A2s,A3s,K5s,65o,86s,K6s,76o,Q7s,K7s,87o,J8s,Q8s,Q9o,K8o,A4o,A5o,A6o,Group Five|-13408768,K2s,K3s,K4s,75s,Q6s,J7s,T8o,J8o,J9o,Q8o,K6o,K7o,A2o,A3o,Group Six|-10092289,42s,Q2s,32o,53s,Q3s,43o,64s,J4s,Q4s,54o,85s,J5s,Q5s,96s,T6s,J6s,T7s,Q7o,K2o,K3o,K4o,K5o,Group Seven|-10066177,J2s,J3s,74s,T4s,95s,T5s,97o,T7o,J6o,J7o,Q4o,Q5o,Q6o,Group Eight|-3355648,52s,62s,72s,82s,92s,T2s,63s,73s,83s,93s,T3s,84s,94s,Bluffs|
+COMMENTS=A{32}very{32}aggressive{32}player{32}that{32}likes{32}to{32}play{32}suited{32}connectors{32}hard{32}and{32}sneak{32}in{32}with{32}rags.

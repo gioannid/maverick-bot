@@ -1,0 +1,171 @@
+<html>
+<head>
+	<link href="../../help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Flush</h1>
+<p>
+A <i>Flush</i> is a hand where all five cards are from the same suit.  
+The relative ranking of flush hands depends on the ranks of their 
+individual cards.
+</p>
+<p>
+Flush hands are compared starting with a hand's highest ranked card.
+If hand A's highest ranked card is higher than hand B's, then
+hand A is ranked higher. If hands share the same highest card rank, 
+the comparison of card ranks moves to each hand's
+second highest ranked card.  This card by card comparison is repeated 
+until a hand has a card with a higher relative rank, or all five cards
+are of equal rank.  In the case where all five cards are of equal rank, 
+the hands are equal.
+</p>
+<p>
+The highest possible flush is an Ace-high flush.  The lowest possible 
+flush is a Six-high flush.  A Five-high flush is not possible since it 
+would be a straight flush.
+</p>
+
+
+
+<!-------------------------------------------------------------------------->
+<h3>Example #1:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2d.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Flush, Ace high:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a Flush, King high:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2s.png">
+</div>
+<br>
+Since the highest ranked card in player 1's flush (i.e. the Ace) 
+is higher than the highest ranked card in player 2's flush 
+(i.e. the King), player 1 has the better hand.
+</div>
+
+
+<!-------------------------------------------------------------------------->
+<h3>Example #2:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2d.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Flush, Ace, Ten high:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a Flush, Ace, King high:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+Player 1 and Player 2 both have Ace-high flushes.  Looking at 
+their second highest ranked cards, player 2's King is higher 
+than player 1's Ten, so player 2 has the better hand.
+</div>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #3:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/3d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/2d.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Ten-high straight flush:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a King-high flush:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Js.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/6s.png">
+</div>
+<br>
+A <a href="straightFlush.html">straight flush</a>
+always beats a regular flush regardless of the 
+card ranks, so player 1 has the better hand.
+</div>
+
+
+<h3>Navigation</h3>
+<ul>
+<li><a href="straightflush.html">Straight Flush</a>
+<li><a href="fourOfAKind.html">Four of a Kind</a>
+<li><a href="fullHouse.html">Full House</a>
+<li>Flush
+<li><a href="straight.html">Straight</a>
+<li><a href="threeOfAKind.html">Three of a Kind</a>
+<li><a href="twoPair.html">Two Pair</a>
+<li><a href="pair.html">Pair</a>
+<li><a href="highCard.html">High Card</a>
+</ul>
+
+
+</body>
+</html>

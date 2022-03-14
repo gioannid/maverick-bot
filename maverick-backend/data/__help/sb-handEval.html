@@ -1,0 +1,72 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1 align="center">SideBar: Hand Evaluator</h1>
+The <i>Hand Evaluator</i> panel in the <i>SideBar</i> provides you with
+immediate summary information about your hand as well as your immediate
+pot odds.  The summary information displayed for your hand depends on 
+whether the current action is in the preflop or postflop stage of the game.
+For more detailed information on hand evaluation, please see the help
+information on the full <a href="evaluator.html">Hand Evaluator</a>.
+
+<h3>Preflop Hand Information</h3>
+For preflop decisions, your hand is described according to its
+preflop <i>hand value</i>. Your preflop hand value is determined
+by seeing how highly your hand is ranked out of the 169 possible distinct 
+preflop hands. This value is displayed both in terms of the percentage of hands 
+your hand is ranked higher than and also as its actual ranking
+out of the 169 hands where a rank of 1 is the best possible preflop hand 
+ranking and a rank of 169 is the worst possible preflop hand ranking.
+
+<p>
+There are 169 preflop hands when you ignore the specific suits of your
+preflop hole cards and instead just look at whether your hole cards are 
+paired or unpaired and suited or unsuited.  
+
+<p id="sidebar">
+<b>Note:</b> The hand rankings are based on computer simulations. They are not
+to be taken as the gospel truth, as it is impossible to rank starting 
+hands perfectly, since their ranking (chance of winning) changes a great 
+deal depending on the game conditions. Our computer simulation rankings 
+are general, well-rounded rankings.</p>
+
+<h3>Postflop Hand Information</h3>
+For postflop decisions, your hand is described by three components.
+
+<h4>Hand Name</h4>
+The first component describing your hand is the name of the best 5-card poker
+hand you currently have.  For, example, if you have JdTd as your hole
+cards and the flop is 9dJhQd then your hand would be assigned the name 
+"a Pair of Jacks".
+
+<h4>Strength</h4>
+In addition to your hand name, the immediate strength of your hand 
+will be shown. The strength of your hand is an estimate of the 
+chances that your hand is currently better than that of all your 
+opponents.  This estimate takes into account the number 
+of opponents you are up against.  The estimate shown also takes into
+account opponent modelling information to bias the strength estimate
+based on past observations of your opponents.
+
+<h4>Potential</h4>
+The final piece of information presented to describe your hand is
+the estimated positive and negative potential of your hand. Your 
+hand's positive potential is the percentage of situations where 
+you have a hand that is currently behind but that ends up ahead
+on the next stage. Your hand's negative potential is the percentage 
+of situations where your hand is currently ahead but will end up 
+behind on the next stage.
+
+<h3>Pot Odds</h3>
+Your current immediate pot odds are shown both in percentage form and odds form.
+When your amount to call is zero, your pot odds are displayed as "n/a".
+When you are out of the hand your pot odds continue to be updated
+despite the fact that you are out of the hand and you do not have an actual
+amount to call.
+
+</body>
+</html>

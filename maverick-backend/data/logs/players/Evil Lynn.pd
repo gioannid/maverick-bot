@@ -1,0 +1,12 @@
+NO_LIMIT=true
+IMPLIED_ODDS_FACTOR=0.5
+AI_NAME=Xenbot
+SHOWDOWN_ODDS_FACTOR=0.7
+RANDOM_SEED=3131
+AGGRESSION=0.5
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+PLAYER_NAME=Evil Lynn
+DEBUG=false
+PREFLOP=-1,32o,42o,43o,52o,53o,54o,62o,63o,64o,65o,72o,73o,74o,75o,76o,82o,83o,84o,85o,86o,92o,93o,94o,95o,96o,97o,T2o,T3o,T4o,T5o,T6o,T7o,T8o,J2o,J3o,J4o,J5o,J6o,J7o,J8o,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,K2o,K3o,K4o,K5o,K6o,A2o,A3o,A4o,A5o,No Group|-154,JJ,QQ,KK,AKs,AA,Group One|-13312,TT,AQs,AKo,Group Two|-52480,99,ATs,AJs,KQs,AQo,Group Three|-26164,88,KTs,QJs,KJs,Group Four|-3407617,77,A8s,A9s,JTs,QTs,KQo,AJo,Group Five|-13434625,A2s,A3s,A4s,55,A5s,66,A6s,K7s,A7s,98s,T8s,K8s,T9s,J9s,Q9s,K9s,QJo,KTo,KJo,ATo,Group Six|-6710785,42s,62s,82s,T2s,Q2s,43s,53s,63s,73s,83s,93s,T3s,J3s,Q3s,K3s,54s,64s,84s,T4s,Q4s,65s,75s,85s,95s,T5s,J5s,Q5s,K5s,76s,86s,T6s,Q6s,K6s,87s,97s,T7s,J7s,Q7s,87o,J8s,Q8s,98o,T9o,JTo,QTo,Group Six-A|-16737895,22,33,44,Group Seven|-16724890,J9o,Q8o,Q9o,K7o,K8o,K9o,A6o,A7o,A8o,A9o,Group Eight|-10066330,32s,52s,72s,92s,J2s,K2s,74s,94s,J4s,K4s,96s,J6s,Bluffs|
+COMMENTS=Very{32}aggressive{32}pre-flop.{32}Likes{32}to{32}get{32}heads-up{32}then{32}play{32}the{32}odds{32}post-flop.

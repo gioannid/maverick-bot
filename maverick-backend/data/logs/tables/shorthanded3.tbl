@@ -1,0 +1,14 @@
+<lineup title="Short Handed Random" nolimit="false">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+
+This table will generate a short-handed line-up of randomly selected players.
+</lineup>

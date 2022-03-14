@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project maverick-backend with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="F:/poker/maverick/maverick.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="johnidis.maverick.BotServer"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ nolimitrandomclient.jar randomclient.jar activation.jar mailapi.jar smtp.jar meerkat.jar modelling.jar HoldEmShowdown_spade.jar HoldEmShowdown.jar jcommon-1.0.16.jar jfreechart-1.0.13.jar truezip-6.jar NeticaJ.jar 1.jar 2.jar 3.jar 4.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="F:/poker/Projects/maverick-backend/bin"/>
+            <fileset dir="F:/poker/Projects/pokerserver/pokerserver2.3.2/src"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\bots" includes="nolimitrandomclient.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\bots" includes="randomclient.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="activation.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="mailapi.jar"/>
+            <zipfileset dir="F:\poker\Projects\pokerserver\pokerserver2.3.2\thirdparty" includes="smtp.jar"/>
+            <fileset dir="F:/poker/Projects/maverick-backend-commons/bin"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="meerkat.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="modelling.jar"/>
+            <fileset dir="F:/poker/Projects/poker-hhdb-master/bin"/>
+            <zipfileset dir="F:\poker\Projects\poker-hhdb-master\libs" includes="HoldEmShowdown_spade.jar"/>
+            <zipfileset dir="F:\poker\Projects\poker-hhdb-master\libs" includes="HoldEmShowdown.jar"/>
+            <zipfileset dir="F:\poker\Projects\poker-hhdb-master\libs" includes="jcommon-1.0.16.jar"/>
+            <zipfileset dir="F:\poker\Projects\poker-hhdb-master\libs" includes="jfreechart-1.0.13.jar"/>
+            <zipfileset dir="F:\poker\Projects\poker-hhdb-master\libs" includes="truezip-6.jar"/>
+            <zipfileset dir="F:\poker\Projects\NeticaJ_504\bin" includes="NeticaJ.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="1.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="2.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="3.jar"/>
+            <zipfileset dir="F:\poker\Projects\maverick-backend\libs" includes="4.jar"/>
+        </jar>
+    </target>
+</project>

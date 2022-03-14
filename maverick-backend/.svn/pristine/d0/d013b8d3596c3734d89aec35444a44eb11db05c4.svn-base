@@ -1,0 +1,32 @@
+package poker.maverick;
+
+public class Iface {
+	
+	public static final String PING		 						= "PING";
+	public static final String PONG								= "PONG";	
+	public final static String FOLD								= "FOLD";
+	public final static String CALL								= "CALL";
+	public final static String RAISE							= "RAISE";
+	public final static String SMALL_BLIND						= "BLIND";
+	public final static String BIG_BLIND						= "STRADDLE";
+	public final static String ERROR							= "ERROR";
+	public final static String ERROR_FATAL						= "ERROR FATAL";
+
+	public static final String CMD_GOODBYE						= "QUIT";
+	public static final String CMD_START_NEW_GAME 				= "NEWGAME";
+	public static final String CMD_HOLE_CARDS 					= "DEAL";
+	public static final String CMD_WINNERS 						= "WINNER";
+	public static final String CMD_CHATTER						= "FROM";
+	public static final String CMD_NEXT_TO_ACT					= "ACTION?";
+	public static final String CMD_JOIN_GAME 					= "BUYIN";
+	public final static String CMD_FLOP							= "FLOP";
+	public final static String CMD_TURN							= "TURN";
+	public final static String CMD_RIVER 						= "RIVER";
+	public final static String CMD_SHOWDOWN 					= "SHOW";
+	public final static String CMD_BLIND						= SMALL_BLIND;
+
+	public static final String MSG_NO_ACTION					= "OK";
+	public static final String MSG_GOODBYE						= "SEE YOU LATER";
+	public static final String MSG_BET							= RAISE;
+
+}

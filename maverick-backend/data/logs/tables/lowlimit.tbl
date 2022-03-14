@@ -1,0 +1,14 @@
+<lineup title="Full Ring Low Limit" nolimit="false">
+  <seat type="human"/>
+  <seat type="Jagbot" name="Lionel"/>
+  <seat type="Jagbot" name="KrabKing"/>
+  <seat type="Pokibot" name="Kenny"/>
+  <seat type="Pokibot" name="Grundy"/>
+  <seat type="Pokibot" name="Teddy"/>
+  <seat type="Pokibot" name="Rooky"/>
+  <seat type="Pokibot" name="Crusoe"/>
+  <seat type="Pokibot" name="Devin"/>
+  <seat type="Pokibot" name="Fred"/>
+
+Contains players geared towards the loose-passive style of play common in low-limit games.
+</lineup>

@@ -1,0 +1,14 @@
+<lineup title="Full Ring Mixed" nolimit="true">
+  <seat type="human"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+  <seat type="random"/>
+
+Play against a random line-up of opponents.
+</lineup>

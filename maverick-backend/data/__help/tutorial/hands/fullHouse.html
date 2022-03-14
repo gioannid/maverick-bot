@@ -1,0 +1,159 @@
+<html>
+<head>
+	<link href="../../help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Full House</h1>
+A <i>Full House</i> is a hand where three of the cards in a hand are all
+of one rank, and the other two cards are both of another rank.  To picture 
+this, imagine your hand containing both a Three of a Kind and a Pair.
+
+<p>
+Full houses are ranked amongst each other by first looking for the hand
+with the highest ranked Three of a Kind portion.  If two hands have equally 
+ranked Three of a Kind portions, a higher ranked Pair is used to decide
+the winner.
+
+<!-------------------------------------------------------------------------->
+<h3>Example #1:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Full House, Aces Full of Sevens:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a Full House, Nines Full of Aces:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/9h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">
+</div>
+<br>
+Since player 1's Three of a Kind portion has a higher rank (i.e. Aces)
+than player 2's Three of a Kind portion (i.e. Nines), player 1 has the
+higher ranked hand.
+</div>
+
+
+<!-------------------------------------------------------------------------->
+<h3>Example #2:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Full House, Aces Full of Sevens:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a Full House, Full House, Aces Full of Nines:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9s.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9d.png">
+</div>
+<br>
+Both player 1 and player 2 have equally ranked Three of a Kind portions
+so the Pair portions of their hands must be considered.  Since player 2's Pair 
+(i.e. Nines) is higher ranked than player 1's Pair (i.e. Sevens),
+player 2 has the better hand.
+</div>
+
+
+<!-------------------------------------------------------------------------->
+<h3>Example #3:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7d.png">
+<br><br> 
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<hr width="75%">
+<br>
+ <div align="center">
+   Player 1 has a Full House, Aces Full of Sevens:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+<div align="center">
+   Player 2 has a Full House, Full House, Aces Full of Sevens:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7d.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/7s.png">
+</div>
+<br>
+Both player 1 and player 2 have the exact same hand, Full House, Aces Full of
+Sevens, and as a result both players tie for having the best hand.
+</div>
+
+
+<h3>Navigation</h3>
+<ul>
+<li><a href="straightflush.html">Straight Flush</a>
+<li><a href="fourOfAKind.html">Four of a Kind</a>
+<li>Full House
+<li><a href="flush.html">Flush</a>
+<li><a href="straight.html">Straight</a>
+<li><a href="threeOfAKind.html">Three of a Kind</a>
+<li><a href="twoPair.html">Two Pair</a>
+<li><a href="pair.html">Pair</a>
+<li><a href="highCard.html">High Card</a>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+NO_LIMIT=true
+IMPLIED_ODDS_FACTOR=0.65
+AI_NAME=Xenbot
+SHOWDOWN_ODDS_FACTOR=0.62
+RANDOM_SEED=3131
+AGGRESSION=0.91
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+DEBUG=false
+PLAYER_NAME=Daniel Xn
+PREFLOP=-1,No Group|-205,JJ,QQ,KK,AKs,AA,Group One|-26317,65s,76s,87s,98s,T9s,TT,JTs,QJs,AJs,KQs,AQs,AKo,Group Two|-52429,75s,86s,97s,T8s,J8s,99,J9s,Q9s,T9o,QTs,KTs,ATs,JTo,KJs,QJo,KQo,AJo,AQo,Group Three|-6750157,43s,54s,64s,74s,84s,85s,95s,96s,T6s,77,T7s,J7s,88,Q8s,K8s,K9s,A9s,QTo,KTo,KJo,ATo,Group Four|-6749953,22,33,44,55,66,J9o,Group Five|-16763956,32s,42s,52s,62s,72s,82s,92s,T2s,J2s,Q2s,K2s,A2s,53s,63s,73s,83s,93s,T3s,J3s,Q3s,K3s,A3s,42o,43o,94s,T4s,J4s,Q4s,K4s,A4s,53o,54o,T5s,J5s,Q5s,K5s,A5s,64o,65o,J6s,Q6s,K6s,A6s,75o,76o,Q7s,K7s,A7s,86o,87o,A8s,97o,98o,T8o,J8o,Q8o,Q9o,K8o,Group Six|-16737793,52o,63o,73o,74o,84o,85o,95o,96o,T7o,J7o,Q7o,K7o,K9o,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,Group Seven|-6684673,92o,93o,94o,T3o,T5o,J2o,J3o,J4o,J5o,J6o,Q2o,Q4o,Q5o,K2o,K3o,K4o,K5o,K6o,Group Eight|-10066330,32o,62o,72o,82o,83o,T2o,T4o,T6o,Q3o,Q6o,Bluffs|
+COMMENTS=Daniel{32}plays{32}an{32}Aggressive{32}no{32}limit{32}strategy.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+<player_distribution name="Random" no_limit="true" >
+	<distribution engine="(random)" bot_name="(random)" value="100" />
+</player_distribution>

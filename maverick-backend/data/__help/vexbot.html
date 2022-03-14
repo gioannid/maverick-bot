@@ -1,0 +1,54 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Vexbot</h1>
+
+Vexbot is a heads-up only player. It relies entirely on the model
+it builds of your playing style (so don't expect it to play very well
+the first time you play it). It will attempt to maximally exploit
+any and all weaknesses it finds in your playing style. 
+<p>
+
+Consequently, observing how it plays is like watching a mirror of your
+own play. If it is raising you a lot, perhaps you are folding too much
+or playing too many weak hands. Vexbot can be a good tool for finding 
+flaws in your own play. It can be an extremely vexing opponent to play, 
+especially when it has a good model of you.
+
+
+<p id="sidebar">
+Note: Vexbot may play badly at first. You must play a few hundred hands to 
+teach it the basics of your style, before it can build a strong model of 
+how you play. A person wishing to get the most out of vexbot should play a
+match of a few thousand hands. If Vexbot is adapting properly, it should 
+become increasingly difficult to beat.</p>
+
+<h3>Configuration Options</h3>
+
+Vexbot can play two different pre-flop styles.
+Vexbot can use its smarts in the pre-flop, just as it does in the post
+flop. Unfortunately, using this method, Vexbot can take several seconds
+to decide on an action. Most players will find this too slow for pre-flop
+play. The alternative is a fast, rule-based pre-flop system, based on 
+simulated expected values for each of the starting hands.
+
+<p>
+There is a slider which allows you to specify Vexbot's passive/aggressive
+level. Passive play favors checking/calling and aggressive play favors
+betting/raising.
+
+<p>
+A slider is also presented for <i>exploration</i> verses <i>exploitation</i>.
+Exploitation will have Vexbot favoring to play in ways that have worked against 
+you in the past. Exploration will have Vexbot more often deviate from exploiting 
+what it already knows, so that it can learn and explore new playing styles against 
+you. 
+
+<p>
+<a href="opponents.html">Back to Opponents</a>
+
+</body>
+</html>

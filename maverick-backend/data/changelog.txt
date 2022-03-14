@@ -1,0 +1,196 @@
+September 11th, 2006
+------------------------
+ * 2.5.7 Release (b197)
+ 
+ - Fixed problem with online user names with special characters
+ - Hand History Tables now have mini-cards displayed
+ - Demo and Activation screens have been enchanced
+ - Online tournaments can be now be scheduled
+ - Upgrades from PA Standard now import all old preferences and hand histories
+ - French translations for help and tutorial
+ 
+May 8th, 2006
+------------------------
+ * 2.5.6 Release (b179)
+ 
+ - Fixed memory leak caused when poker table window is minimized 
+ - Fixed some rounding errors in micro-limit bet amounts
+ 
+April 25th, 2006
+------------------------
+ * 2.5.5 Release (b178)
+ 
+ - Fixed display bug when using antes in online games
+ - Fixed problems with accidentally blocking own chat in online games
+ - Fixed UI problem when restoring opponent to defaults
+ - Fixed some issues with Hand Evaluator Simulations
+ - Better recovery from disk problems
+ 
+March 28th, 2006
+------------------------
+ * 2.5.4 Release (b176)
+ 
+ - Improved XenBot's handling of short-stacked situations
+ - Improved XenBot's positional awareness
+ - Fixed problems saving custom tournament clock structures
+ - Fixed bug on Mac OS X, importing hand histories
+ - Miscellaneous bug fixes
+
+March 21st, 2006
+------------------------
+ * 2.5.3 Release (b175)
+ 
+ - Fixed some bugs with payouts and tournament clock
+ - Fixed selection issue with hand history browser
+ - Fixed animation error with antes in online games
+ - Fixed time conflict with Paradise Poker hand imports
+ - Miscellaneous bug fixes
+   
+March 2nd, 2006
+------------------------
+ * 2.5.2 Release (b170)
+ 
+ - Fixed bug with large tournament payouts
+ - Fixed small bug in Hand Evaluator's bias slider
+ - Fixed some typos and layout issues
+ - Fixed bug with tournament payout statistics
+ - Improved performance on Mac OS X
+ - Other miscellaneous bug fixes
+ 
+February 21st, 2006
+------------------------
+ * 2.5.1 Release (b166)
+ 
+ - Fixed bug with level editing in Tournament Clock
+ - Fixed online lobby room selection bug
+ - Added payouts to tournament registration window
+ - Fixed missing antes problem in online tournaments
+ - Corrected bug in stats values for some online ring games
+ - Several other miscellaneous bug fixes
+ 
+February 15th, 2006
+------------------------
+ * 2.5.0 Release (b164)
+ 
+ - Revised online lobby and new PAX currency system
+ - Online Multi-Table Tournaments 
+ - Import Hand Histories from popular online poker sites
+ - New Tournament Editor with Import/Export capabilities
+ - Can Save & Load Opponent Distributions for tournaments
+ - New Hand Evaluator engine by Kevin Suffecool for a 
+   large speed boost all hand calculations
+ - Hand Evaluator window Strength tab now shows simulation values
+ - New Opponent Editor with import/export
+ - Improved Auto-Updater
+ - Numerous minor bug fixes
+
+November 15th, 2005
+------------------------
+ * 2.0.8 Release (b121)
+ 
+ - Fixed jumpy screen problem on Mac OS X
+ - Added ability to block chat of individual players when online
+ - Added option to disable online player chat bubbles
+ - Fixed some potential lock-up problems when loading stats
+ 
+October 19th, 2005
+------------------------
+ * 2.0.7 Release (b118)
+ 
+ - Fixed jumpy screen problem on Mac OS X
+ - Fixed calculation error in Won if Showdown Seen %
+ - Added small touches to bankroll & rake selections in Ring game lobby
+ - Tournaments no longer modify bankroll settings in ring games
+ - Renamed Rakes & Tournaments to avoid contact with lawyers
+
+October 13th, 2005
+------------------------
+ * 2.0.6 Release (b117)
+ 
+ - Fixed a possible hand history loading error
+ - Fixed a bug in JamBot's logic
+ - Fixed potential rounding errors in $0.50/$1.00 games
+ - Fixed some connection problems with SSL
+ - Selecting sitting out no longer deselects advance actions
+ - Fixed off-by-one in luckometer plots
+
+October 7th, 2005
+------------------------
+ * 2.0.5 Release (b116)
+ 
+ - Fixed potential crash when online
+ - Fixed minor glitch with hot key shortcuts
+ - Fixed Chat Display Error on Mac OS X
+ - Fixed memory leak in Mac OS X animation 
+ - Online timeout alert sound reduced
+
+September 26, 2005
+------------------------
+ * 2.0.4 Release (b113)
+  
+ - Fixed scalability issue with large hand history databases
+ - Fixed a broken link in the statistics help section.
+ - Fixed tiny itemless menu shown when clicking on seats online
+ - Fixed small bug in all-in rollouts between the blinds
+ - Improved some error handling
+
+September 21, 2005
+------------------------
+ * 2.0.3 Release (b112)
+ 
+ - Added new Tournament Clock
+ - Added new Hold'em Tutorial
+ - Improved No-Limit betting controls
+ - Added three new hot keys (set raise amount, bet 2xPot, flash cards)
+ - New visual Action Frequencies displayed in player stats
+ - More control over opponent types in tournaments.
+ - Fixed unreadable text color combinations on some themes
+ - Return to lobby button in sidebar now snaps back to most
+   recently visited lobby
+ - Auto-zip now works with an advance-fold
+ - Fixed bug where advance actions would not clear between hands
+ - Fixed bug with low-limit, raked, all-in, no-limit showdowns
+ - Improved tournament player naming routine
+ - Bankroll plots now show session start and endpoints, tournament EV plots
+ - Fixed Mac OS X Image rendering problem
+ 
+
+August 16th, 2005
+------------------------
+ * 2.0.1 Release (b106)
+ 
+ - Fixed bug with no-limit rakes of increments less than $0.25.
+ - Fixed bug where limit pre-flop setting for 'loose-passive' style was ignored
+ - Fixed bug where editing opponents at a table did not change to new
+   settings until restarting the program
+ - Fixed several online bugs
+ - Added online lobby chat and more room information
+ - Fixed bug with tournament players widget in tournament lobby
+ - Improved XenBot logic to bluff less in early position and mix 
+   up betting more carefully
+ - Fixed Tournament XML parsing issue
+ - Removed all references to World Series of Poker (cease & desist)
+ 
+July 1st, 2005
+------------------------
+ * 2.0.0 Release
+
+January 3rd, 2005
+------------------------
+ * 1.5.1 Release
+ 
+November 4th, 2004 
+------------------------
+ * 1.5.0 released
+ 
+July 20th, 2004 
+------------------------
+ * 1.2.0 released
+  
+April 26th, 2004 
+------------------------
+ * 1.1.0 released
+ 
+December 11th, 2003
+------------------------
+ * 1.0.0 Release

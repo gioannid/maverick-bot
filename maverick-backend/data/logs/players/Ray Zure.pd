@@ -1,0 +1,11 @@
+NO_LIMIT=true
+AI_NAME=Xenbot
+RANDOM_SEED=3131
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+PLAYER_NAME=Ray Zure
+DEBUG=false
+PREFLOP=-1,42s,62s,72s,82s,92s,T2s,63s,73s,83s,93s,T3s,42o,74s,84s,94s,52o,53o,85s,95s,62o,63o,64o,73o,74o,75o,82o,83o,84o,85o,86o,92o,93o,94o,95o,96o,97o,T2o,T3o,T5o,T6o,T7o,J2o,J3o,J4o,J5o,J6o,J7o,Q2o,Q3o,Q4o,Q5o,Q6o,K2o,K3o,K4o,K5o,No Group|-3394816,JJ,QQ,KK,AKs,AA,Group One|-65434,TT,AJs,KQs,AQs,AKo,Group Two|-3407719,99,JTs,ATs,QJs,KJs,AJo,AQo,Group Three|-3407668,77,88,A9s,QJo,KJo,KQo,ATo,Group Four|-6750004,22,A2s,33,44,55,A5s,66,A8s,Group Five|-10092391,A3s,A4s,76s,87s,98s,T9s,A9o,Group Six|-10092289,K2s,K3s,K4s,Q7s,K7s,A7s,K8s,J9s,Q9s,K9s,KTs,JTo,K9o,KTo,A5o,A6o,A7o,A8o,Group Seven|-10066177,43s,54s,65s,K5s,86s,K6s,A6s,97s,J7s,T8s,J8s,Q8s,98o,T9o,QTs,Q8o,Q9o,QTo,K7o,K8o,A3o,A4o,Group Eight|-3355648,32s,52s,J2s,Q2s,32o,53s,J3s,Q3s,43o,64s,T4s,J4s,Q4s,54o,75s,T5s,J5s,Q5s,65o,96s,T6s,J6s,Q6s,72o,76o,T7s,87o,T4o,T8o,J8o,J9o,Q7o,K6o,A2o,Bluffs|
+COMMENTS=XenBot{32}plays{32}according{32}to{32}the{32}guidelines{32}for{32}solid{32}tournament{32}No-Limit{32}set{32}forth{32}in{32}Darse{32}Billings{39}{32}{34}A{32}Primer{32}for{32}Playing{32}No-Limit{32}Hold{39}em{32}Tournaments{34}.
+
+

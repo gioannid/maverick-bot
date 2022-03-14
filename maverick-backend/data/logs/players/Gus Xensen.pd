@@ -1,0 +1,18 @@
+NO_LIMIT=true
+IMPLIED_ODDS_FACTOR=0.48
+AI_NAME=Xenbot
+SHOWDOWN_ODDS_FACTOR=0.53
+RANDOM_SEED=3131
+AGGRESSION=0.89
+PLAYER_CLASS=com.biotools.poker.opponent.DPSOpponent
+PREFLOP_TIGHTNESS=0
+DEBUG=false
+PLAYER_NAME=Gus Xensen
+PREFLOP=-1,No Group|-256,99,TT,JJ,AJs,QQ,KQs,AQs,KK,AKs,AKo,AA,Group One|-26368,T8s,JTs,QTs,KTs,ATs,QJs,KJs,KQo,Group Two|-52480,22,32s,33,43s,44,54s,55,65s,66,76s,77,87s,T7s,88,98s,K8s,A8s,T9s,J9s,Q9s,K9s,A9s,JTo,QJo,KJo,AJo,AQo,Group Three|-6750157,53s,64s,75s,86s,97s,A7s,ATo,Group Four|-6750055,A2s,63s,A3s,74s,84s,A4s,85s,95s,A5s,96s,A6s,76o,J7s,Q7s,K7s,86o,87o,J8s,Q8s,97o,98o,T8o,T9o,J9o,Q9o,QTo,K9o,KTo,A8o,A9o,Group Five|-10092340,42s,52s,73s,43o,94s,T4s,J4s,Q4s,K4s,54o,T5s,J5s,Q5s,K5s,64o,65o,T6s,J6s,Q6s,K6s,75o,85o,95o,96o,T6o,T7o,J7o,J8o,Q7o,Q8o,K7o,K8o,A6o,A7o,Group Six|-16763956,62s,72s,82s,92s,T2s,J2s,Q2s,K2s,83s,93s,T3s,J3s,Q3s,K3s,53o,63o,73o,74o,83o,84o,93o,94o,T3o,T4o,T5o,J6o,Q6o,K6o,A2o,A3o,A4o,A5o,Group Seven|-6710785,J2o,J3o,J4o,J5o,Q2o,Q3o,Q4o,Q5o,K2o,K3o,K4o,K5o,Group Eight|-13421773,32o,42o,52o,62o,72o,82o,92o,T2o,Bluffs|
+COMMENTS=Gus{32}Xensen{44}{32}is{32}a{32}very{32}aggressive{32}no{32}limit{32}player{32}who{32}is{32}not{32}afraid{32}to{32}play.{32}{32}He{32}will{32}be{32}very{32}tough{32}on{32}the{32}short{32}handed{32}tables.{32}{32}Plays{32}alot{32}of{32}hands.
+
+
+
+
+
+

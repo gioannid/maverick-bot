@@ -1,0 +1,14 @@
+<lineup title="Full Ring XenBots" nolimit="true">
+  <seat type="human"/>
+  <seat type="Xenbot" name="Al Inne"/>
+  <seat type="Xenbot" name="Amanda"/>
+  <seat type="Xenbot" name="Chuck Reese"/>
+  <seat type="Xenbot" name="Jack Pott"/>
+  <seat type="Xenbot" name="Max Bette"/>
+  <seat type="Xenbot" name="Oliver Chips"/>
+  <seat type="Xenbot" name="Phil Tilte"/>
+  <seat type="Xenbot" name="Ray Zure"/>
+  <seat type="Xenbot" name="Strongbad"/>
+
+Play against a mix of different XenBot players. XenBot is our most sophisticated No-Limit player.
+</lineup>

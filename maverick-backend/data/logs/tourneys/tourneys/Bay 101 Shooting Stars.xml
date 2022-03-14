@@ -1,0 +1,853 @@
+<!-- Tournament structure specification -->
+<tourn_struct>
+
+	<!-- Basic tournament details -->				
+	<details name="Bay 101 Shooting Stars"
+			 game_type="Texas Holdem"
+			 betting="No Limit"
+			 initial_prize_pool="0"
+			 start_chips="10000"
+			 min_start_chips="5000"
+			 max_start_chips="25000"
+			 max_rebuys_per_player="0"
+			 min_players="10"
+			 max_players="8000"
+			 max_players_per_table="10">
+		
+		<category name="No Limit">
+			<category name="Multi Table">
+			</category>
+		</category>
+			 
+		<buy_ins>
+			<buy_in toPrize="9750" toHouse="250"/>
+		</buy_ins>
+		
+		Simulates the basic structure of the Bay 101 Shooting Stars Tournament. 
+		
+	</details>
+	
+	<!-- Tournament levels -->
+	<levels>
+		<!-- Level 1 -->
+		<level ante="0" small_blind="25" big_blind="50">
+			<play until="10" until_units="hand"/>
+		</level>
+		
+		<!-- Level 2 -->		
+		<level ante="0" small_blind="50" big_blind="100">
+			<play until="20" until_units="hand"/>
+		</level>
+	
+		<!-- 15 MINUTE BREAK -->
+
+		<!-- Level 3 -->		
+		<level ante="0" small_blind="100" big_blind="200">
+			<play until="30" until_units="hand"/>
+		</level>
+
+		<!-- Level 4 -->		
+		<level ante="25" small_blind="100" big_blind="200">
+			<play until="40" until_units="hand"/>
+		</level>
+
+		<!-- 15 MINUTE BREAK -->
+
+		<!-- Level 5 -->		
+		<level ante="50" small_blind="150" big_blind="300">
+			<play until="50" until_units="hand"/>
+		</level>
+		
+		<!-- Level 6 -->		
+		<level ante="50" small_blind="200" big_blind="400">
+			<play until="60" until_units="hand"/>
+		</level>
+
+		<!-- ONE HOUR DINNER BREAK -->
+		
+		<!-- Level 7 -->		
+		<level ante="50" small_blind="250" big_blind="500">
+			<play until="70" until_units="hand"/>
+		</level>
+		
+		<!-- Level 8 -->		
+		<level ante="75" small_blind="300" big_blind="600">
+			<play until="80" until_units="hand"/>
+		</level>
+		
+		<!-- 15 MINUTE BREAK, REMOVE $25 CHIPS -->
+		
+		<!-- Level 9 -->		
+		<level ante="100" small_blind="400" big_blind="800">
+			<play until="90" until_units="hand"/>
+		</level>
+		
+		<!-- END OF DAY ONE AND TWO, BEGIN 90 MINUTE LEVELS, 10 MINUTE BREAK AFTER EACH LEVEL -->
+		
+		<!-- Level 10 -->		
+		<level ante="100" small_blind="500" big_blind="1000">
+			<play until="100" until_units="hand"/>
+		</level>
+		
+		<!-- Level 11 -->		
+		<level ante="200" small_blind="600" big_blind="1200">
+			<play until="110" until_units="hand"/>
+		</level>
+		
+		<!-- Level 12 -->		
+		<level ante="200" small_blind="800" big_blind="1600">
+			<play until="120" until_units="hand"/>
+		</level>
+		
+		<!-- Level 13 -->		
+		<level ante="300" small_blind="1000" big_blind="2000">
+			<play until="130" until_units="hand"/>
+		</level>
+		
+		<!-- ONE HOUR DINNER BREAK -->
+		
+		<!-- Level 14 -->		
+		<level ante="400" small_blind="1200" big_blind="2400">
+			<play until="140" until_units="hand"/>
+		</level>
+		
+		<!-- REMOVE $100 CHIPS -->
+		
+		<!-- Level 15 -->		
+		<level ante="500" small_blind="1500" big_blind="3000">
+			<play until="150" until_units="hand"/>
+		</level>
+		
+		<!-- Level 16 -->		
+		<level ante="500" small_blind="2000" big_blind="4000">
+			<play until="160" until_units="hand"/>
+		</level>
+		
+		<!-- Level 17 -->		
+		<level ante="500" small_blind="2500" big_blind="5000">
+			<play until="170" until_units="hand"/>
+		</level>
+		
+		<!-- REMOVE $500 CHIPS -->
+		
+		<!-- Level 18 -->		
+		<level ante="1000" small_blind="3000" big_blind="6000">
+			<play until="180" until_units="hand"/>
+		</level>
+		
+		<!-- Level 19 -->		
+		<level ante="1000" small_blind="4000" big_blind="8000">
+			<play until="190" until_units="hand"/>
+		</level>
+		
+		<!-- Level 20 -->		
+		<level ante="1000" small_blind="5000" big_blind="10000">
+			<play until="200" until_units="hand"/>
+		</level>
+		
+		<!-- Level 21 -->		
+		<level ante="2000" small_blind="6000" big_blind="12000">
+			<play until="210" until_units="hand"/>
+		</level>
+		
+		<!-- Level 22 -->		
+		<level ante="2000" small_blind="8000" big_blind="16000">
+			<play until="220" until_units="hand"/>
+		</level>
+		
+		<!-- Level 23 -->		
+		<level ante="3000" small_blind="10000" big_blind="20000">
+			<play until="230" until_units="hand"/>
+		</level>
+		
+		<!-- Level 24 -->		
+		<level ante="4000" small_blind="12000" big_blind="24000">
+			<play until="240" until_units="hand"/>
+		</level>
+		
+		<!-- REMOVE $1000 CHIPS -->
+		
+		<!-- Level 25 -->		
+		<level ante="5000" small_blind="15000" big_blind="30000">
+			<play until="250" until_units="hand"/>
+		</level>
+		
+		<!-- Level 26 -->		
+		<level ante="5000" small_blind="20000" big_blind="40000">
+			<play until="260" until_units="hand"/>
+		</level>
+		
+		<!-- this is the last level in the official structure -->
+		<!-- Level 27 -->		
+		<level ante="5000" small_blind="25000" big_blind="50000">
+		</level>
+		
+		<!-- these are the extra hidden levels -->
+		<!-- Level 26.5 -->
+		<level ante="10000" small_blind="30000" big_blind="60000">	
+		</level>
+		
+		<!-- Level 25 -->		
+		<level ante="10000" small_blind="40000" big_blind="80000">	
+		</level>
+		
+		<!-- Level 26 -->		
+		<level ante="10000" small_blind="50000" big_blind="100000">	
+		</level>
+		
+		<!-- Level 27 -->		
+		<level ante="20000" small_blind="60000" big_blind="120000">	
+		</level>
+		
+		<!-- Level 28 -->		
+		<level ante="20000" small_blind="80000" big_blind="160000">	
+		</level>
+		
+		<!-- Level 29 -->		
+		<level ante="30000" small_blind="100000" big_blind="200000">	
+		</level>
+		
+		<!-- Level 30 -->		
+		<level ante="40000" small_blind="150000" big_blind="300000">	
+		</level>
+		
+		<!-- Level 31 -->		
+		<level ante="50000" small_blind="200000" big_blind="400000">	
+		</level>
+		
+		<!-- Level 32 -->		
+		<level ante="50000" small_blind="250000" big_blind="500000">	
+		</level>
+		
+		<!-- Level 33 -->		
+		<level ante="100000" small_blind="300000" big_blind="600000">	
+		</level>
+		
+		<!-- Level 34 -->		
+		<level ante="100000" small_blind="400000" big_blind="800000">	
+		</level>
+		
+		<!-- Level 35 -->		
+		<level ante="100000" small_blind="500000" big_blind="1000000">	
+		</level>
+		
+		<!-- Level 36 -->		
+		<level ante="200000" small_blind="600000" big_blind="1200000">	
+		</level>
+		
+		<!-- Level 37 -->		
+		<level ante="200000" small_blind="800000" big_blind="1600000">	
+		</level>
+		
+		<!-- Level 38 -->		
+		<level ante="300000" small_blind="1000000" big_blind="2000000">	
+		</level>
+		
+		<!-- Level 39 -->		
+		<level ante="400000" small_blind="1500000" big_blind="3000000">	
+		</level>
+		
+		<!-- Level 40 -->		
+		<level ante="500000" small_blind="2000000" big_blind="4000000">	
+		</level>
+		
+		<!-- Level 41 -->		
+		<level ante="500000" small_blind="2500000" big_blind="5000000">	
+		</level>
+		
+		<!-- Level 42 -->		
+		<level ante="1000000" small_blind="3000000" big_blind="6000000">	
+		</level>
+		
+		<!-- Level 43 -->		
+		<level ante="1000000" small_blind="4000000" big_blind="8000000">	
+		</level>
+		
+		<!-- Level 44 -->		
+		<level ante="1000000" small_blind="5000000" big_blind="10000000">	
+		</level>
+		
+		<!-- Level 45 -->		
+		<level ante="2000000" small_blind="6000000" big_blind="12000000">	
+		</level>
+		
+		<!-- Level 46 -->		
+		<level ante="2000000" small_blind="8000000" big_blind="16000000">	
+		</level>
+		
+		<!-- Level 47 -->		
+		<level ante="3000000" small_blind="10000000" big_blind="20000000">	
+		</level>
+		
+		
+	</levels>
+	
+		<!-- Global Breaks -->	
+	<breaks>
+		<break length="5" after="50" after_units="hand" interrupt_level="true"/>
+	</breaks>
+	
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+		<!-- Specify prize payouts based on the number of entrants -->
+		<!-- Given number of entrants, specify payouts based on final finish placing -->
+		
+		<!-- 10 to 29 Entries -->	
+		<payouts_by_num_entrants min_entrants="10" max_entrants="29">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="50" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="30" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="20" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+        <!-- 30 to 49 Entries -->	
+		<payouts_by_num_entrants min_entrants="30" max_entrants="49">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="40" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="25" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="15" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="11" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="9" payout_units="%"/>	       	
+        </payouts_by_num_entrants>
+
+        <!-- 50 to 74 Entries -->	
+		<payouts_by_num_entrants min_entrants="50" max_entrants="74">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="35" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="21" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="11" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="7" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="6" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="5" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="4" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="3" payout_units="%"/>	       		       		       		       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 75 to 99 Entries -->	
+		<payouts_by_num_entrants min_entrants="75" max_entrants="99">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="33" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="19.8" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="10" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="7" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="6" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="5" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="4" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="3" payout_units="%"/>	       		       		       		       		       	
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.4" payout_units="%"/>	       		       		       		       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 100 to 199 Entries -->	
+		<payouts_by_num_entrants min_entrants="100" max_entrants="199">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="33" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="18.2" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="10" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="1.2" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="1.0" payout_units="%"/>	       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 200 to 299 Entries -->	
+		<payouts_by_num_entrants min_entrants="200" max_entrants="299">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="32" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="17.6" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="9" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.2" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="1" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.8" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.6" payout_units="%"/>	       		       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 300 to 399 Entries -->	
+		<payouts_by_num_entrants min_entrants="300" max_entrants="399">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="31" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="16" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.2" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="1" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.8" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.6" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.4" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+        <!-- 400 to 499 Entries -->	
+		<payouts_by_num_entrants min_entrants="400" max_entrants="499">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="30" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="16.1" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.3" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+        <!-- 500 to 599 Entries -->	
+		<payouts_by_num_entrants min_entrants="500" max_entrants="599">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="29" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="15.3" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.3" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.25" payout_units="%"/>	       	
+        </payouts_by_num_entrants>
+
+        <!-- 600 to 699 Entries -->	
+		<payouts_by_num_entrants min_entrants="600" max_entrants="699">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="28" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="14.5" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.3" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.25" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.20" payout_units="%"/>	       	
+        </payouts_by_num_entrants>
+
+        <!-- 700 to 799 Entries -->	
+		<payouts_by_num_entrants min_entrants="700" max_entrants="799">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="27" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="14.15" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.29" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.235" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.2" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.175" payout_units="%"/>	       	
+        </payouts_by_num_entrants>
+
+        <!-- 800 to 899 Entries -->	
+		<payouts_by_num_entrants min_entrants="800" max_entrants="899">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="26" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="13.8" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.29" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.235" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.2" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.175" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.15" payout_units="%"/>	       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 900 to 999 Entries -->	
+		<payouts_by_num_entrants min_entrants="900" max_entrants="999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="25" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="13.675" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.29" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.235" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.2" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.175" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.15" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.125" payout_units="%"/>	       		       	
+        </payouts_by_num_entrants>
+
+        <!-- 1000 to 1499 Entries -->	
+		<payouts_by_num_entrants min_entrants="1000" max_entrants="1499">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="25" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="12.575" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.7" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.5" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.29" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.235" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.2" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.175" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.15" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.125" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.11" payout_units="%"/>	       		       		       	
+        </payouts_by_num_entrants>
+
+		<!-- 1500 to 1999 Entries -->	
+		<payouts_by_num_entrants min_entrants="1500" max_entrants="1999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="24.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="12.075" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.89" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.67" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.45" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.35" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.27" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.21" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.165" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.13" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.11" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.095" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.085" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.075" payout_units="%"/>	       		       		       		       	
+        </payouts_by_num_entrants>
+		
+		<!-- 2000 to 2499 Entries -->	
+		<payouts_by_num_entrants min_entrants="2000" max_entrants="2499">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="23" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="11.45" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.87" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.65" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.44" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.25" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.145" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+        </payouts_by_num_entrants>
+
+		<!-- 2500 to 2999 Entries -->	
+		<payouts_by_num_entrants min_entrants="2500" max_entrants="2999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="21.02" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="11" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="6" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="3" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="2" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.87" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.65" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.44" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.25" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.145" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+        </payouts_by_num_entrants>
+
+<!-- This payout structure (below) is an approximation of the WSOP's flat-payout structure, and may differ for actual payouts (-Adrien) -->
+		<!-- 3000 to 3999 Entries -->	
+		<payouts_by_num_entrants min_entrants="3000" max_entrants="3999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="19.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="10.2" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.964" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.96" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.96" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.95" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.95" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.1" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.87" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.65" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.44" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.25" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.145" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.038" payout_units="%"/>	       		       		       		       		       		       	
+        </payouts_by_num_entrants>
+
+		<!-- 4000 to 4999 Entries -->	
+		<payouts_by_num_entrants min_entrants="4000" max_entrants="4999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="18.6" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="9.8" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.9" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.85" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.85" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.812" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.0" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.85" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.65" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.44" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.25" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.145" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	       		       		       		       		       		       	
+        </payouts_by_num_entrants>
+        
+        <!-- 5000 to 5999 Entries -->	
+        <payouts_by_num_entrants min_entrants="5000" max_entrants="5999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="17.775" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="8.8" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.8" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="1.0" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.85" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.65" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.44" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.25" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.145" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.086" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.076" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.066" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.056" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	  
+			<payout_by_finish min_finish="434" max_finish="524" payout_value="0.022" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+
+		<!-- 6000 to 6999 Entries -->	
+        <payouts_by_num_entrants min_entrants="6000" max_entrants="6999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="17.065" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="8.9" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.6" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="0.98" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.83" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.62" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.45" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.24" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.14" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	  
+			<payout_by_finish min_finish="434" max_finish="524" payout_value="0.022" payout_units="%"/>
+			<payout_by_finish min_finish="525" max_finish="624" payout_value="0.018" payout_units="%"/>
+        </payouts_by_num_entrants>
+	
+		<!-- 7000 to 7999 Entries -->	
+        <payouts_by_num_entrants min_entrants="7000" max_entrants="7999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="16.3" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="8.2" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.7" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.674" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.6" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.6" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="0.98" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.83" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.62" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.45" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.24" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.14" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	  
+			<payout_by_finish min_finish="434" max_finish="524" payout_value="0.023" payout_units="%"/>
+			<payout_by_finish min_finish="525" max_finish="624" payout_value="0.019" payout_units="%"/>
+			<payout_by_finish min_finish="625" max_finish="724" payout_value="0.016" payout_units="%"/>			
+        </payouts_by_num_entrants>
+        
+        <!-- 8000 to 9999 Entries -->	
+        <payouts_by_num_entrants min_entrants="8000" max_entrants="8999">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="15.674" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="8.4" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.5" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="0.98" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.83" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.62" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.45" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.24" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.14" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	  
+			<payout_by_finish min_finish="434" max_finish="524" payout_value="0.023" payout_units="%"/>
+			<payout_by_finish min_finish="525" max_finish="624" payout_value="0.019" payout_units="%"/>
+			<payout_by_finish min_finish="625" max_finish="724" payout_value="0.017" payout_units="%"/>			
+			<payout_by_finish min_finish="725" max_finish="824" payout_value="0.014" payout_units="%"/>			
+        </payouts_by_num_entrants>
+        
+        <!-- 9000 to 10000 Entries -->	
+        <payouts_by_num_entrants min_entrants="9000" max_entrants="10000">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="15" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="8.474" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="7.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="4" max_finish="4" payout_value="6.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="5" max_finish="5" payout_value="5.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="6" max_finish="6" payout_value="4.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="7" max_finish="7" payout_value="3.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="8" max_finish="8" payout_value="2.4" payout_units="%"/>
+	       	<payout_by_finish min_finish="9" max_finish="9" payout_value="1.3" payout_units="%"/>
+	       	<payout_by_finish min_finish="10" max_finish="12" payout_value="0.98" payout_units="%"/>
+	       	<payout_by_finish min_finish="13" max_finish="15" payout_value="0.83" payout_units="%"/>
+	       	<payout_by_finish min_finish="16" max_finish="18" payout_value="0.62" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="19" max_finish="27" payout_value="0.45" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="28" max_finish="36" payout_value="0.34" payout_units="%"/>
+	       	<payout_by_finish min_finish="37" max_finish="45" payout_value="0.24" payout_units="%"/>
+	       	<payout_by_finish min_finish="46" max_finish="54" payout_value="0.19" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="55" max_finish="63" payout_value="0.14" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="64" max_finish="72" payout_value="0.12" payout_units="%"/>	       	
+	       	<payout_by_finish min_finish="73" max_finish="81" payout_value="0.10" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="82" max_finish="90" payout_value="0.085" payout_units="%"/>	       		       	
+	       	<payout_by_finish min_finish="91" max_finish="100" payout_value="0.075" payout_units="%"/>	       		       		       	
+	       	<payout_by_finish min_finish="101" max_finish="153" payout_value="0.065" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="154" max_finish="216" payout_value="0.055" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="217" max_finish="270" payout_value="0.045" payout_units="%"/>	       		       		       		       	
+	       	<payout_by_finish min_finish="271" max_finish="342" payout_value="0.035" payout_units="%"/>	       		       		       		       		       		       	
+	       	<payout_by_finish min_finish="343" max_finish="433" payout_value="0.028" payout_units="%"/>	  
+			<payout_by_finish min_finish="434" max_finish="524" payout_value="0.023" payout_units="%"/>
+			<payout_by_finish min_finish="525" max_finish="624" payout_value="0.019" payout_units="%"/>
+			<payout_by_finish min_finish="625" max_finish="724" payout_value="0.017" payout_units="%"/>			
+			<payout_by_finish min_finish="725" max_finish="824" payout_value="0.015" payout_units="%"/>			
+			<payout_by_finish min_finish="825" max_finish="924" payout_value="0.012" payout_units="%"/>			
+        </payouts_by_num_entrants>
+       
+	</tourn_payouts>
+	
+		
+</tourn_struct>

@@ -1,0 +1,7 @@
+PLAYER_CLASS=com.biotools.poker.opponent.JagOpponent
+PREFLOP_TIGHTNESS=0
+RANDOM_SEED=3131
+DEBUG=false
+AI_NAME=Jagbot
+COMMENTS=Jagbot{32}is{32}a{32}simple{32}rule-based{32}player{32}for{32}limit{32}ring{32}games.{32}It{32}is{32}unadaptive{32}but{32}agressive.{32}Jagbot{32}is{32}a{32}good{32}choice{32}for{32}novice{32}players{32}to{32}begin{32}with.
+PLAYER_NAME=Freddy

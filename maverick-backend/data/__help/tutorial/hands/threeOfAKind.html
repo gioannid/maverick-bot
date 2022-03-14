@@ -1,0 +1,177 @@
+<html>
+<head>
+	<link href="../../help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 align="center">Three of a Kind</h1>
+
+<p>
+A <i>Three of a Kind</i> is a hand with three cards of the same 
+rank, and two other cards, each with different ranks.  
+Three of a Kind hands are first ranked according to the rank of 
+the card used in the three of a kind portion of the hand. The 
+higher the rank of the card is in the three of a kind portion, 
+the higher the hand is.
+</p>
+<p>
+If two Three of a Kind hands share the card rank for the three
+of a kind portion of their hand, the two other cards in the hand
+are used to break ties.
+These two other cards are called <i>kickers</i>. The two kicker 
+cards of each hand are sorted in terms of their ranks.  Then the
+highest kicker card from each is compared, and if one hand has a
+higher kicker card than the other, that hand is ranked higher.
+If the first kicker is of the same rank, the comparison moves to 
+the next kicker card and repeats.
+</p>
+<p>
+The highest Three of a Kind hand is a Three of a Kind, Aces 
+(with King kicker, Queen kicker).  The lowest Three of a Kind 
+hand is a Three of a Kind, Twos (with Four kicker, Three kicker).
+</p>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #1:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Th.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/9h.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">
+</div>
+<hr width="75%">
+<br>
+
+ <div align="center">
+   Player 1's hand is a Three of a Kind, Aces with King kicker, Ten kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Th.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2's hand is a Three of a Kind, Kings with Ace kicker, Ten kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ks.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kd.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Th.png">
+</div>
+<br>
+Since player 1's hand has a higher ranked three of a kind portion 
+(i.e. Aces have a higher card rank than Kings), it beats player 2's 
+hand.
+</div>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #2:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qs.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">
+</div>
+<hr width="75%">
+<br>
+
+ <div align="center">
+   Player 1's hand is a Three of a Kind, Aces with King kicker, Queen kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qs.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2's hand is a Three of a Kind, Aces with King kicker, Jack kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Jh.png">
+</div>
+<br>
+Player 1 and player 2 each have hands with equal three of a kind portions
+(i.e. Three of a Kind, Aces).  They also share the same highest kicker 
+(i.e. a King).  However, player 1's second kicker, the Queen, is higher 
+than player 2's second kicker, the Jack, so player 1 has the better hand.
+</div>
+
+<!-------------------------------------------------------------------------->
+<h3>Example #3:</h3>
+<div id="example">
+  <div align="center">
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qs.png">
+&nbsp; &nbsp; &nbsp; &nbsp; versus &nbsp; &nbsp; &nbsp; &nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qh.png">
+<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ts.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/8c.png">
+</div>
+<hr width="75%">
+<br>
+
+ <div align="center">
+   Player 1's hand is a Three of a Kind, Aces with King kicker, Queen kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/As.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qs.png">
+</div>
+<br> 
+ <div align="center">
+   Player 2's hand is a Three of a Kind, Aces with King kicker, Queen kicker:<br><br>
+	<img width="30" height="42" src="../../../../data/cards-small/Ac.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ad.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Ah.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Kh.png">&nbsp;
+	<img width="30" height="42" src="../../../../data/cards-small/Qh.png">
+</div>
+<br>
+Player 1 and Player 2 each have hands with equal three of a kind portions
+(i.e. Three of a Kind - Aces).  They also share the same highest kicker 
+(i.e. a King), and the same second highest kicker (i.e. a Queen).  As a 
+result, both players have equal hands.
+</div>
+
+<h3>Navigation</h3>
+<ul>
+<li><a href="straightflush.html">Straight Flush</a>
+<li><a href="fourOfAKind.html">Four of a Kind</a>
+<li><a href="fullHouse.html">Full House</a>
+<li><a href="flush.html">Flush</a>
+<li><a href="straight.html">Straight</a>
+<li>Three of a Kind
+<li><a href="twoPair.html">Two Pair</a>
+<li><a href="pair.html">Pair</a>
+<li><a href="highCard.html">High Card</a>
+</ul>
+
+
+</body>
+</html>

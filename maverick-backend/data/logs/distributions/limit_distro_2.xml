@@ -1,0 +1,1 @@
+<player_distribution name="Random Mix" no_limit="false" ><distribution engine="Pokibot" bot_name="(random)" value="50" /><distribution engine="Jagbot" bot_name="(random)" value="30" /><distribution engine="Simbot" bot_name="(random)" value="20" /></player_distribution>

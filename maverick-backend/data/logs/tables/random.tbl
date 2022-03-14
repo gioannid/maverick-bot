@@ -1,0 +1,14 @@
+<lineup title="Full Ring Random" nolimit="false">
+  <seat type="human"/>
+  <seat type="Pokibot"/>
+  <seat type="Jagbot"/>
+  <seat type="Pokibot"/>
+  <seat type="Pokibot"/>
+  <seat type="Jagbot"/>
+  <seat type="Pokibot"/>
+  <seat type="Pokibot"/>
+  <seat type="Jagbot"/>
+  <seat type="Pokibot"/>
+
+This table will be randomly filled with a mix of adaptive Pokibots and Unadaptive Jagbot players. 
+</lineup>

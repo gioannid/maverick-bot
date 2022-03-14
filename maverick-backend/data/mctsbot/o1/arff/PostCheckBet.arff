@@ -1,0 +1,39 @@
+@relation PostCheckBet
+
+@attribute roundCompletion numeric
+@attribute playersActed numeric
+@attribute playersToAct numeric
+@attribute round {flop,turn,river}
+@attribute gameCount numeric
+@attribute somebodyActedThisRound {false,true}
+@attribute nbActionsThisRound numeric
+@attribute potSize numeric
+@attribute stackSize numeric
+@attribute nbSeatedPlayers numeric
+@attribute nbActivePlayers numeric
+@attribute activePlayerRatio numeric
+@attribute betFrequency numeric
+@attribute betFrequencyRound numeric
+@attribute nbAllPlayerRaises numeric
+@attribute nbPlayerRaises numeric
+@attribute gameRaisePercentage numeric
+@attribute gameRaiseAmount numeric
+@attribute gameRaiseAmountRatio numeric
+@attribute lastActionWasRaise {false,true}
+@attribute VPIP numeric
+@attribute PFR numeric
+@attribute AF numeric
+@attribute AFq numeric
+@attribute AFAmount numeric
+@attribute WtSD numeric
+@attribute opponentVPIP numeric
+@attribute opponentPFR numeric
+@attribute opponentAF numeric
+@attribute opponentAFq numeric
+@attribute opponentLogAFAmount numeric
+@attribute opponentWtSD numeric
+@attribute betProb numeric
+@attribute action {check,bet}
+
+@data
+0,0,2,flop,2,false,0,14,4993,2,2,1,0.34,0.38,2,1,0.5,0.693147,0.5,true,0.533333,0.44,2,0.32,-0.060625,0.38,0.533333,0.44,2.5,0.466667,0.182322,0.38,1,bet

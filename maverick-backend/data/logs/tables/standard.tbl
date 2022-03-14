@@ -1,0 +1,14 @@
+<lineup title="Full Ring Standard" nolimit="false">
+  <seat type="human"/>
+  <seat type="Pokibot" name="Anders"/>
+  <seat type="Pokibot" name="Crusoe"/>
+  <seat type="Pokibot" name="Doyle"/>
+  <seat type="Pokibot" name="Erasmus"/>
+  <seat type="Pokibot" name="Hooke"/>
+  <seat type="Pokibot" name="Sanja"/>
+  <seat type="Pokibot" name="Saxum"/>
+  <seat type="Jagbot" name="Maxine"/>
+  <seat type="Pokibot" name="Alexis"/>
+
+A standard line-up with a well rounded mix of players.
+</lineup>

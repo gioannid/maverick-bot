@@ -1,0 +1,133 @@
+<!-- Tournament structure specification -->
+<tourn_struct>
+
+	<!-- Basic tournament details -->
+	<details name="Party - Single Table"
+			 game_type="Texas Holdem"
+			 betting="Limit"
+			 style="Sit &amp; Go"
+ 			 online="true"
+			 initial_prize_pool="0"
+			 start_chips="800"
+			 min_start_chips="600"
+			 max_start_chips="4000"
+			 max_rebuys_per_player="0"
+			 min_players="2"
+			 max_players="10"
+			 max_players_per_table="10">			 
+		
+		<category name="Limit">
+			<category name="Single Table">
+			</category>
+		</category>
+		
+		<buy_ins>
+			<buy_in toPrize="5" toHouse="1"/>
+			<buy_in toPrize="6" toHouse="1"/>
+			<buy_in toPrize="7" toHouse="1"/>
+			<buy_in toPrize="9" toHouse="1"/>
+			<buy_in toPrize="10" toHouse="1"/>
+			<buy_in toPrize="11" toHouse="1"/>
+			<buy_in toPrize="18" toHouse="2"/>
+			<buy_in toPrize="20" toHouse="2"/>
+			<buy_in toPrize="24" toHouse="2"/>
+			<buy_in toPrize="26" toHouse="2"/>
+			<buy_in toPrize="30" toHouse="3"/>
+			<buy_in toPrize="36" toHouse="3"/>
+			<buy_in toPrize="50" toHouse="5"/>
+			<buy_in toPrize="64" toHouse="6"/>
+			<buy_in toPrize="100" toHouse="9"/>
+			<buy_in toPrize="200" toHouse="15"/>
+			<buy_in toPrize="500" toHouse="35"/>
+			<buy_in toPrize="1000" toHouse="65"/>	
+		</buy_ins>
+		
+		Simulates the basic structure of a Party Limit Single Table Tournament. 
+		
+	</details>
+	
+	<!-- Tournament levels -->
+	<levels>
+			
+		<!-- level 1 -->
+		<level ante="0" small_blind="10" big_blind="15">
+			<play until="10" until_units="hand"/>
+		</level>
+		
+		<!-- level 2 -->
+		<level ante="0" small_blind="15" big_blind="30">
+			<play until="20" until_units="hand"/>
+		</level>
+		
+		<!-- level 3 -->
+		<level ante="0" small_blind="25" big_blind="50">
+			<play until="30" until_units="hand"/>
+		</level>
+		
+		<!-- level 4 -->
+		<level ante="0" small_blind="50" big_blind="100">
+			<play until="40" until_units="hand"/>
+		</level>
+		
+		<!-- level 5 -->
+		<level ante="0" small_blind="75" big_blind="150">
+			<play until="50" until_units="hand"/>
+		</level>
+		
+		<!-- level 6 -->
+		<level ante="0" small_blind="100" big_blind="200">
+			<play until="60" until_units="hand"/>
+		</level>
+		
+		<!-- level 7 -->
+		<level ante="0" small_blind="150" big_blind="300">
+			<play until="70" until_units="hand"/>
+		</level>		
+		
+		<!-- level 8 -->
+		<level ante="0" small_blind="200" big_blind="400">
+			<play until="80" until_units="hand"/>
+		</level>		
+		
+		<!-- level 9 -->
+		<level ante="0" small_blind="250" big_blind="500">
+			<play until="90" until_units="hand"/>
+		</level>		
+		
+		<!-- level 10 -->
+		<level ante="0" small_blind="300" big_blind="600">
+		</level>		
+	
+	</levels>
+		
+			
+	<!-- Global Breaks -->
+	<breaks>	</breaks>	
+	
+	
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+		<!-- Specify prize payouts based on the number of entrants -->
+		<!-- Given number of entrants, specify payouts based on final finish placing -->
+
+		<!-- 2 to 4 Entries -->
+		<payouts_by_num_entrants min_entrants="2" max_entrants="4">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="100" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 5 to 6 Entries -->
+		<payouts_by_num_entrants min_entrants="5" max_entrants="6">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="70" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="30" payout_units="%"/>    
+        </payouts_by_num_entrants>
+		
+		<!-- 7 to 10 Entries -->	
+		<payouts_by_num_entrants min_entrants="7" max_entrants="10">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="50" payout_units="%"/>
+	       	<payout_by_finish min_finish="2" max_finish="2" payout_value="30" payout_units="%"/>    
+	       	<payout_by_finish min_finish="3" max_finish="3" payout_value="20" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+	</tourn_payouts>
+		
+</tourn_struct>

@@ -1,0 +1,122 @@
+<help title="Poker Academy Help">
+
+	 <section title="Hold'em Tutorial">
+		<page title="Introduction" file="tutorial/index.html"/>
+		<page title="Texas Hold'em" file="tutorial/holdem.html"/>
+		<section title="Poker Hands">
+			<page title="Introduction" file="tutorial/hands/handRankingIntro.html"/>
+			<page title="Poker Hand Chart" file="hands.html"/>
+			<page title="Straight Flush" file="tutorial/hands/straightFlush.html"/>
+			<page title="Four of a Kind" file="tutorial/hands/fourOfAKind.html"/>
+			<page title="Full House" file="tutorial/hands/fullHouse.html"/>
+			<page title="Flush" file="tutorial/hands/flush.html"/>
+			<page title="Straight" file="tutorial/hands/straight.html"/>
+			<page title="Three of a Kind" file="tutorial/hands/threeOfAKind.html"/>
+			<page title="Two Pair" file="tutorial/hands/twoPair.html"/>
+			<page title="Pair" file="tutorial/hands/pair.html"/>
+			<page title="High Card" file="tutorial/hands/highCard.html"/>
+			<page title="Kickers" file="tutorial/hands/kickers.html"/>
+			<page title="The Nuts" file="tutorial/hands/theNuts.html"/>
+			<page title="Draws" file="tutorial/hands/draws.html"/>
+		</section>
+		<page title="Betting Rules" file="tutorial/betting.html"/>
+		<page title="Example Hand" file="tutorial/examplehand.html"/>
+		<page title="Recommended Books" file="tutorial/reading.html"/>		
+		<page title="Darse Billings' No Limit Primer" file="tutorial/darse.html"/>		
+		<page title="Glossary" file="glossary.html"/>		
+ 	 </section>
+
+    <section title="Getting Started">
+        <page title="Main Lobby" file="gs-mainlobby.html"/>
+        <page title="Playing a Ring Game" file="gs-ringgame.html"/>
+        <page title="Playing a Tournament" file="gs-tourney.html"/>
+        <page title="Playing Online" file="gs-online.html"/>
+        <page title="Improving Your Game" file="usage.html"/>
+     </section>
+     
+	<section title="Ring Games">
+		<page title="Ring Games" file="ringgames.html"/>
+		<page title="Ring Game Tables" file="tables.html"/>
+	</section>
+		
+	<section title="Tournaments">		
+		<page title="Tournaments" file="tournaments.html"/>
+		<page title="Tournament Lobby" file="tournlobby.html"/>
+		<page title="Playing a Tournament" file="tournplay.html"/>
+		<page title="Standings Window" file="tournstand.html"/>
+		<page title="Tournament Clock" file="clock.html"/>
+	</section>
+		
+	 <section title="Poker Academy Online">
+		<page title="Poker Academy Online" file="online.html"/>
+		<page title="Online Table Creation" file="online-tables.html"/>
+		<page title="Online Game Play" file="online-gameplay.html"/>
+		<page title="Poker Academy Currency (PAX)" file="paxfaqs.html"/>
+	 </section>
+     
+	 <section title="General Game Play">
+		<page title="Overview" file="game.html"/>
+		<page title="Profiles" file="profiles.html"/>
+		<page title="Game Options" file="options.html"/>
+		<page title="Dealer Options" file="dealeroptions.html"/>
+		<page title="Table Options" file="tableoptions.html"/>
+		<page title="Throttles" file="throttles.html"/>		
+		<page title="Advance Actions" file="advance.html"/>	
+	 </section>
+	      
+	<section title="Analysis Tools">
+		<page title="Hand Evaluator" file="evaluator.html"/>
+		<page title="Showdown Calculator" file="calculator.html"/>
+		<section title="Statistics">
+			<page title="Hand History Database" file="statsdb.html"/>		
+			<page title="Hand History Importer" file="stats-import.html"/>
+			<page title="Hand History Browser" file="history.html"/>
+			<page title="Hand Playback" file="handplayback.html"/>
+			<page title="Player Stats" file="statistics.html"/>
+			<section title="Hand Stats">
+			    <page title="Filters" file="stats-filters.html"/>
+			    <page title="Bankroll Graph" file="stats-graph.html"/>
+			    <page title="Actions Tab" file="stats-actions.html"/>
+  			    <page title="Frequencies Tab" file="stats-frequencies.html"/>
+		       <page title="Pre-Flop Tab" file="stats-preflop.html"/>
+		       <page title="Sharks &amp; Fish Tab" file="stats-sharksfish.html"/>
+				 <page title="Luckometer" file="luckometer.html"/>	
+			</section>
+		</section>
+	</section>	
+	
+	<section title="Sidebar">
+		<page title="Sidebar Overview" file="side-overview.html"/>	
+		<page title="Session Stats" file="sessionstats.html"/>	
+		<page title="Tournament Stats" file="tournStatsSidebar.html"/>	
+		<page title="Hand Evaluator" file="sb-handEval.html"/>	
+		<page title="Advisor" file="advice.html"/>			
+		<page title="Transcript" file="transcript.html"/>									
+	</section>
+	
+	<section title="Opponents">
+		<page title="Opponent Overview" file="opponents.html"/>
+		<section title="Fixed-Limit">
+			<page title="Pokibot" file="poki.html"/>
+			<page title="Jagbot" file="jagbot.html"/>
+			<page title="Simbot" file="simbot.html"/>
+			<page title="Pre-flop Tightness" file="prefloptightness.html"/>
+			<section title="Heads-up Specialists">
+				<page title="Sparbot" file="sparbot.html"/>
+				<page title="Vexbot" file="vexbot.html"/>
+			</section>		
+		</section>		
+		<section title="No-Limit">
+			<page title="Averybot" file="averybot.html"/>
+			<page title="Jambot" file="jambot.html"/> 
+			<page title="Oddbot" file="oddbot.html"/> 
+			<page title="Xenbot" file="xenbot.html"/> 			
+		</section>
+	</section>
+
+	<section title="Reference">
+		<page title="Technical Support" file="support.html"/>
+		<page title="Notices" file="notices.html"/>
+		<page title="Credits" file="credits.html"/>
+	</section>
+</help>

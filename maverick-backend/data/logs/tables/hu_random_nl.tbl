@@ -1,0 +1,12 @@
+<lineup title="Heads-up Random" nolimit="true">
+  <seat type="human"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="random"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+  <seat type="empty"/>
+</lineup>

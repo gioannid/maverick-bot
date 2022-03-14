@@ -1,0 +1,483 @@
+<!-- Tournament structure specification -->
+<tourn_struct>
+
+	<!-- Basic tournament details -->				
+	<details name="Bay 101 Super Satellite"
+			 game_type="Texas Holdem"
+			 betting="No Limit"
+			 initial_prize_pool="0"
+			 start_chips="1000"
+			 min_start_chips="200"
+			 max_start_chips="2000"
+			 max_rebuys_per_player="999"
+			 min_players="2"
+			 max_players="3000"
+			 max_players_per_table="10">
+			
+		<category name="No Limit">
+			<category name="Multi Table">
+			</category>
+		</category>	
+		 
+		<buy_ins>
+			<buy_in toPrize="200" toHouse="20"/>
+		</buy_ins>
+	
+	Simulates the basic structure of a Bay 101 Shooting Stars Super Satellite Tournament.  
+	
+	</details>
+	
+	<!-- Tournament levels -->
+	<levels>
+		<!-- Level 1 -->
+		<level ante="0" small_blind="25" big_blind="25">
+			<play until="10" until_units="hand"/>
+			<rebuy min="0" max="1000" chips="1000" cost="200"/>
+		</level>
+		
+		<!-- Level 2 -->		
+		<level ante="0" small_blind="25" big_blind="50">
+			<play until="20" until_units="hand"/>
+			<rebuy min="0" max="1000" chips="1000" cost="200"/>
+		</level>
+
+		<!-- Level 3 -->		
+		<level ante="0" small_blind="50" big_blind="100">
+			<play until="30" until_units="hand"/>
+			<rebuy min="0" max="1000" chips="1000" cost="200"/>
+			<add_on chips="2000" cost="200"/>
+		</level>
+
+		<!-- 10 MINUTE BREAK, REMOVE $25 CHIPS -->
+		
+		<!-- Level 4 -->		
+		<level ante="0" small_blind="100" big_blind="200">
+			<play until="40" until_units="hand"/>
+		</level>
+
+		<!-- Level 5 -->		
+		<level ante="0" small_blind="200" big_blind="400">
+			<play until="50" until_units="hand"/>
+		</level>
+		
+		<!-- Level 6 -->		
+		<level ante="0" small_blind="300" big_blind="600">
+			<play until="60" until_units="hand"/>
+		</level>
+
+		<!-- 10 MINUTE BREAK, REMOVE $100 CHIPS -->
+		
+		<!-- Level 7 -->		
+		<level ante="0" small_blind="500" big_blind="1000">
+			<play until="70" until_units="hand"/>
+		</level>
+		
+		<!-- Level 8 -->		
+		<level ante="0" small_blind="1000" big_blind="2000">
+			<play until="80" until_units="hand"/>
+		</level>
+		
+		<!-- Level 9 -->		
+		<level ante="0" small_blind="1500" big_blind="3000">
+			<play until="90" until_units="hand"/>
+		</level>
+		
+		<!-- 5 MINUTE BREAK, REMOVE $500 CHIPS -->
+		
+		<!-- Level 10 -->		
+		<level ante="0" small_blind="2000" big_blind="4000">
+			<play until="100" until_units="hand"/>
+		</level>
+		
+		<!-- Level 11 -->		
+		<level ante="0" small_blind="3000" big_blind="6000">
+			<play until="110" until_units="hand"/>
+		</level>
+		
+		<!-- Level 12 -->		
+		<level ante="0" small_blind="4000" big_blind="8000">
+			<play until="120" until_units="hand"/>
+		</level>
+		
+		<!-- 5 MINUTE BREAK, REMOVE $1000 CHIPS -->
+		
+		<!-- Level 13 -->		
+		<level ante="0" small_blind="5000" big_blind="10000">
+			<play until="130" until_units="hand"/>
+		</level>
+		
+		<!-- Level 14 -->		
+		<level ante="0" small_blind="10000" big_blind="15000">
+			<play until="140" until_units="hand"/>
+		</level>
+		
+		<!-- Level 15 -->		
+		<level ante="0" small_blind="10000" big_blind="20000">
+		</level>
+		
+		<!-- Level 16 -->
+		<level ante="0" small_blind="15000" big_blind="30000">
+		</level>
+		
+		<!-- Level 17 -->
+		<level ante="0" small_blind="20000" big_blind="40000">
+		</level>
+		
+		<!-- Level 18 -->
+		<level ante="0" small_blind="30000" big_blind="60000">
+		</level>
+		
+		<!-- Level 19 -->
+		<level ante="0" small_blind="40000" big_blind="80000">
+		</level>
+		
+		<!-- Level 20 -->
+		<level ante="0" small_blind="50000" big_blind="100000">
+		</level>
+
+		<!-- Level 21 -->
+		<level ante="0" small_blind="100000" big_blind="150000">
+		</level>
+		
+		<!-- Level 22 -->
+		<level ante="0" small_blind="100000" big_blind="200000">
+		</level>
+				
+		<!-- Level 23 -->
+		<level ante="0" small_blind="150000" big_blind="300000">
+		</level>
+		
+		<!-- Level 24 -->
+		<level ante="0" small_blind="200000" big_blind="400000">
+		</level>
+		
+		<!-- Level 25 -->
+		<level ante="0" small_blind="300000" big_blind="600000">
+		</level>
+		
+		<!-- Level 26 -->
+		<level ante="0" small_blind="400000" big_blind="800000">
+		</level>
+		
+		<!-- Level 27 -->
+		<level ante="0" small_blind="500000" big_blind="1000000">
+		</level>
+		
+	</levels>
+		
+	<!-- Global Breaks -->	
+	<breaks>
+		<break length="5" after="30" after_units="hand" interrupt_level="true"/>
+		
+	</breaks>
+	
+	<!-- Specify prize payouts -->
+	<tourn_payouts>
+		<!-- Specify prize payouts based on the number of entrants -->
+		<!-- Given number of entrants, specify payouts based on final finish placing -->
+		
+		<!-- 0 to 100 Entries -->	
+		<payouts_by_num_entrants min_entrants="2" max_entrants="99">
+	       	<payout_by_finish min_finish="1" max_finish="1" payout_value="100" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+        <!-- 100 to 149 Entries -->	
+		<payouts_by_num_entrants min_entrants="100" max_entrants="149">
+	       	<payout_by_finish min_finish="1" max_finish="2" payout_value="50" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+        <!-- 150 to 199 Entries -->	
+		<payouts_by_num_entrants min_entrants="150" max_entrants="199">
+	       	<payout_by_finish min_finish="1" max_finish="3" payout_value="33.3333333" payout_units="%"/>   	       	
+        </payouts_by_num_entrants>
+        
+        <!-- 200 to 249 Entries -->	
+		<payouts_by_num_entrants min_entrants="200" max_entrants="249">
+	       	<payout_by_finish min_finish="1" max_finish="4" payout_value="25" payout_units="%"/>
+	    </payouts_by_num_entrants>
+
+        <!-- 250 to 299 Entries -->	
+		<payouts_by_num_entrants min_entrants="250" max_entrants="299">
+	       	<payout_by_finish min_finish="1" max_finish="5" payout_value="20" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+        <!-- 300 to 349 Entries -->	
+		<payouts_by_num_entrants min_entrants="300" max_entrants="349">
+	       	<payout_by_finish min_finish="1" max_finish="6" payout_value="16.6666667" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+        <!-- 350 to 399 Entries -->	
+		<payouts_by_num_entrants min_entrants="350" max_entrants="399">
+	       	<payout_by_finish min_finish="1" max_finish="7" payout_value="14.28571429" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 400 to 449 Entries -->	
+		<payouts_by_num_entrants min_entrants="400" max_entrants="449">
+	       	<payout_by_finish min_finish="1" max_finish="8" payout_value="12.5" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 450 to 499 Entries -->	
+		<payouts_by_num_entrants min_entrants="450" max_entrants="499">
+	       	<payout_by_finish min_finish="1" max_finish="9" payout_value="11.1111111" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 500 to 549 Entries -->	
+		<payouts_by_num_entrants min_entrants="500" max_entrants="549">
+	       	<payout_by_finish min_finish="1" max_finish="10" payout_value="10" payout_units="%"/>
+        </payouts_by_num_entrants>
+		
+		<!-- 550 to 599 Entries -->	
+		<payouts_by_num_entrants min_entrants="550" max_entrants="599">
+	       	<payout_by_finish min_finish="1" max_finish="11" payout_value="9.09090909" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 600 to 649 Entries -->	
+		<payouts_by_num_entrants min_entrants="600" max_entrants="649">
+	       	<payout_by_finish min_finish="1" max_finish="12" payout_value="8.3333333" payout_units="%"/>
+        </payouts_by_num_entrants>
+		
+		<!-- 650 to 699 Entries -->	
+		<payouts_by_num_entrants min_entrants="650" max_entrants="699">
+	       	<payout_by_finish min_finish="1" max_finish="13" payout_value="7.6923077" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 700 to 749 Entries -->	
+		<payouts_by_num_entrants min_entrants="700" max_entrants="749">
+	       	<payout_by_finish min_finish="1" max_finish="14" payout_value="7.142857143" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+        <!-- 750 to 799 Entries -->	
+		<payouts_by_num_entrants min_entrants="750" max_entrants="799">
+	       	<payout_by_finish min_finish="1" max_finish="15" payout_value="6.66666667" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 800 to 849 Entries -->	
+		<payouts_by_num_entrants min_entrants="800" max_entrants="849">
+	       	<payout_by_finish min_finish="1" max_finish="16" payout_value="6.25" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+		<!-- 850 to 899 Entries -->	
+		<payouts_by_num_entrants min_entrants="850" max_entrants="899">
+	       	<payout_by_finish min_finish="1" max_finish="17" payout_value="5.882352941" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 900 to 949 Entries -->	
+		<payouts_by_num_entrants min_entrants="900" max_entrants="949">
+	       	<payout_by_finish min_finish="1" max_finish="18" payout_value="5.55555556" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 950 to 999 Entries -->	
+		<payouts_by_num_entrants min_entrants="950" max_entrants="999">
+	       	<payout_by_finish min_finish="1" max_finish="19" payout_value="5.2631579" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+		<!-- 1000 to 1049 Entries -->	
+		<payouts_by_num_entrants min_entrants="1000" max_entrants="1049">
+	       	<payout_by_finish min_finish="1" max_finish="20" payout_value="5" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1050 to 1099 Entries -->	
+		<payouts_by_num_entrants min_entrants="1050" max_entrants="1099">
+	       	<payout_by_finish min_finish="1" max_finish="21" payout_value="4.76190476" payout_units="%"/>
+        </payouts_by_num_entrants>
+		        
+		<!-- 1100 to 1149 Entries -->	
+		<payouts_by_num_entrants min_entrants="1100" max_entrants="1149">
+	       	<payout_by_finish min_finish="1" max_finish="22" payout_value="4.54545455" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1150 to 1199 Entries -->	
+		<payouts_by_num_entrants min_entrants="1150" max_entrants="1199">
+	       	<payout_by_finish min_finish="1" max_finish="23" payout_value="4.34782609" payout_units="%"/>
+        </payouts_by_num_entrants>
+                
+   		<!-- 1200 to 1249 Entries -->	
+		<payouts_by_num_entrants min_entrants="1200" max_entrants="1249">
+	       	<payout_by_finish min_finish="1" max_finish="24" payout_value="4.1666666667" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1250 to 1299 Entries -->	
+		<payouts_by_num_entrants min_entrants="1250" max_entrants="1299">
+	       	<payout_by_finish min_finish="1" max_finish="25" payout_value="4" payout_units="%"/>
+        </payouts_by_num_entrants>
+   
+		<!-- 1300 to 1349 Entries -->	
+		<payouts_by_num_entrants min_entrants="1300" max_entrants="1349">
+	       	<payout_by_finish min_finish="1" max_finish="26" payout_value="3.846153846" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1350 to 1399 Entries -->	
+		<payouts_by_num_entrants min_entrants="1350" max_entrants="1399">
+	       	<payout_by_finish min_finish="1" max_finish="27" payout_value="3.7037037037" payout_units="%"/>
+        </payouts_by_num_entrants>   
+   
+		<!-- 1400 to 1449 Entries -->	
+		<payouts_by_num_entrants min_entrants="1400" max_entrants="1449">
+	       	<payout_by_finish min_finish="1" max_finish="28" payout_value="3.5714285714" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1450 to 1499 Entries -->	
+		<payouts_by_num_entrants min_entrants="1450" max_entrants="1499">
+	       	<payout_by_finish min_finish="1" max_finish="29" payout_value="3.44827586207" payout_units="%"/>
+        </payouts_by_num_entrants>   
+   
+		<!-- 1500 to 1549 Entries -->	
+		<payouts_by_num_entrants min_entrants="1500" max_entrants="1549">
+	       	<payout_by_finish min_finish="1" max_finish="30" payout_value="3.33333333" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1550 to 1599 Entries -->	
+		<payouts_by_num_entrants min_entrants="1550" max_entrants="1599">
+	       	<payout_by_finish min_finish="1" max_finish="31" payout_value="3.2258064516" payout_units="%"/>
+        </payouts_by_num_entrants>
+        
+		<!-- 1600 to 1649 Entries -->	
+		<payouts_by_num_entrants min_entrants="1600" max_entrants="1649">
+	       	<payout_by_finish min_finish="1" max_finish="32" payout_value="3.125" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1650 to 1699 Entries -->	
+		<payouts_by_num_entrants min_entrants="1650" max_entrants="1699">
+	       	<payout_by_finish min_finish="1" max_finish="33" payout_value="3.03030303" payout_units="%"/>
+        </payouts_by_num_entrants>        
+        
+		<!-- 1700 to 1749 Entries -->	
+		<payouts_by_num_entrants min_entrants="1700" max_entrants="1749">
+	       	<payout_by_finish min_finish="1" max_finish="34" payout_value="2.9411764706" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1750 to 1799 Entries -->	
+		<payouts_by_num_entrants min_entrants="1750" max_entrants="1799">
+	       	<payout_by_finish min_finish="1" max_finish="35" payout_value="2.85714285714" payout_units="%"/>
+        </payouts_by_num_entrants>
+                
+		<!-- 1800 to 1849 Entries -->	
+		<payouts_by_num_entrants min_entrants="1800" max_entrants="1849">
+	       	<payout_by_finish min_finish="1" max_finish="36" payout_value="2.77777778" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1850 to 1899 Entries -->	
+		<payouts_by_num_entrants min_entrants="1850" max_entrants="1899">
+	       	<payout_by_finish min_finish="1" max_finish="37" payout_value="2.70270270" payout_units="%"/>
+        </payouts_by_num_entrants>                
+                
+		<!-- 1900 to 1949 Entries -->	
+		<payouts_by_num_entrants min_entrants="1900" max_entrants="1949">
+	       	<payout_by_finish min_finish="1" max_finish="38" payout_value="2.63157894737" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 1950 to 1999 Entries -->	
+		<payouts_by_num_entrants min_entrants="1950" max_entrants="1999">
+	       	<payout_by_finish min_finish="1" max_finish="39" payout_value="2.5641025641" payout_units="%"/>
+        </payouts_by_num_entrants>           
+
+		<!-- 2000 to 2049 Entries -->	
+		<payouts_by_num_entrants min_entrants="2000" max_entrants="2049">
+	       	<payout_by_finish min_finish="1" max_finish="40" payout_value="2.5" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2050 to 2099 Entries -->	
+		<payouts_by_num_entrants min_entrants="2050" max_entrants="2099">
+	       	<payout_by_finish min_finish="1" max_finish="41" payout_value="2.4390243902" payout_units="%"/>
+        </payouts_by_num_entrants>
+   
+		<!-- 2100 to 2149 Entries -->	
+		<payouts_by_num_entrants min_entrants="2100" max_entrants="2149">
+	       	<payout_by_finish min_finish="1" max_finish="42" payout_value="2.38095238095" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2150 to 2199 Entries -->	
+		<payouts_by_num_entrants min_entrants="2150" max_entrants="2199">
+	       	<payout_by_finish min_finish="1" max_finish="43" payout_value="2.3255813953" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2200 to 2249 Entries -->	
+		<payouts_by_num_entrants min_entrants="2200" max_entrants="2249">
+	       	<payout_by_finish min_finish="1" max_finish="44" payout_value="2.2727272727" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2250 to 2299 Entries -->	
+		<payouts_by_num_entrants min_entrants="2250" max_entrants="2299">
+	       	<payout_by_finish min_finish="1" max_finish="45" payout_value="2.22222222" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2300 to 2349 Entries -->	
+		<payouts_by_num_entrants min_entrants="2300" max_entrants="2349">
+	       	<payout_by_finish min_finish="1" max_finish="46" payout_value="2.17391304348" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2350 to 2399 Entries -->	
+		<payouts_by_num_entrants min_entrants="2350" max_entrants="2399">
+	       	<payout_by_finish min_finish="1" max_finish="47" payout_value="2.12765957447" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2400 to 2449 Entries -->	
+		<payouts_by_num_entrants min_entrants="2400" max_entrants="2449">
+	       	<payout_by_finish min_finish="1" max_finish="48" payout_value="2.08333333" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2450 to 2499 Entries -->	
+		<payouts_by_num_entrants min_entrants="2450" max_entrants="2499">
+	       	<payout_by_finish min_finish="1" max_finish="49" payout_value="2.04081632653" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2500 to 2549 Entries -->	
+		<payouts_by_num_entrants min_entrants="2500" max_entrants="2549">
+	       	<payout_by_finish min_finish="1" max_finish="50" payout_value="2" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2550 to 2599 Entries -->	
+		<payouts_by_num_entrants min_entrants="2550" max_entrants="2599">
+	       	<payout_by_finish min_finish="1" max_finish="51" payout_value="1.960784313725" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2600 to 2649 Entries -->	
+		<payouts_by_num_entrants min_entrants="2600" max_entrants="2649">
+	       	<payout_by_finish min_finish="1" max_finish="52" payout_value="1.9230769230769" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2650 to 2699 Entries -->	
+		<payouts_by_num_entrants min_entrants="2650" max_entrants="2699">
+	       	<payout_by_finish min_finish="1" max_finish="53" payout_value="1.88679245283" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2700 to 2749 Entries -->	
+		<payouts_by_num_entrants min_entrants="2700" max_entrants="2749">
+	       	<payout_by_finish min_finish="1" max_finish="54" payout_value="1.85185185185" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2750 to 2799 Entries -->	
+		<payouts_by_num_entrants min_entrants="2750" max_entrants="2799">
+	       	<payout_by_finish min_finish="1" max_finish="55" payout_value="1.818181818182" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2800 to 2849 Entries -->	
+		<payouts_by_num_entrants min_entrants="2800" max_entrants="2849">
+	       	<payout_by_finish min_finish="1" max_finish="56" payout_value="1.785714285714" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2850 to 2899 Entries -->	
+		<payouts_by_num_entrants min_entrants="2850" max_entrants="2899">
+	       	<payout_by_finish min_finish="1" max_finish="57" payout_value="1.75438596491" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2900 to 2949 Entries -->	
+		<payouts_by_num_entrants min_entrants="2900" max_entrants="2949">
+	       	<payout_by_finish min_finish="1" max_finish="58" payout_value="1.724137931034" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 2950 to 2999 Entries -->	
+		<payouts_by_num_entrants min_entrants="2950" max_entrants="2999">
+	       	<payout_by_finish min_finish="1" max_finish="59" payout_value="1.6949152542379" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+		<!-- 3000 to 3000 Entries -->	
+		<payouts_by_num_entrants min_entrants="3000" max_entrants="3000">
+	       	<payout_by_finish min_finish="1" max_finish="60" payout_value="1.666666667" payout_units="%"/>
+        </payouts_by_num_entrants>
+
+
+	</tourn_payouts>
+	
+		
+</tourn_struct>

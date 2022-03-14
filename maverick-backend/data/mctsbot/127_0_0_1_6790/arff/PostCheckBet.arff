@@ -1,0 +1,45 @@
+@relation PostCheckBet
+
+@attribute roundCompletion numeric
+@attribute playersActed numeric
+@attribute playersToAct numeric
+@attribute round {flop,turn,river}
+@attribute gameCount numeric
+@attribute somebodyActedThisRound {false,true}
+@attribute nbActionsThisRound numeric
+@attribute potSize numeric
+@attribute stackSize numeric
+@attribute nbSeatedPlayers numeric
+@attribute nbActivePlayers numeric
+@attribute activePlayerRatio numeric
+@attribute betFrequency numeric
+@attribute betFrequencyRound numeric
+@attribute nbAllPlayerRaises numeric
+@attribute nbPlayerRaises numeric
+@attribute gameRaisePercentage numeric
+@attribute gameRaiseAmount numeric
+@attribute gameRaiseAmountRatio numeric
+@attribute lastActionWasRaise {false,true}
+@attribute VPIP numeric
+@attribute PFR numeric
+@attribute AF numeric
+@attribute AFq numeric
+@attribute AFAmount numeric
+@attribute WtSD numeric
+@attribute opponentVPIP numeric
+@attribute opponentPFR numeric
+@attribute opponentAF numeric
+@attribute opponentAFq numeric
+@attribute opponentLogAFAmount numeric
+@attribute opponentWtSD numeric
+@attribute betProb numeric
+@attribute action {check,bet}
+
+@data
+0,0,2,turn,6,false,0,44,4981,2,2,1,0.34,0.36,4,1,0.25,0.693147,0.25,false,0.72,0.664,2,0.36,-0.117783,0.325714,0.72,0.664,4.8,0.776471,0.41871,0.325714,1,bet
+0,0,2,river,6,false,0,60,4973,2,2,1,0.472,0.35,8,3,0.375,1.791759,0.416667,false,0.72,0.664,2,0.4,-0.089612,0.325714,0.72,0.664,5.2,0.8,0.332134,0.325714,1,bet
+0,0,2,turn,11,false,0,117,4947,2,2,1,0.56,0.488,2,1,0.5,0.693147,0.5,true,0.813333,0.709333,1.6875,0.405,-0.215111,0.228,0.746667,0.709333,6.5,0.854545,0.411735,0.228,1,bet
+0,0,2,river,14,false,0,179,4955,2,2,1,0.622857,0.48,5,1,0.2,0.693147,0.166667,false,0.844444,0.757778,1.545455,0.421818,-0.277211,0.175385,0.788889,0.757778,7.428571,0.876596,0.409785,0.175385,1,bet
+0,0,2,flop,16,false,0,202,4974,2,2,1,0.67,0.38,1,0,0,0,0,false,0.86,0.682,1.44,0.413115,-0.281412,0.152,0.76,0.732,8,0.886275,0.397683,0.152,1,bet
+0,0,2,turn,16,false,0,210,4970,2,2,1,0.706667,0.573333,5,2,0.4,1.098612,0.4,false,0.86,0.682,1.461538,0.425,-0.269664,0.152,0.76,0.732,8.285714,0.890566,0.382992,0.152,1,bet
+0,0,2,river,16,false,0,226,4962,2,2,1,0.736,0.566667,9,4,0.444444,1.94591,0.461538,false,0.86,0.682,1.481481,0.435821,-0.248896,0.152,0.76,0.732,8.571428,0.894545,0.356675,0.152,1,bet

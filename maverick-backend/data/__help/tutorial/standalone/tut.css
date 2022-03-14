@@ -1,0 +1,58 @@
+body {
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0px;
+#	background: url("pix/logo.png"); 
+#	background-repeat: no-repeat;	
+#	background-position: top right; 
+}
+
+#content {	
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-size: 110%;
+}
+
+hr {
+	margin: 1em;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+p {
+	padding: 0.25em;
+}
+
+h1 {
+	font-family: arial, helvetica, serif;
+	background: #444444;
+	color: #ffffaa;
+	border: 3px solid #407d63;
+	margin-top: 0px;
+	margin-bottom: 6px;
+	padding: 6px;
+	text-align: center;
+}
+
+h2 {
+	font-family: arial, helvetica, serif;
+	color: #444444;
+	text-decoration: underline;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-family: arial, helvetica, serif;
+	color: #444444;
+	text-decoration: underline;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}

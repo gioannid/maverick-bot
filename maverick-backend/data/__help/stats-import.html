@@ -1,0 +1,68 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p align="center"><img src="../pix/toprow-stats-off.png"></p>
+<h1 align="center">Hand History Importer</h1>
+<p align="center">
+<img src="images/statsdb-import-sm.png">
+</p>
+
+<p>
+The Hand History Importer will import hands from the major Online Poker sites.
+The importer will group your hands by the site and session they where played online, and 
+produce the same extensive stats as your Poker Academy hands.  Imported hands
+can also be played back in the same manner as the rest of the hands in your Hand History
+Database.  
+</p>
+
+<p id="sidebar">
+<b>Note:</b> Texas Hold'em Limit, Pot Limit and No Limit Ring games are currently only supported.
+Files that failed to be imported are stored on your hard disk, for later import when other game
+types are supported. Tournaments are not yet supported.</p>
+
+<h3>Importing Hand Histories</h3>
+Online Hand Histories must be read from a text file, typically on the computer's 
+hard drive.  It is recommended that you place all of your online hand histories in a 
+seperate directory and copy / backup regularly.  Poker Academy can scan a directory
+and will import all hands into the database. The following Online Sites are currently supported:
+</p>
+
+<dl>
+ 	<dt>Party Poker</dt>
+     <dd>Hand Histories can be configured to be saved on your hand drive.
+         This can be configured in Party Poker client's menu using 
+         Options -> Hand History Configuration Options</dd>
+   <dt>Poker Stars</dt>
+      <dd>Hand Histories from the past 30 days can be saved to your hand drive. Within
+        the Poker Stars client's menu go to: Options -> Instant Hand History Options...</dd>
+   <dt>Paradise Poker</dt> 
+      <dd>Hand Histories can be requested for your most recent 100 hands played.  This
+      can be done from the Paradise Poker client using either the Options menu or the 
+      Dealer Chips Tray.
+      </dd>
+</dl>
+
+
+<h3>Results</h3>
+<br>
+<div align="center"><img align="center" alt="Import Results" src="images/statsdb-import-results-sm.png"></div>
+<p>
+After an import is completed the summary results are displayed at the top of
+the screen.  The details panel will give more information about each file
+that was imported, including the type of importer/parser used add the number of
+hands found, new hands imported into the database, hands duplicated within the file,
+hands that where overwritten/updated, and the hands that failed to be imported.
+</p>
+
+<h3>Limitations</h3>
+<p>
+Currently the importer does not support tournament hands, hands with
+unsupported bet completion rules, or hands where a player is given
+disconnect protection.
+</p>
+
+</body>
+</html>

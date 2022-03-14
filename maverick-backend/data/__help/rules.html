@@ -1,0 +1,65 @@
+<html>
+<head>
+	<link href="help.css" rel="stylesheet" type="text/css">
+	<title>How To Play</title>
+</head>
+<body>
+
+<h2 ALIGN=CENTER>How to Play Texas Hold'em</h2>
+
+A hand of Texas Hold'em begins with the <i>pre-flop</i>.  
+Each player is dealt two <i>hole cards</i> face down, followed by 
+the first round of betting which is started with two forced bets 
+called the <i>small blind</i> and the <i>big blind</i>.
+
+Three <i>community cards</i>, collectively called the <i>flop</i>,
+are then dealt face up on the table, and the second round of 
+betting occurs.  
+
+On the <i>turn</i>, a fourth community card is dealt face up and 
+another round of betting ensues.  
+
+Finally, on the <i>river</i>, a fifth community card is dealt face 
+up and the final round of betting occurs.  
+
+The players still active in the game at that time reveal their 
+two hole cards for the <i>showdown</i>.  
+
+The best <a href="hands.html">five-card poker hand</a> 
+formed from each player's two private hole cards and the 
+five public community cards wins the pot.  If a tie occurs, 
+the pot is split.
+<p>
+Texas Hold'em is typically played with 8 to 10 players.  Limit Texas Hold'em
+uses a structured betting system, where the amount of each bet is strictly
+controlled in each betting round (In Open or No-limit Texas Hold'em,
+there are no restrictions on the size of bets; a player may wager any amount,
+up to their entire stack, at any time.) There are two denominations of
+bets, called a <i>small bet</i> and a <i>big bet</i>, which in this program
+is $10 and $20 by default.  In the first two betting rounds, all bets and raises are
+$10, while in the last two rounds, they are always $20.  In general, when it
+is a player's turn to act, one of three betting options is available:
+<i>fold</i>, <i>check/call</i>, or <i>bet/raise</i>. 
+<p>
+A <i>check</i> and a <i>call</i> are logically equivalent, in
+that the betting level is not increased.  The term <i>check</i> is used
+when the current betting level is zero, and <i>call</i> when there has
+been a wager in the current betting round.  Similarly, a <i>bet</i> and
+a <i>raise</i> are logically equivalent, but the term <i>bet</i> is
+used for the first wager of a betting round.
+<p>
+There is a maximum of three raises allowed per betting round.
+The betting option rotates clockwise until each player has matched the
+current bet, or folded.  If there is only one player remaining (all
+others having folded) that player is the winner and is awarded the pot
+without having to reveal their cards.
+<h3>Adapted from:</h3>
+<blockquote>
+Darse Billings, Aaron Davidson, Jonathan Schaeffer, Duane Szafron.
+<i>The Challenge of Poker</i>, Artificial Intelligence, 2001.<br>
+<tt>http://www.cs.ualberta.ca/~darse/Papers/AIJ02.html</tt>
+</blockquote>
+
+
+
+</body> </html>
