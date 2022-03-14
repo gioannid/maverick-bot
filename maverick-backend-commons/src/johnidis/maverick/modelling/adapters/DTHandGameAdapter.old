@@ -1,0 +1,54 @@
+package johnidis.maverick.modelling.adapters;
+
+import johnidis.maverick.modelling.models.HistogramHandModel;
+import johnidis.maverick.modelling.models.HistogramModel;
+import johnidis.utils.AbortException;
+
+public class DTHandGameAdapter extends HandGameAdapter {
+
+	public static final NamedSymbol[] OUTCOME = new NamedSymbol[HistogramHandModel.values().length];
+
+	
+	static {
+		for (HistogramHandModel symbol : HistogramHandModel.values()) {
+			int i = symbol.index();
+			OUTCOME[i] = new NamedSymbol<String>("HR"+i, i);
+		}
+	}
+
+
+	public DTHandGameAdapter(boolean r) {
+		super(r);
+	}
+	
+	public DTHandGameAdapter(HandGameAdapter other, Object game) {
+		super (other, game);
+	}
+
+
+	@Override
+	public void collectIdeals(char action, double[] ideal) throws AbortException {
+		super.collectIdeals(action, ideal);
+		ideal[IdealData.HANDRANK.index()] = 
+				HistogramModel.getSlice (ideal[IdealData.HANDRANK.index()], OUTCOME.length);
+	}
+
+	@Override
+	public String field(int index) {
+		return super.field(index);
+	}
+
+	@Override
+	public NamedSymbol idealAsSymbol(double[] ideal, int index) {
+		return OUTCOME[(int) ideal[0]];
+	}
+
+	@Override
+	public NamedSymbol[] allSymbols(int index) {
+		if (index == InputData.FIELDS)
+			return OUTCOME;
+		else
+			return null;
+	}
+
+}

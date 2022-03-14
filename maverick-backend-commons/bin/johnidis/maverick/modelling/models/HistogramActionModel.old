@@ -1,0 +1,53 @@
+package johnidis.maverick.modelling.models;
+
+import johnidis.maverick.modelling.adapters.ActionGameAdapter;
+import johnidis.maverick.modelling.data.MLData;
+
+public enum HistogramActionModel implements HistogramModel {
+	
+	PredictedFold, 
+	PredictedCall, 
+	PredictedRaise;
+	
+
+	@Override
+	public HistogramModel histogramModel(MLData estimation) {
+		return this;
+	}
+	
+	@Override
+	public int inputDimensions() {
+		return ActionGameAdapter.IdealData.FIELDS;
+	}
+
+	@Override
+	public int outputDimensions() {
+		return values().length;
+	}
+
+	@Override
+	public int roundsSupported() {
+		return 4;
+	}
+	
+	@Override
+	public MLData histogramPoints (MLData ideal) {
+		return ideal;
+	}
+	
+	@Override
+	public int slices() {
+		return MAX_SLICES;
+	}
+
+	@Override
+	public int getSlice(MLData estimation) {
+		return HistogramModel.getSlice(estimation, MAX_SLICES);
+	}
+
+	@Override
+	public int index() {
+		return ordinal();
+	}
+
+}

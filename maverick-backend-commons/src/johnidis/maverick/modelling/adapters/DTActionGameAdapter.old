@@ -1,0 +1,79 @@
+package johnidis.maverick.modelling.adapters;
+
+import johnidis.utils.AbortException;
+
+public class DTActionGameAdapter extends ActionGameAdapter {
+	
+	private static final NamedSymbol FALSE 				= new NamedSymbol<Boolean>(false, 0);
+	private static final NamedSymbol TRUE 				= new NamedSymbol<Boolean>(true, 1);
+	private static final NamedSymbol[] FALSE_TRUE		= new NamedSymbol[] {FALSE, TRUE};
+
+	private static final NamedSymbol[] OUTCOME			= new NamedSymbol[IdealData.FIELDS];
+
+
+	static {
+		for (IdealData symbol : IdealData.values())
+			OUTCOME[symbol.index()] = new NamedSymbol<IdealData>(symbol, symbol.index());
+	}
+	
+
+	public DTActionGameAdapter(boolean r) {
+		super(r);
+	}
+	
+	public DTActionGameAdapter(GameAdapter other, Object game) {
+		super (other, game);
+	}
+
+	
+	@Override
+	public void collectIdeals(char action, double[] ideal) throws AbortException {
+		assertValidity ();
+		lastAction = action;
+		switch (action) {
+		case 'f':
+			ideal[0] = IdealData.FOLD.index();
+			break;
+		case 'b':
+		case 'r':
+			ideal[0] = IdealData.RAISE.index();
+			break;
+		case 'c':
+		case 'k':
+			ideal[0] = IdealData.CHECKORCALL.index();
+			break;
+		case 'Q':
+		case 'K':
+			ideal[0] = INVALID;
+			break;
+		default:
+			throw new RuntimeException ("Not permitted action in DTActionGameAdapter.collectIdeals()");
+		}
+		if (report)
+			System.out.println (id + ": " + "Outcome = "+ideal[0]);
+	}
+
+	@Override
+	public NamedSymbol inputAsSymbol(double[] input, int index) {
+		if (InputData.values()[index].isBoolean)
+			return (input[index] == 1 ? TRUE : FALSE);
+		else
+			return null;
+	}
+	
+	@Override
+	public NamedSymbol idealAsSymbol(double[] ideal, int index) {
+		return OUTCOME[(int) ideal[0]];
+	}
+
+	@Override
+	public NamedSymbol[] allSymbols(int index) {
+		if (index == InputData.FIELDS)
+			return OUTCOME;
+		else if (InputData.values()[index].isBoolean)
+			return FALSE_TRUE;
+		else
+			return null;
+	}
+
+}

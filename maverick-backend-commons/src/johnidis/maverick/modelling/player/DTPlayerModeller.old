@@ -1,0 +1,252 @@
+package johnidis.maverick.modelling.player;
+
+import java.io.*;
+import java.util.Vector;
+
+import johnidis.maverick.Preferences;
+import johnidis.maverick.modelling.adapters.GameAdapter;
+import johnidis.maverick.modelling.adapters.NamedSymbol;
+import johnidis.maverick.modelling.data.BasicMLData;
+import johnidis.maverick.modelling.data.FloatingDataSet;
+import johnidis.maverick.modelling.data.MLData;
+import johnidis.maverick.modelling.data.MLDataPair;
+import johnidis.maverick.modelling.data.MLDataSet;
+import johnidis.maverick.modelling.modellers.BehavioralModeller;
+import johnidis.maverick.modelling.models.DTModel;
+import johnidis.maverick.modelling.models.Model;
+import be.ac.ulg.montefiore.run.jadti.*;
+import be.ac.ulg.montefiore.run.jadti.io.DecisionTreeToDot;
+
+public class DTPlayerModeller extends PlayerModeller<MLData,MLData,MLData> {
+	
+	public static final UnknownSymbolicValue 	SYMBOL_UNKNOWN 			= new UnknownSymbolicValue();
+	public static final double					ERROR_UNKNOWN			= 1.0;
+	
+	private static final boolean				DEBUG					= false;
+
+	protected final AttributeSet[] testAttributes, allAttributes;
+	protected final SymbolicAttribute[] goalAttribute;
+	protected final GameAdapter[] referenceAdapter;
+	
+	protected final File[/*model*/][/*round*/] dataFile;
+	protected final double[/*model*/][/*round*/] lowestError;
+	protected final MLDataSet[/*model*/][/*round*/] data;
+	protected final ItemSet itemSet[/*model*/][/*round*/];
+	protected DecisionTree decisionTree[/*model*/][/*round*/] = null;
+
+	
+	protected Vector<String> asVector(NamedSymbol[] allSymbols) {
+		Vector<String> symb = new Vector<String>(); 
+		for (int s = 0; s < allSymbols.length; s++)
+			symb.add(allSymbols[s].name);
+		return symb;
+	}
+	
+	public DTPlayerModeller (Class<? extends Model> rm, String p) {
+		super (rm, p);
+		int models = referenceModel.getEnumConstants().length;
+		dataFile = new File[models][];
+		lowestError = new double[models][];
+		data = new MLDataSet[models][];
+		testAttributes = new AttributeSet[models];
+		allAttributes = new AttributeSet[models];
+		goalAttribute = new IdSymbolicAttribute[models];
+		referenceAdapter = new GameAdapter[models];
+		itemSet = new ItemSet[models][];
+		decisionTree = new DecisionTree[models][];
+		for (Model model : referenceModel.getEnumConstants()) {
+			int m = model.index();
+			int rounds = model.roundsSupported();
+			dataFile[m] = new File[rounds];
+			lowestError[m] = new double[rounds];
+			data[m] = new MLDataSet[rounds];
+			itemSet[m] = new ItemSet[rounds];
+			decisionTree[m] = new DecisionTree[rounds];
+			Vector<Attribute> attr = new Vector<Attribute>();
+			referenceAdapter[m] = ((DTModel) model).newGameAdapter();
+			for (int a = 0; a < model.inputDimensions(); a++) {
+				NamedSymbol[] symbols = referenceAdapter[m].allSymbols(a);
+				if (symbols == null)
+					attr.add(new NumericalAttribute(referenceAdapter[m].field(a)));
+				else {
+					attr.add(new IdSymbolicAttribute (referenceAdapter[m].field(a), asVector(symbols)));
+				}
+			}
+			testAttributes[m] = new AttributeSet(attr);
+			allAttributes[m] = new AttributeSet(attr);
+			goalAttribute[m] = new IdSymbolicAttribute("OUTCOME", asVector(
+					referenceAdapter[m].allSymbols(model.inputDimensions())));
+			allAttributes[m].add(goalAttribute[m]);
+			for (int r = 0; r < rounds; r++) {
+				String fileName;
+				if (rounds > 1)
+					fileName = pathname + '/' + model.toString() + "_" + r;
+				else
+					fileName = pathname + '/' + model.toString();
+				dataFile[m][r] = new File(fileName + ".dt"); 
+				if (dataFile[m][r].exists()) {
+					if (DEBUG)
+						System.out.println("Opening data file "+dataFile[m][r]);
+					try {
+						ObjectInputStream ois = new ObjectInputStream (new BufferedInputStream (new FileInputStream 
+								(dataFile[m][r])));
+						data[m][r] = (MLDataSet) ois.readObject();
+						ois.close();
+						((FloatingDataSet) data[m][r]).setWindowSize(samplesWindow);
+						updateTree ((DTModel) model, r);
+						if (DEBUG) {
+							if (decisionTree[m][r] != null) {
+								System.out.println("Decision Tree:");
+								System.out.println(new DecisionTreeToDot(decisionTree[m][r]).produce());
+							}
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+						data[m][r] = new FloatingDataSet (samplesWindow);
+						lowestError[m][r] = ERROR_UNKNOWN;
+					}
+				} else {
+					if (DEBUG)
+						System.out.println("Data file "+dataFile[m][r]+" not found, creating from scratch");
+					data[m][r] = new FloatingDataSet (samplesWindow);
+					lowestError[m][r] = ERROR_UNKNOWN;
+				}
+			}
+		}
+	}
+	
+	@Override
+	public void persist () {
+		if (canonicalName.equals(BehavioralModeller.GENERIC_PLAYER_MODEL))
+			return;
+		mkdirs();
+		for (Model model : referenceModel.getEnumConstants())
+			for (int r = 0; r < model.roundsSupported(); r++)
+				persist (model, r);
+	}
+	
+	protected void persist (Model model, int r) {
+		if (Preferences.MODEL_READONLY.isOn())
+			return;
+		mkdirs();
+		int m = model.index();
+		synchronized (data[m][r]) {
+			try {
+				ObjectOutputStream oos = new ObjectOutputStream (new BufferedOutputStream (
+				        new FileOutputStream(dataFile[m][r])));
+				oos.writeObject(data[m][r]);
+				oos.close();
+			} catch (Exception e) {
+				System.err.println("Error while writing file: "+ dataFile[m][r]);
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	protected Item asItem (Model model, MLData input, MLData ideal) {
+		int m = model.index();
+		AttributeValue[] value = new AttributeValue[allAttributes[m].size()];
+		for (int a = 0; a < testAttributes[m].size(); a++) {
+			NamedSymbol symbol = referenceAdapter[m].inputAsSymbol(input.getData(), a);
+			if (symbol == null)
+				value[a] = new KnownNumericalValue(input.getData(a));
+			else
+				value[a] = symbol.value;
+		}
+		value[testAttributes[m].size()] = (ideal == null) ? 
+				SYMBOL_UNKNOWN :
+				referenceAdapter[m].idealAsSymbol(ideal.getData()).value;
+		return new Item(value);
+	}
+	
+	public void updateTree(DTModel model, int round) {
+		final int m = model.index();
+		if ((itemSet[m][round] != null) || (getSamples(model, round) < model.minSamples()))
+			return;
+		itemSet[m][round] = new ItemSet(allAttributes[m]);
+		synchronized (data[m][round]) {
+			final int records = (int) data[m][round].getRecordCount();
+			int epoch = (agingEpoch > 0) ? records / agingEpoch + 1 : 1;
+			for (int r = 0; r < records; r++) {
+				if ((agingEpoch > 0) && (((records - r) % agingEpoch) == 0))
+					epoch--;
+				if ((r % epoch) == 0) {
+					MLDataPair pair = data[m][round].get(r);
+					itemSet[m][round].add(asItem(model, pair.getInput(), pair.getIdeal()));
+				}
+			}
+		}
+	    DecisionTreeBuilder builder = new DecisionTreeBuilder(itemSet[m][round], testAttributes[m], goalAttribute[m]);
+	    decisionTree[m][round] = builder.build().decisionTree();
+		lowestError[m][round] = ERROR_UNKNOWN;
+	}
+
+	@Override
+	public void addData (Model model, int round, MLData input, MLData ideal) {
+		int m = model.index();
+		synchronized (data[m][round]) {
+			data[m][round].add(input, ideal);
+			itemSet[m][round] = null;
+			if (trainingActive)
+				updateTree ((DTModel) model, round);
+			if (DEBUG)
+				System.out.println(canonicalName+" "+model.toString()+": data(round="+round+") new sample, total="+
+						data[m][round].getRecordCount());
+		}
+	}
+	
+	@Override
+	public long getSamples (Model model, int round) {
+		return data[model.index()][round].getRecordCount();
+	}
+	
+	@Override
+	public MLData estimate (Model model, int round, MLData input) {
+		synchronized (data[model.index()][round]) {
+			if (decisionTree[model.index()][round] != null)
+				return new BasicMLData(new double[] 
+				        {decisionTree[model.index()][round].guessGoalAttribute(asItem(model, input, null)).intValue});
+			else {
+				if (DEBUG)
+					System.out.println(canonicalName+" "+model.toString()+": data(round="+round+") has no tree, only "+
+							getSamples(model, round)+" samples so far");
+				return null;
+			}
+		}
+	}
+	
+	@Override
+	public double getError (Model model, int round) {
+		int m = model.index();
+		if ((lowestError[m][round] == ERROR_UNKNOWN) && 
+				(decisionTree[m][round] != null)) {
+			int error = 0;
+			int N = 0;
+			synchronized (data[m][round]) {
+				for (MLDataPair pair : data[m][round]) {
+					int estimation = decisionTree[m][round].guessGoalAttribute(asItem(model, pair.getInput(), null)).intValue;
+					if ((int) pair.getIdeal().getData(0) != estimation)
+						error++;
+					N++;
+				}
+				lowestError[m][round] = error / N;
+			}
+		}
+		return lowestError[m][round];
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder str = new StringBuilder(canonicalName).append(":");
+		synchronized (data) {
+			for (Model model : referenceModel.getEnumConstants()) {
+				str.append(" {").append(model.toString());
+				for (int r = 0; r < model.roundsSupported(); r++)
+					str.append(" [").append(data[model.index()][r].getRecordCount()).append("]");
+				str.append(" }");
+			}
+		}
+		return str.toString();
+	}
+
+}

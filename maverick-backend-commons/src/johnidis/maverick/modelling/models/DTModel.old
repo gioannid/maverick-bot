@@ -1,0 +1,108 @@
+package johnidis.maverick.modelling.models;
+
+import johnidis.maverick.modelling.adapters.*;
+import johnidis.maverick.modelling.data.MLData;
+
+public enum DTModel implements Model<GameAdapter,MLData> {
+	
+	Hand (HandGameAdapter.InputData.FIELDS, 1) {
+		
+				
+		@Override
+		public HistogramModel histogramModel (MLData estimation) {
+			return HistogramSymbolicHandModel.values()[(int) estimation.getData(0)];
+		}
+
+		@Override
+		public GameAdapter newGameAdapter() {
+			return new DTHandGameAdapter(false);
+		}
+
+		@Override
+		public int minSamples() {
+			return minSamplesHand;
+		}
+
+		@Override
+		public int contextId(GameAdapter game) {
+			return -1;
+		}
+
+	},
+
+	
+	Action (ActionGameAdapter.InputData.FIELDS, 4) {
+		
+		@Override
+		public HistogramModel histogramModel (MLData estimation) {
+			return HistogramSymbolicActionModel.values()[(int) estimation.getData(0)];
+		}
+
+		@Override
+		public GameAdapter newGameAdapter() {
+			return new DTActionGameAdapter(false);
+		}
+
+		@Override
+		public int minSamples() {
+			return minSamplesAction;
+		}
+
+		@Override
+		public int contextId(GameAdapter game) {
+			return game.roundIndex;
+		}
+
+};
+	
+
+	public static final int	COUNT = values().length;
+
+	protected static final int DEFAULT_MIN_SAMPLES = 7;
+	protected final static int minSamplesHand;
+	protected final static int minSamplesAction;
+	
+	private final int inputData, rounds;
+	
+	static {
+/*		if (Preferences.DT_MINSAMPLESHAND.set()) {
+			minSamplesHand = Preferences.DT_MINSAMPLESHAND.getValue().intValue();
+			System.out.println ("DT Hand model applicable after "+minSamplesHand+" samples");
+		} else*/
+			minSamplesHand = DEFAULT_MIN_SAMPLES;
+/*		if (Preferences.DT_MINSAMPLESACTION.set()) {
+			minSamplesAction = Preferences.DT_MINSAMPLESACTION.getValue().intValue();
+			System.out.println ("DT Action model applicable after "+minSamplesAction+" samples");
+		} else*/
+			minSamplesAction = DEFAULT_MIN_SAMPLES;
+	}
+	
+	private DTModel (int inp, int r) {
+		inputData = inp;
+		rounds = r;
+	}
+
+	@Override
+	public int inputDimensions() {
+		return inputData;
+	}
+
+	@Override
+	public int outputDimensions() {
+		return 1;
+	}
+
+	@Override
+	public int roundsSupported() {
+		return rounds;
+	}
+	
+	@Override
+	public int index() {
+		return ordinal();
+	}
+	
+	public abstract GameAdapter newGameAdapter();
+	public abstract int minSamples();
+
+}

@@ -1,0 +1,59 @@
+package johnidis.maverick.modelling.models;
+
+import johnidis.maverick.modelling.data.BasicMLData;
+import johnidis.maverick.modelling.data.MLData;
+
+public enum HistogramHandModel implements HistogramModel {
+	
+	PredictedHS0,
+	PredictedHS1,
+	PredictedHS2,
+	PredictedHS3,
+	PredictedHS4,
+	PredictedHS5;
+	
+
+	@Override
+	public HistogramModel histogramModel(MLData estimation) {
+		return this;
+	}
+	
+	@Override
+	public int inputDimensions() {
+		return 1;
+	}
+
+	@Override
+	public int outputDimensions() {
+		return values().length;
+	}
+
+	@Override
+	public int roundsSupported() {
+		return 1;
+	}
+
+	@Override
+	public MLData histogramPoints (MLData ideal) {
+		int slices = outputDimensions();
+		MLData points = new BasicMLData(slices);
+		points.setData(HistogramModel.getSlice (ideal.getData(0), slices), 1);
+		return points;
+	}
+	
+	@Override
+	public int slices() {
+		return 1;
+	}
+
+	@Override
+	public int getSlice(MLData estimation) {
+		return 0;
+	}
+
+	@Override
+	public int index() {
+		return ordinal();
+	}
+
+}
