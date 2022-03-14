@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="pokerserver2.3.2/src"/>
+	<classpathentry kind="lib" path="pokerserver2.3.2/bots/nolimitrandomclient.jar"/>
+	<classpathentry kind="lib" path="pokerserver2.3.2/bots/randomclient.jar"/>
+	<classpathentry kind="lib" path="pokerserver2.3.2/thirdparty/activation.jar"/>
+	<classpathentry kind="lib" path="pokerserver2.3.2/thirdparty/mailapi.jar"/>
+	<classpathentry kind="lib" path="pokerserver2.3.2/thirdparty/smtp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="pokerserver2.3.2/src"/>
+</classpath>
